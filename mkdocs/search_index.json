@@ -1,0 +1,69 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "CE Tech\n\n\nCE Tech je Data-Driven \nhern\u00ed engine\n a sada nastroju prim\u00e1rn\u011b ur\u010denymi pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.\n\n\n\n\nP\u0159ehled\n\n\nCE Tech se sna\u017e\u00ed b\u00fdt \nmal\u00fd\n, \nrychl\u00fd\n, \nmultiplatformn\u00ed\n a \nsnadno roz\u0161\u00ed\u0159\u00edteln\u00fd\n (jj typyck\u00fd kecy =D).\nA nesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad \nUnreal Engine\n, \nUnity\n, \nCryEngine\n atp. ale jde\nsp\u00ed\u0161e m\u00edrn\u011bj\u0161\u00ed cestou a sna\u017e\u00ed se naopak poskytnout dobr\u00fd otev\u0159en\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad \nBitSquid/Stingray engine\n.\n\n\nZ \u010deho se sklad\u00e1?\n\n\n\n\nEngine\n\n\nPlayground editor",
+            "title": "\u00davod"
+        },
+        {
+            "location": "/#ce-tech",
+            "text": "CE Tech je Data-Driven  hern\u00ed engine  a sada nastroju prim\u00e1rn\u011b ur\u010denymi pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.",
+            "title": "CE Tech"
+        },
+        {
+            "location": "/#prehled",
+            "text": "CE Tech se sna\u017e\u00ed b\u00fdt  mal\u00fd ,  rychl\u00fd ,  multiplatformn\u00ed  a  snadno roz\u0161\u00ed\u0159\u00edteln\u00fd  (jj typyck\u00fd kecy =D).\nA nesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad  Unreal Engine ,  Unity ,  CryEngine  atp. ale jde\nsp\u00ed\u0161e m\u00edrn\u011bj\u0161\u00ed cestou a sna\u017e\u00ed se naopak poskytnout dobr\u00fd otev\u0159en\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad  BitSquid/Stingray engine .  Z \u010deho se sklad\u00e1?   Engine  Playground editor",
+            "title": "P\u0159ehled"
+        },
+        {
+            "location": "/engine/overview/",
+            "text": "",
+            "title": "Popis"
+        },
+        {
+            "location": "/engine/lua/api/",
+            "text": "Application\n\n\nget_frame_id\n (): int\n\n\n\n\nReturn frame id.\n\n\n\n\nget_delta_time ()\n: float\n\n\n\n\nReturn delta time.\n\n\n\n\nquit\n ()\n\n\n\n\nQuit application.\n\n\n\n\nPackage\n\n\ncreate\n (package_name) : stringid64\n\n\n\n\nCreate package\n\n\n\n\nload\n (package_id)\n\n\n\n\nLoad package\n\n\n\n\nunload\n (package_id)\n\n\n\n\nUnload pacakge\n\n\n\n\nis_loaded\n (package_id)\n\n\n\n\nIs package loaded\n\n\n\n\nflush\n (package_id)\n\n\n\n\nWait for package\n\n\n\n\nKeyboard\n\n\nbutton_index\n (button_name) : int\n\n\n\n\nReturn button index\n\n\n\n\nbutton_name\n (button_index) : string\n\n\n\n\nReturn button name\n\n\n\n\nbutton_state\n (button_index) : bool\n\n\n\n\nReturn button state \n\n\n\n\npressed\n (button_index) : bool\n\n\n\n\nIs button pressed in this frame?\n\n\n\n\nreleased\n (button_index) : bool\n\n\n\n\nIs button released in this frame?\n\n\n\n\nMouse\n\n\nbutton_index\n (button_name) : int\n\n\n\n\nReturn button index\n\n\n\n\nbutton_name\n (button_index) : string\n\n\n\n\nReturn button name\n\n\n\n\nbutton_state\n (button_index) : bool\n\n\n\n\nReturn button state \n\n\n\n\npressed\n (button_index) : bool\n\n\n\n\nIs button pressed in this frame?\n\n\n\n\nreleased\n (button_index) : bool\n\n\n\n\nIs button released in this frame?\n\n\n\n\naxis\n (button_index) : Vector2\n\n\n\n\nReturn mouse position",
+            "title": "API"
+        },
+        {
+            "location": "/engine/lua/api/#application",
+            "text": "get_frame_id  (): int   Return frame id.   get_delta_time () : float   Return delta time.   quit  ()   Quit application.",
+            "title": "Application"
+        },
+        {
+            "location": "/engine/lua/api/#package",
+            "text": "create  (package_name) : stringid64   Create package   load  (package_id)   Load package   unload  (package_id)   Unload pacakge   is_loaded  (package_id)   Is package loaded   flush  (package_id)   Wait for package",
+            "title": "Package"
+        },
+        {
+            "location": "/engine/lua/api/#keyboard",
+            "text": "button_index  (button_name) : int   Return button index   button_name  (button_index) : string   Return button name   button_state  (button_index) : bool   Return button state    pressed  (button_index) : bool   Is button pressed in this frame?   released  (button_index) : bool   Is button released in this frame?",
+            "title": "Keyboard"
+        },
+        {
+            "location": "/engine/lua/api/#mouse",
+            "text": "button_index  (button_name) : int   Return button index   button_name  (button_index) : string   Return button name   button_state  (button_index) : bool   Return button state    pressed  (button_index) : bool   Is button pressed in this frame?   released  (button_index) : bool   Is button released in this frame?   axis  (button_index) : Vector2   Return mouse position",
+            "title": "Mouse"
+        },
+        {
+            "location": "/playground/overview/",
+            "text": "",
+            "title": "Popis"
+        },
+        {
+            "location": "/about/release-note/",
+            "text": "Historie vyd\u00e1n\u00ed\n\n\n0.1.0\n\n\n\n\nFrusrace\n\n\nPochybov\u00e1n\u00ed",
+            "title": "Historie vyd\u00e1n\u00ed"
+        },
+        {
+            "location": "/about/release-note/#historie-vydani",
+            "text": "",
+            "title": "Historie vyd\u00e1n\u00ed"
+        },
+        {
+            "location": "/about/release-note/#010",
+            "text": "Frusrace  Pochybov\u00e1n\u00ed",
+            "title": "0.1.0"
+        }
+    ]
+}
