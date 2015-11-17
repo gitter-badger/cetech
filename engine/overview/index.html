@@ -75,9 +75,36 @@
     <ul class="dropdown-menu">
         
             
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">API</a>
+    <ul class="dropdown-menu">
+        
+            
 <li >
-    <a href="../lua/api/">API</a>
+    <a href="../lua/api/application/">Application</a>
 </li>
+
+        
+            
+<li >
+    <a href="../lua/api/package/">Package</a>
+</li>
+
+        
+            
+<li >
+    <a href="../lua/api/keyboard/">Keyboard</a>
+</li>
+
+        
+            
+<li >
+    <a href="../lua/api/mouse/">Mouse</a>
+</li>
+
+        
+    </ul>
+  </li>
 
         
     </ul>
@@ -110,7 +137,7 @@
                         
                             
 <li >
-    <a href="../../about/release-notes/">Historie vydání</a>
+    <a href="../../about/release-notes/">Poznámky k vydání</a>
 </li>
 
                         
@@ -134,7 +161,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../lua/api/">
+                        <a rel="prev" href="../lua/api/application/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -159,11 +186,58 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#engine">Engine</a></li>
+        
+            <li><a href="#build-konfigurace">Build konfigurace</a></li>
+        
+    
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-</div>
+<h1 id="engine">Engine</h1>
+<hr />
+<h2 id="build-konfigurace">Build konfigurace</h2>
+<table>
+<thead>
+<tr>
+<th>Konfigurace</th>
+<th>Optimalizace kompilatoru</th>
+<th>Kod pro tvorbu</th>
+<th>Debug</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>develop</code></td>
+<td>Ano</td>
+<td>Ano</td>
+<td>Ne</td>
+</tr>
+<tr>
+<td><code>debug</code></td>
+<td>Ne</td>
+<td>Ano</td>
+<td>Ano</td>
+</tr>
+<tr>
+<td><code>release</code></td>
+<td>Ano</td>
+<td>Ne</td>
+<td>Ne</td>
+</tr>
+</tbody>
+</table>
+<h3 id="develop">Develop</h3>
+<p>Build  obsahuje vše potřebné pro komunikaci s editorem, tvorbou herního obsahu a její kompilaci.
+Jedná se o nejčastejí využívanou konfiguraci během vývoje.</p>
+<h3 id="debug">Debug</h3>
+<p>Build má zapnutou kontrolu chyb jako např. asserty. Jsou vypnuté optimalizace kompilátoru a proto je tento build výrazně
+pomalejší než <code>develop</code>. Tuto konfiguraci nejčastěji využijete pokud upravujete kód enginu.</p>
+<h3 id="release">Release</h3>
+<p>Tento build je primárně určený pro finální verzi hry nebo aplikace. Má odstaněnou veškerou funkcionalitu pro
+vývoj a editor jako např. Console server, Kompilaci resource souboru. A patří mezi nejrychlejší konfigurace.</p>
+<hr /></div>
             
         </div>
 

@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
 
-	<title>Poznámky k vydání - CE Tech</title>
+	<title>Package - CE Tech</title>
 
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +43,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="../..">CE Tech</a>
+            <a class="navbar-brand" href="../../../..">CE Tech</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -54,18 +54,18 @@
                 
                 
                     <li >
-                        <a href="../..">Úvod</a>
+                        <a href="../../../..">Úvod</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engine <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../engine/overview/">Popis</a>
+    <a href="../../../overview/">Popis</a>
 </li>
 
                         
@@ -81,25 +81,25 @@
         
             
 <li >
-    <a href="../../engine/lua/api/application/">Application</a>
+    <a href="../application/">Application</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Package</a>
 </li>
 
         
             
 <li >
-    <a href="../../engine/lua/api/package/">Package</a>
+    <a href="../keyboard/">Keyboard</a>
 </li>
 
         
             
 <li >
-    <a href="../../engine/lua/api/keyboard/">Keyboard</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../engine/lua/api/mouse/">Mouse</a>
+    <a href="../mouse/">Mouse</a>
 </li>
 
         
@@ -122,7 +122,7 @@
                         
                             
 <li >
-    <a href="../../playground/overview/">Popis</a>
+    <a href="../../../../playground/overview/">Popis</a>
 </li>
 
                         
@@ -131,13 +131,13 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Poznámky k vydání</a>
+<li >
+    <a href="../../../../about/release-notes/">Poznámky k vydání</a>
 </li>
 
                         
@@ -156,12 +156,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../playground/overview/">
+                        <a rel="next" href="../application/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../keyboard/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -186,72 +186,143 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#poznamky-k-vydani">Poznámky k vydání</a></li>
+        <li class="main active"><a href="#package">Package</a></li>
         
     
-        <li class="main "><a href="#010-wip">0.1.0 (WIP)</a></li>
+        <li class="main "><a href="#metody">Metody</a></li>
+        
+            <li><a href="#create">create</a></li>
+        
+            <li><a href="#load">load</a></li>
+        
+            <li><a href="#unload">unload</a></li>
+        
+            <li><a href="#is_loaded">is_loaded</a></li>
+        
+            <li><a href="#flush">flush</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="poznamky-k-vydani">Poznámky k vydání</h1>
-<h1 id="010-wip">0.1.0 (WIP)</h1>
-<ul>
-<li>Connect script editor and log  (#102)</li>
-<li>Flush develop manager on all workers (#96)</li>
-<li>Worker id to log output (#85)</li>
-<li>Try using log_system in assert (#83)</li>
-<li>make log system independ on memory (#81)</li>
-<li>systems init and shutdown log info (#79)</li>
-<li>rafactor filesystem (#78)</li>
-<li>better sqlite in BuildDB (#77)</li>
-<li>prepare sql in BuildDB and use bind parameter (#76)</li>
-<li>Asset compiler: External dependency increment compile (#72)</li>
-<li>Parameter --core-dir  (#70)</li>
-<li>Render to Playground widget (#68)</li>
-<li>Refactor platform spec. code (#67)</li>
-<li>CLang analyzer (#66)</li>
-<li>Package manager.flush: Do some job for task manager (#63)</li>
-<li>TODO: Compile Task Pool, reduce alloc free, ringbuffer? (#61)</li>
-<li>Texture resource (#55)</li>
-<li>script editor - Find dialog, Find and replace dialog (#53)</li>
-<li>Application.console_send(message)  (#52)</li>
-<li>Lua table to json (c api) (#51)</li>
-<li>auto compile resource (#50)</li>
-<li>Autoload resource in develop mode (#49)</li>
-<li>Compile lua resource to bytecode (#48)</li>
-<li>Init bgfx (#46)</li>
-<li>Startup dialog like pycharm...  (#45)</li>
-<li>Script editor - autocomplete (#44)</li>
-<li>Engine - print callstack on fatal error (assert, etc...) (#40)</li>
-<li>Engine - compile create debug index file (#39)</li>
-<li>Playground - luaeditor - basci command undo, rendo, copy, paste, cut, (menubar, popupmenu) (#38)</li>
-<li>Playground - luaeditor - close all button (#37)</li>
-<li>Playground - assetbrowser - create new script (#36)</li>
-<li>move compiler from resource manager (#32)</li>
-<li>Memory leak on quit (#31)</li>
-<li>Change "Device" to "Application" (#30)</li>
-<li>Lua API doc - package (#27)</li>
-<li>Lua API doc - mouse (#26)</li>
-<li>Lua API doc - keyboard  (#25)</li>
-<li>Rewrite old log lua api to new (#24)</li>
-<li>better os code hiearchy (#23)</li>
-<li>Lua enviroment - mouse api (#22)</li>
-<li>GUI console widget: command history (#21)</li>
-<li>Lua enviroment - vector2 api (#20)</li>
-<li>incremental compile (#17)</li>
-<li>Lua mouse api (#16)</li>
-<li>Lua enviroment - vector3 api (#15)</li>
-<li>Task manager - worker core affinity (#14)</li>
-<li>Task based resource loader (#13)</li>
-<li>Task manager (#10)</li>
-<li>asset manager (#9)</li>
-<li>sdl2 runtime (#8)</li>
-<li>axis angle -&gt; Matrix44 (#4)</li>
-<li>axis angle -&gt; Matrix33 (#3)</li>
-</ul></div>
+<h1 id="package">Package</h1>
+<p>Modul obsahuje funkce pro obsluhu <code>resource package</code>.</p>
+<hr />
+<h1 id="metody">Metody</h1>
+<hr />
+<h2 id="create">create</h2>
+<pre><code class="lua">function create(package_name)
+</code></pre>
+
+<p>Vytvoří id balíčku podle <code>package_name</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_name</code></td>
+<td>str</td>
+<td>Název balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="load">load</h2>
+<pre><code class="lua">function load(package_id)
+</code></pre>
+
+<p>Načte všechny <code>resource</code> které jsou v balíčku v případě že <code>resource</code> je již načtený nebude se znovu
+načítat ale zvýší se počítadlo referenci. Data nejsou hned dostupná ale nahrávají se na pozadí.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="unload">unload</h2>
+<pre><code class="lua">function unload(package_id)
+</code></pre>
+
+<p>Pro všechny <code>resource</code> které jsou v balíčku sníží počítadlo a pokud <code>resource</code> nikdo nepoužívá smaže ho z paměti.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="is_loaded">is_loaded</h2>
+<pre><code class="lua">function is_loaded(package_id)
+</code></pre>
+
+<p>Vrátí <code>true</code> pokud jsou všechny <code>resource</code> které jsou v balíčku načteny v paměti a připraveny k používaní jinak
+vrací <code>false</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="flush">flush</h2>
+<pre><code class="lua">function flush(package_id)
+</code></pre>
+
+<p>Počká dokud nejsou načteny všechny <code>resource</code> které jsou v balíčku.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr /></div>
             
         </div>
 
@@ -261,12 +332,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script>
+        <script src="../../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../../js/highlight.pack.js"></script>
+        <script>var base_url = '../../../..';</script>
+        <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+        <script src="../../../../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">

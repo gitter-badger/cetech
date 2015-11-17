@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
 
-	<title>Historie vydání - CE Tech</title>
+	<title>Mouse - CE Tech</title>
 
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -43,7 +43,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="../..">CE Tech</a>
+            <a class="navbar-brand" href="../../../..">CE Tech</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -54,18 +54,18 @@
                 
                 
                     <li >
-                        <a href="../..">Úvod</a>
+                        <a href="../../../..">Úvod</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engine <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../engine/overview/">Popis</a>
+    <a href="../../../overview/">Popis</a>
 </li>
 
                         
@@ -75,9 +75,36 @@
     <ul class="dropdown-menu">
         
             
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">API</a>
+    <ul class="dropdown-menu">
+        
+            
 <li >
-    <a href="../../engine/lua/api/">API</a>
+    <a href="../application/">Application</a>
 </li>
+
+        
+            
+<li >
+    <a href="../package/">Package</a>
+</li>
+
+        
+            
+<li >
+    <a href="../keyboard/">Keyboard</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Mouse</a>
+</li>
+
+        
+    </ul>
+  </li>
 
         
     </ul>
@@ -95,7 +122,7 @@
                         
                             
 <li >
-    <a href="../../playground/overview/">Popis</a>
+    <a href="../../../../playground/overview/">Popis</a>
 </li>
 
                         
@@ -104,13 +131,13 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Historie vydání</a>
+<li >
+    <a href="../../../../about/release-notes/">Poznámky k vydání</a>
 </li>
 
                         
@@ -129,12 +156,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../playground/overview/">
+                        <a rel="next" href="../keyboard/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../../../../playground/overview/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -159,22 +186,145 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#historie-vydani">Historie vydání</a></li>
+        <li class="main active"><a href="#mouse">Mouse</a></li>
         
     
-        <li class="main "><a href="#010">0.1.0</a></li>
+        <li class="main "><a href="#metody">Metody</a></li>
+        
+            <li><a href="#button_index">button_index</a></li>
+        
+            <li><a href="#button_name">button_name</a></li>
+        
+            <li><a href="#button_state">button_state</a></li>
+        
+            <li><a href="#pressed">pressed</a></li>
+        
+            <li><a href="#released">released</a></li>
+        
+            <li><a href="#axis-button_index-vector2">axis (button_index) : Vector2</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="historie-vydani">Historie vydání</h1>
-<h1 id="010">0.1.0</h1>
-<ul>
-<li>Frusrace</li>
-<li>Pochybování</li>
-</ul></div>
+<h1 id="mouse">Mouse</h1>
+<p>Modul obsahuje funkce pro obsluhu myši (jasně že počítačové, rozhodně vám neumožní podrobit si krysí národ podobně jako
+v Dishonored).</p>
+<hr />
+<h1 id="metody">Metody</h1>
+<hr />
+<h2 id="button_index">button_index</h2>
+<pre><code class="lua">function button_index(button_name)
+</code></pre>
+
+<p>Vrátí index tlačítka který má název <code>button_name</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button_name</code></td>
+<td>str</td>
+<td>Název tlačítka</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="button_name">button_name</h2>
+<pre><code class="lua">function button_name(button_index)
+</code></pre>
+
+<p>Vrátí název tlačítka nebo prázdný řetezec pokud je index špatný.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button_index</code></td>
+<td>int</td>
+<td>Index tlačítka</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="button_state">button_state</h2>
+<pre><code class="lua">function button_state(button_index)
+</code></pre>
+
+<p>Vrátí stav tlačítka v aktuálním frejmu.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button_index</code></td>
+<td>int</td>
+<td>Index tlačítka</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="pressed">pressed</h2>
+<pre><code class="lua">function pressed(button_index)
+</code></pre>
+
+<p>Vráti <code>true</code> pokud nebylo tlačítko v minulém frejmu stisknuté ale v aktuálním je jinak vrací <code>false</code>. </p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button_index</code></td>
+<td>int</td>
+<td>Index tlačítka</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="released">released</h2>
+<pre><code class="lua">function released(button_index)
+</code></pre>
+
+<p>Vráti <code>true</code> pokud bylo tlačítko v minulém frejmu stisknuté ale v aktuálním není jinak vrací <code>false</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>button_index</code></td>
+<td>int</td>
+<td>Index tlačítka</td>
+</tr>
+</tbody>
+</table>
+<h2 id="axis-button_index-vector2">axis (button_index) : Vector2</h2>
+<p>Return mouse position</p></div>
             
         </div>
 
@@ -184,12 +334,12 @@
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script>
+        <script src="../../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../../js/highlight.pack.js"></script>
+        <script>var base_url = '../../../..';</script>
+        <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+        <script src="../../../../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">

@@ -2,48 +2,188 @@
     "docs": [
         {
             "location": "/",
-            "text": "CE Tech\n\n\nCE Tech je Data-Driven \nhern\u00ed engine\n a sada nastroju prim\u00e1rn\u011b ur\u010denymi pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.\n\n\n\n\nP\u0159ehled\n\n\nCE Tech se sna\u017e\u00ed b\u00fdt \nmal\u00fd\n, \nrychl\u00fd\n, \nmultiplatformn\u00ed\n a \nsnadno roz\u0161\u00ed\u0159\u00edteln\u00fd\n (jj typyck\u00fd kecy =D).\nA nesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad \nUnreal Engine\n, \nUnity\n, \nCryEngine\n atp. ale jde\nsp\u00ed\u0161e m\u00edrn\u011bj\u0161\u00ed cestou a sna\u017e\u00ed se naopak poskytnout dobr\u00fd otev\u0159en\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad \nBitSquid/Stingray engine\n.\n\n\nZ \u010deho se sklad\u00e1?\n\n\n\n\nEngine\n\n\nPlayground editor",
+            "text": "CE Tech\n\n\nCE Tech je Data-Driven \nhern\u00ed engine\n a sada nastroju ur\u010den\u00fdch pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.\n\n\n\n\nP\u0159ehled\n\n\nCE Tech se sna\u017e\u00ed b\u00fdt \nmal\u00fd\n, \nmultiplatformn\u00ed\n a \nsnadno roz\u0161\u00ed\u0159\u00edteln\u00fd\n (jj typick\u00fd kecy =D).\nNesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad \nUnreal Engine\n, \nUnity\n, \nCryEngine\n atp. ale m\u00edsto toho v\u00e1m poskytne\ndobr\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad \nBitSquid/Stingray engine\n.\n\n\nZ \u010deho se sklad\u00e1?\n\n\nHlavn\u00ed sou\u010d\u00e1st\u00ed je samotn\u00fd \nengine\n  a v\u00fdvojov\u00e9 prost\u0159ed\u00ed \nPlayground\n.",
             "title": "\u00davod"
         },
         {
             "location": "/#ce-tech",
-            "text": "CE Tech je Data-Driven  hern\u00ed engine  a sada nastroju prim\u00e1rn\u011b ur\u010denymi pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.",
+            "text": "CE Tech je Data-Driven  hern\u00ed engine  a sada nastroju ur\u010den\u00fdch pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.",
             "title": "CE Tech"
         },
         {
             "location": "/#prehled",
-            "text": "CE Tech se sna\u017e\u00ed b\u00fdt  mal\u00fd ,  rychl\u00fd ,  multiplatformn\u00ed  a  snadno roz\u0161\u00ed\u0159\u00edteln\u00fd  (jj typyck\u00fd kecy =D).\nA nesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad  Unreal Engine ,  Unity ,  CryEngine  atp. ale jde\nsp\u00ed\u0161e m\u00edrn\u011bj\u0161\u00ed cestou a sna\u017e\u00ed se naopak poskytnout dobr\u00fd otev\u0159en\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad  BitSquid/Stingray engine .  Z \u010deho se sklad\u00e1?   Engine  Playground editor",
+            "text": "CE Tech se sna\u017e\u00ed b\u00fdt  mal\u00fd ,  multiplatformn\u00ed  a  snadno roz\u0161\u00ed\u0159\u00edteln\u00fd  (jj typick\u00fd kecy =D).\nNesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad  Unreal Engine ,  Unity ,  CryEngine  atp. ale m\u00edsto toho v\u00e1m poskytne\ndobr\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad  BitSquid/Stingray engine .  Z \u010deho se sklad\u00e1?  Hlavn\u00ed sou\u010d\u00e1st\u00ed je samotn\u00fd  engine   a v\u00fdvojov\u00e9 prost\u0159ed\u00ed  Playground .",
             "title": "P\u0159ehled"
         },
         {
             "location": "/engine/overview/",
-            "text": "",
+            "text": "Engine\n\n\n\n\nBuild konfigurace\n\n\n\n\n\n\n\n\nKonfigurace\n\n\nOptimalizace kompilatoru\n\n\nKod pro tvorbu\n\n\nDebug\n\n\n\n\n\n\n\n\n\n\ndevelop\n\n\nAno\n\n\nAno\n\n\nNe\n\n\n\n\n\n\ndebug\n\n\nNe\n\n\nAno\n\n\nAno\n\n\n\n\n\n\nrelease\n\n\nAno\n\n\nNe\n\n\nNe\n\n\n\n\n\n\n\n\nDevelop\n\n\nBuild  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.\n\n\nDebug\n\n\nBuild m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e \ndevelop\n. Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.\n\n\nRelease\n\n\nTento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
             "title": "Popis"
         },
         {
-            "location": "/engine/lua/api/",
-            "text": "Application\n\n\nget_frame_id\n (): int\n\n\n\n\nReturn frame id.\n\n\n\n\nget_delta_time ()\n: float\n\n\n\n\nReturn delta time.\n\n\n\n\nquit\n ()\n\n\n\n\nQuit application.\n\n\n\n\nPackage\n\n\ncreate\n (package_name) : stringid64\n\n\n\n\nCreate package\n\n\n\n\nload\n (package_id)\n\n\n\n\nLoad package\n\n\n\n\nunload\n (package_id)\n\n\n\n\nUnload pacakge\n\n\n\n\nis_loaded\n (package_id)\n\n\n\n\nIs package loaded\n\n\n\n\nflush\n (package_id)\n\n\n\n\nWait for package\n\n\n\n\nKeyboard\n\n\nbutton_index\n (button_name) : int\n\n\n\n\nReturn button index\n\n\n\n\nbutton_name\n (button_index) : string\n\n\n\n\nReturn button name\n\n\n\n\nbutton_state\n (button_index) : bool\n\n\n\n\nReturn button state \n\n\n\n\npressed\n (button_index) : bool\n\n\n\n\nIs button pressed in this frame?\n\n\n\n\nreleased\n (button_index) : bool\n\n\n\n\nIs button released in this frame?\n\n\n\n\nMouse\n\n\nbutton_index\n (button_name) : int\n\n\n\n\nReturn button index\n\n\n\n\nbutton_name\n (button_index) : string\n\n\n\n\nReturn button name\n\n\n\n\nbutton_state\n (button_index) : bool\n\n\n\n\nReturn button state \n\n\n\n\npressed\n (button_index) : bool\n\n\n\n\nIs button pressed in this frame?\n\n\n\n\nreleased\n (button_index) : bool\n\n\n\n\nIs button released in this frame?\n\n\n\n\naxis\n (button_index) : Vector2\n\n\n\n\nReturn mouse position",
-            "title": "API"
+            "location": "/engine/overview/#engine",
+            "text": "",
+            "title": "Engine"
         },
         {
-            "location": "/engine/lua/api/#application",
-            "text": "get_frame_id  (): int   Return frame id.   get_delta_time () : float   Return delta time.   quit  ()   Quit application.",
+            "location": "/engine/overview/#build-konfigurace",
+            "text": "Konfigurace  Optimalizace kompilatoru  Kod pro tvorbu  Debug      develop  Ano  Ano  Ne    debug  Ne  Ano  Ano    release  Ano  Ne  Ne     Develop  Build  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.  Debug  Build m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e  develop . Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.  Release  Tento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
+            "title": "Build konfigurace"
+        },
+        {
+            "location": "/engine/lua/api/application/",
+            "text": "Application\n\n\nModul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace.\n\n\n\n\nMetody\n\n\n\n\nget_frame_id\n\n\nfunction get_frame_id()\n\n\n\n\nVr\u00e1t\u00ed id aktu\u00e1ln\u00edho frejmu.\n\n\n\n\nget_delta_time\n\n\nfunction get_delta_time()\n\n\n\n\nVr\u00e1t\u00ed delta time mezi aktu\u00e1ln\u00edm a p\u0159edchoz\u00edm frejmem\n\n\n\n\nquit\n\n\nfunction quit()\n\n\n\n\nUkon\u010d\u00ed aplikaci.",
             "title": "Application"
         },
         {
-            "location": "/engine/lua/api/#package",
-            "text": "create  (package_name) : stringid64   Create package   load  (package_id)   Load package   unload  (package_id)   Unload pacakge   is_loaded  (package_id)   Is package loaded   flush  (package_id)   Wait for package",
+            "location": "/engine/lua/api/application/#application",
+            "text": "Modul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace.",
+            "title": "Application"
+        },
+        {
+            "location": "/engine/lua/api/application/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/lua/api/application/#get_frame_id",
+            "text": "function get_frame_id()  Vr\u00e1t\u00ed id aktu\u00e1ln\u00edho frejmu.",
+            "title": "get_frame_id"
+        },
+        {
+            "location": "/engine/lua/api/application/#get_delta_time",
+            "text": "function get_delta_time()  Vr\u00e1t\u00ed delta time mezi aktu\u00e1ln\u00edm a p\u0159edchoz\u00edm frejmem",
+            "title": "get_delta_time"
+        },
+        {
+            "location": "/engine/lua/api/application/#quit",
+            "text": "function quit()  Ukon\u010d\u00ed aplikaci.",
+            "title": "quit"
+        },
+        {
+            "location": "/engine/lua/api/package/",
+            "text": "Package\n\n\nModul obsahuje funkce pro obsluhu \nresource package\n.\n\n\n\n\nMetody\n\n\n\n\ncreate\n\n\nfunction create(package_name)\n\n\n\n\nVytvo\u0159\u00ed id bal\u00ed\u010dku podle \npackage_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_name\n\n\nstr\n\n\nN\u00e1zev bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nload\n\n\nfunction load(package_id)\n\n\n\n\nNa\u010dte v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku v p\u0159\u00edpad\u011b \u017ee \nresource\n je ji\u017e na\u010dten\u00fd nebude se znovu\nna\u010d\u00edtat ale zv\u00fd\u0161\u00ed se po\u010d\u00edtadlo referenci. Data nejsou hned dostupn\u00e1 ale nahr\u00e1vaj\u00ed se na pozad\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nunload\n\n\nfunction unload(package_id)\n\n\n\n\nPro v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud \nresource\n nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nis_loaded\n\n\nfunction is_loaded(package_id)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud jsou v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed jinak\nvrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nflush\n\n\nfunction flush(package_id)\n\n\n\n\nPo\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku",
             "title": "Package"
         },
         {
-            "location": "/engine/lua/api/#keyboard",
-            "text": "button_index  (button_name) : int   Return button index   button_name  (button_index) : string   Return button name   button_state  (button_index) : bool   Return button state    pressed  (button_index) : bool   Is button pressed in this frame?   released  (button_index) : bool   Is button released in this frame?",
+            "location": "/engine/lua/api/package/#package",
+            "text": "Modul obsahuje funkce pro obsluhu  resource package .",
+            "title": "Package"
+        },
+        {
+            "location": "/engine/lua/api/package/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/lua/api/package/#create",
+            "text": "function create(package_name)  Vytvo\u0159\u00ed id bal\u00ed\u010dku podle  package_name .     Parametr  Typ  Popis      package_name  str  N\u00e1zev bal\u00ed\u010dku",
+            "title": "create"
+        },
+        {
+            "location": "/engine/lua/api/package/#load",
+            "text": "function load(package_id)  Na\u010dte v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku v p\u0159\u00edpad\u011b \u017ee  resource  je ji\u017e na\u010dten\u00fd nebude se znovu\nna\u010d\u00edtat ale zv\u00fd\u0161\u00ed se po\u010d\u00edtadlo referenci. Data nejsou hned dostupn\u00e1 ale nahr\u00e1vaj\u00ed se na pozad\u00ed.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "title": "load"
+        },
+        {
+            "location": "/engine/lua/api/package/#unload",
+            "text": "function unload(package_id)  Pro v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud  resource  nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "title": "unload"
+        },
+        {
+            "location": "/engine/lua/api/package/#is_loaded",
+            "text": "function is_loaded(package_id)  Vr\u00e1t\u00ed  true  pokud jsou v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed jinak\nvrac\u00ed  false .     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "title": "is_loaded"
+        },
+        {
+            "location": "/engine/lua/api/package/#flush",
+            "text": "function flush(package_id)  Po\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "title": "flush"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/",
+            "text": "Keyboard\n\n\nModul obsahuje funkce pro obsluhu kl\u00e1vesnice.\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed \nfalse\n. \n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka",
             "title": "Keyboard"
         },
         {
-            "location": "/engine/lua/api/#mouse",
-            "text": "button_index  (button_name) : int   Return button index   button_name  (button_index) : string   Return button name   button_state  (button_index) : bool   Return button state    pressed  (button_index) : bool   Is button pressed in this frame?   released  (button_index) : bool   Is button released in this frame?   axis  (button_index) : Vector2   Return mouse position",
+            "location": "/engine/lua/api/keyboard/#keyboard",
+            "text": "Modul obsahuje funkce pro obsluhu kl\u00e1vesnice.",
+            "title": "Keyboard"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/#button_index",
+            "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
+            "title": "button_index"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/#button_name",
+            "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "button_name"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/#button_state",
+            "text": "function button_state(button_index)  Vr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "button_state"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/#pressed",
+            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed  false .      Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "pressed"
+        },
+        {
+            "location": "/engine/lua/api/keyboard/#released",
+            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed  false .     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "released"
+        },
+        {
+            "location": "/engine/lua/api/mouse/",
+            "text": "Mouse\n\n\nModul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv Dishonored).\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed \nfalse\n. \n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\naxis (button_index) : Vector2\n\n\nReturn mouse position",
             "title": "Mouse"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#mouse",
+            "text": "Modul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv Dishonored).",
+            "title": "Mouse"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#button_index",
+            "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
+            "title": "button_index"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#button_name",
+            "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "button_name"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#button_state",
+            "text": "function button_state(button_index)  Vr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "button_state"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#pressed",
+            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed  false .      Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "pressed"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#released",
+            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed  false .     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "title": "released"
+        },
+        {
+            "location": "/engine/lua/api/mouse/#axis-button_index-vector2",
+            "text": "Return mouse position",
+            "title": "axis (button_index) : Vector2"
         },
         {
             "location": "/playground/overview/",
@@ -52,18 +192,18 @@
         },
         {
             "location": "/about/release-notes/",
-            "text": "Historie vyd\u00e1n\u00ed\n\n\n0.1.0\n\n\n\n\nFrusrace\n\n\nPochybov\u00e1n\u00ed",
-            "title": "Historie vyd\u00e1n\u00ed"
+            "text": "Pozn\u00e1mky k vyd\u00e1n\u00ed\n\n\n0.1.0 (WIP)\n\n\n\n\nConnect script editor and log  (#102)\n\n\nFlush develop manager on all workers (#96)\n\n\nWorker id to log output (#85)\n\n\nTry using log_system in assert (#83)\n\n\nmake log system independ on memory (#81)\n\n\nsystems init and shutdown log info (#79)\n\n\nrafactor filesystem (#78)\n\n\nbetter sqlite in BuildDB (#77)\n\n\nprepare sql in BuildDB and use bind parameter (#76)\n\n\nAsset compiler: External dependency increment compile (#72)\n\n\nParameter --core-dir  (#70)\n\n\nRender to Playground widget (#68)\n\n\nRefactor platform spec. code (#67)\n\n\nCLang analyzer (#66)\n\n\nPackage manager.flush: Do some job for task manager (#63)\n\n\nTODO: Compile Task Pool, reduce alloc free, ringbuffer? (#61)\n\n\nTexture resource (#55)\n\n\nscript editor - Find dialog, Find and replace dialog (#53)\n\n\nApplication.console_send(message)  (#52)\n\n\nLua table to json (c api) (#51)\n\n\nauto compile resource (#50)\n\n\nAutoload resource in develop mode (#49)\n\n\nCompile lua resource to bytecode (#48)\n\n\nInit bgfx (#46)\n\n\nStartup dialog like pycharm...  (#45)\n\n\nScript editor - autocomplete (#44)\n\n\nEngine - print callstack on fatal error (assert, etc...) (#40)\n\n\nEngine - compile create debug index file (#39)\n\n\nPlayground - luaeditor - basci command undo, rendo, copy, paste, cut, (menubar, popupmenu) (#38)\n\n\nPlayground - luaeditor - close all button (#37)\n\n\nPlayground - assetbrowser - create new script (#36)\n\n\nmove compiler from resource manager (#32)\n\n\nMemory leak on quit (#31)\n\n\nChange \"Device\" to \"Application\" (#30)\n\n\nLua API doc - package (#27)\n\n\nLua API doc - mouse (#26)\n\n\nLua API doc - keyboard  (#25)\n\n\nRewrite old log lua api to new (#24)\n\n\nbetter os code hiearchy (#23)\n\n\nLua enviroment - mouse api (#22)\n\n\nGUI console widget: command history (#21)\n\n\nLua enviroment - vector2 api (#20)\n\n\nincremental compile (#17)\n\n\nLua mouse api (#16)\n\n\nLua enviroment - vector3 api (#15)\n\n\nTask manager - worker core affinity (#14)\n\n\nTask based resource loader (#13)\n\n\nTask manager (#10)\n\n\nasset manager (#9)\n\n\nsdl2 runtime (#8)\n\n\naxis angle -> Matrix44 (#4)\n\n\naxis angle -> Matrix33 (#3)",
+            "title": "Pozn\u00e1mky k vyd\u00e1n\u00ed"
         },
         {
-            "location": "/about/release-notes/#historie-vydani",
+            "location": "/about/release-notes/#poznamky-k-vydani",
             "text": "",
-            "title": "Historie vyd\u00e1n\u00ed"
+            "title": "Pozn\u00e1mky k vyd\u00e1n\u00ed"
         },
         {
-            "location": "/about/release-notes/#010",
-            "text": "Frusrace  Pochybov\u00e1n\u00ed",
-            "title": "0.1.0"
+            "location": "/about/release-notes/#010-wip",
+            "text": "Connect script editor and log  (#102)  Flush develop manager on all workers (#96)  Worker id to log output (#85)  Try using log_system in assert (#83)  make log system independ on memory (#81)  systems init and shutdown log info (#79)  rafactor filesystem (#78)  better sqlite in BuildDB (#77)  prepare sql in BuildDB and use bind parameter (#76)  Asset compiler: External dependency increment compile (#72)  Parameter --core-dir  (#70)  Render to Playground widget (#68)  Refactor platform spec. code (#67)  CLang analyzer (#66)  Package manager.flush: Do some job for task manager (#63)  TODO: Compile Task Pool, reduce alloc free, ringbuffer? (#61)  Texture resource (#55)  script editor - Find dialog, Find and replace dialog (#53)  Application.console_send(message)  (#52)  Lua table to json (c api) (#51)  auto compile resource (#50)  Autoload resource in develop mode (#49)  Compile lua resource to bytecode (#48)  Init bgfx (#46)  Startup dialog like pycharm...  (#45)  Script editor - autocomplete (#44)  Engine - print callstack on fatal error (assert, etc...) (#40)  Engine - compile create debug index file (#39)  Playground - luaeditor - basci command undo, rendo, copy, paste, cut, (menubar, popupmenu) (#38)  Playground - luaeditor - close all button (#37)  Playground - assetbrowser - create new script (#36)  move compiler from resource manager (#32)  Memory leak on quit (#31)  Change \"Device\" to \"Application\" (#30)  Lua API doc - package (#27)  Lua API doc - mouse (#26)  Lua API doc - keyboard  (#25)  Rewrite old log lua api to new (#24)  better os code hiearchy (#23)  Lua enviroment - mouse api (#22)  GUI console widget: command history (#21)  Lua enviroment - vector2 api (#20)  incremental compile (#17)  Lua mouse api (#16)  Lua enviroment - vector3 api (#15)  Task manager - worker core affinity (#14)  Task based resource loader (#13)  Task manager (#10)  asset manager (#9)  sdl2 runtime (#8)  axis angle -> Matrix44 (#4)  axis angle -> Matrix33 (#3)",
+            "title": "0.1.0 (WIP)"
         }
     ]
 }
