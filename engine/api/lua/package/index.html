@@ -7,14 +7,14 @@
         
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="../../../../img/favicon.ico">
 
-	<title>CE Tech</title>
+	<title>Package - CE Tech</title>
 
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
+        <link href="../../../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../../../css/highlight.css">
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -25,7 +25,7 @@
         
     </head>
 
-    <body class="homepage">
+    <body>
 
         <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -43,7 +43,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href=".">CE Tech</a>
+            <a class="navbar-brand" href="../../../..">CE Tech</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -53,19 +53,19 @@
                 <ul class="nav navbar-nav">
                 
                 
-                    <li class="active">
-                        <a href=".">Úvod</a>
+                    <li >
+                        <a href="../../../..">Úvod</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Engine <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="engine/overview/">Popis</a>
+    <a href="../../../overview/">Popis</a>
 </li>
 
                         
@@ -81,7 +81,7 @@
         
             
 <li >
-    <a href="engine/api/cpp/log_system/">log_system</a>
+    <a href="../../cpp/log_system/">log_system</a>
 </li>
 
         
@@ -96,25 +96,25 @@
         
             
 <li >
-    <a href="engine/api/lua/application/">Application</a>
+    <a href="../application/">Application</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Package</a>
 </li>
 
         
             
 <li >
-    <a href="engine/api/lua/package/">Package</a>
+    <a href="../keyboard/">Keyboard</a>
 </li>
 
         
             
 <li >
-    <a href="engine/api/lua/keyboard/">Keyboard</a>
-</li>
-
-        
-            
-<li >
-    <a href="engine/api/lua/mouse/">Mouse</a>
+    <a href="../mouse/">Mouse</a>
 </li>
 
         
@@ -137,7 +137,7 @@
                         
                             
 <li >
-    <a href="playground/overview/">Popis</a>
+    <a href="../../../../playground/overview/">Popis</a>
 </li>
 
                         
@@ -152,7 +152,7 @@
                         
                             
 <li >
-    <a href="about/release-notes/">Poznámky k vydání</a>
+    <a href="../../../../about/release-notes/">Poznámky k vydání</a>
 </li>
 
                         
@@ -170,13 +170,13 @@
                     </a>
                 </li>
                 
-                    <li class="disabled">
-                        <a rel="next" >
+                    <li >
+                        <a rel="next" href="../application/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="engine/overview/">
+                        <a rel="prev" href="../keyboard/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -201,34 +201,143 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#ce-tech">CE Tech</a></li>
+        <li class="main active"><a href="#package">Package</a></li>
         
-            <li><a href="#prehled">Přehled</a></li>
+    
+        <li class="main "><a href="#metody">Metody</a></li>
+        
+            <li><a href="#create">create</a></li>
+        
+            <li><a href="#load">load</a></li>
+        
+            <li><a href="#unload">unload</a></li>
+        
+            <li><a href="#is_loaded">is_loaded</a></li>
+        
+            <li><a href="#flush">flush</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="ce-tech">CE Tech</h1>
-<p>CE Tech je Data-Driven <a href="https://en.wikipedia.org/wiki/Game_engine">herní engine</a> a sada nastroju určených pro tovrbu her ale
-hodí se i pro neherní interaktivní aplikace.</p>
+<h1 id="package">Package</h1>
+<p>Modul obsahuje funkce pro obsluhu <code>resource package</code>.</p>
 <hr />
-<h2 id="prehled">Přehled</h2>
-<p>CE Tech se snaží být <strong>svobodný</strong>, <strong>malý</strong>, <strong>multiplatformní</strong> a <strong>snadno rozšířítelný</strong> (jj typický kecy =D).
-Nesnaží se být funkcemi nabušený a neumožní vám na pár kliknutí vytvořít profesionálně vypadajcí hru
-jako například <a href="https://www.unrealengine.com">Unreal Engine</a>, <a href="https://unity3d.com">Unity</a>, <a href="https:/www.cryengine.com">CryEngine</a> atp. ale místo toho vám poskytne
-dobrý zaklad pro další tvorbu jako například <a href="http://www.autodesk.com/products/stingray/overview">BitSquid/Stingray engine</a>.</p>
-<h3 id="pro-koho-je-urcen">Pro koho je určen?</h3>
-<p>Pro kohokoliv kdo chce tvořit hry nebo interaktivní aplikace a nebojí se učit novým věcem.</p>
-<h3 id="pro-koho-neni-urcen">Pro koho není určen?</h3>
-<p>Pro toho kdo čeká že si hru snadno a bez znalostí nakliká.</p>
-<h3 id="z-ceho-se-sklada">Z čeho se skladá?</h3>
-<p>Hlavní součástí je samotný <a href="engine/overview/"><strong>engine</strong></a>  a vývojové prostředí <a href="playground/overview/"><strong>Playground</strong></a>.</p>
-<h3 id="kde-se-da-ziskat">Kde se dá získat?</h3>
-<p>Stačí naklonovat repo <code>git@github.com:OndraVoves/cetech1.git</code></p>
-<pre><code class="bash">$ git clone git@github.com:OndraVoves/cetech1.git
-</code></pre></div>
+<h1 id="metody">Metody</h1>
+<hr />
+<h2 id="create">create</h2>
+<pre><code class="lua">function create(package_name)
+</code></pre>
+
+<p>Vytvoří id balíčku podle <code>package_name</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_name</code></td>
+<td>str</td>
+<td>Název balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="load">load</h2>
+<pre><code class="lua">function load(package_id)
+</code></pre>
+
+<p>Načte všechny <code>resource</code> které jsou v balíčku v případě že <code>resource</code> je již načtený nebude se znovu
+načítat ale zvýší se počítadlo referenci. Data nejsou hned dostupná ale nahrávají se na pozadí.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="unload">unload</h2>
+<pre><code class="lua">function unload(package_id)
+</code></pre>
+
+<p>Pro všechny <code>resource</code> které jsou v balíčku sníží počítadlo a pokud <code>resource</code> nikdo nepoužívá smaže ho z paměti.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="is_loaded">is_loaded</h2>
+<pre><code class="lua">function is_loaded(package_id)
+</code></pre>
+
+<p>Vrátí <code>true</code> pokud jsou všechny <code>resource</code> které jsou v balíčku načteny v paměti a připraveny k používaní jinak
+vrací <code>false</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="flush">flush</h2>
+<pre><code class="lua">function flush(package_id)
+</code></pre>
+
+<p>Počká dokud nejsou načteny všechny <code>resource</code> které jsou v balíčku.</p>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
+</tr>
+</tbody>
+</table>
+<hr /></div>
             
         </div>
 
@@ -238,12 +347,12 @@ dobrý zaklad pro další tvorbu jako například <a href="http://www.autodesk.c
             <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
+        <script src="../../../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../../../js/highlight.pack.js"></script>
+        <script>var base_url = '../../../..';</script>
+        <script data-main="../../../../mkdocs/js/search.js" src="../../../../mkdocs/js/require.js"></script>
+        <script src="../../../../js/base.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
             <div class="modal-dialog">
@@ -272,8 +381,3 @@ dobrý zaklad pro další tvorbu jako například <a href="http://www.autodesk.c
 
     </body>
 </html>
-
-<!--
-MkDocs version : 0.14.0
-Build Date UTC : 2015-11-18 21:42:34.220359
--->

@@ -31,157 +31,192 @@
             "title": "Build konfigurace"
         },
         {
-            "location": "/engine/lua/api/application/",
+            "location": "/engine/api/cpp/log_system/",
+            "text": "log_system\n\n\nlog_system\n slou\u017e\u00ed pro logov\u00e1n\u00ed zpr\u00e1v\n\n\nMetody\n\n\n\n\ninfo\n\n\nvoid log::info(const char* where, const char* format, ...);\n\n\n\n\nZaloguje informa\u010dn\u00ed zpr\u00e1vu.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\n\n\nwarning\n\n\nvoid log::warning(const char* where, const char* format, ...);\n\n\n\n\nZaloguje varov\u00e1n\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. `\"resource_mana ).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\n\n\nerror\n\n\nvoid log::error(const char* where, const char* format, ...);\n\n\n\n\nZaloguje chybu.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\n\n\ndebug\n\n\nvoid log::debug(const char* where, const char* format, ...);\n\n\n\n\nZaloguje debug informaci. Debug informace jsou povolen\u00e9 jenom v \ndebug\n \nkonfiguraci\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "title": "log_system"
+        },
+        {
+            "location": "/engine/api/cpp/log_system/#log_system",
+            "text": "log_system  slou\u017e\u00ed pro logov\u00e1n\u00ed zpr\u00e1v",
+            "title": "log_system"
+        },
+        {
+            "location": "/engine/api/cpp/log_system/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/api/cpp/log_system/#info",
+            "text": "void log::info(const char* where, const char* format, ...);  Zaloguje informa\u010dn\u00ed zpr\u00e1vu.     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "title": "info"
+        },
+        {
+            "location": "/engine/api/cpp/log_system/#warning",
+            "text": "void log::warning(const char* where, const char* format, ...);  Zaloguje varov\u00e1n\u00ed.     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159. `\"resource_mana ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "title": "warning"
+        },
+        {
+            "location": "/engine/api/cpp/log_system/#error",
+            "text": "void log::error(const char* where, const char* format, ...);  Zaloguje chybu.     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "title": "error"
+        },
+        {
+            "location": "/engine/api/cpp/log_system/#debug",
+            "text": "void log::debug(const char* where, const char* format, ...);  Zaloguje debug informaci. Debug informace jsou povolen\u00e9 jenom v  debug   konfiguraci .     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "title": "debug"
+        },
+        {
+            "location": "/engine/api/lua/application/",
             "text": "Application\n\n\nModul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace.\n\n\n\n\nMetody\n\n\n\n\nget_frame_id\n\n\nfunction get_frame_id()\n\n\n\n\nVr\u00e1t\u00ed id aktu\u00e1ln\u00edho frejmu.\n\n\n\n\nget_delta_time\n\n\nfunction get_delta_time()\n\n\n\n\nVr\u00e1t\u00ed delta time mezi aktu\u00e1ln\u00edm a p\u0159edchoz\u00edm frejmem\n\n\n\n\nquit\n\n\nfunction quit()\n\n\n\n\nUkon\u010d\u00ed aplikaci.",
             "title": "Application"
         },
         {
-            "location": "/engine/lua/api/application/#application",
+            "location": "/engine/api/lua/application/#application",
             "text": "Modul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace.",
             "title": "Application"
         },
         {
-            "location": "/engine/lua/api/application/#metody",
+            "location": "/engine/api/lua/application/#metody",
             "text": "",
             "title": "Metody"
         },
         {
-            "location": "/engine/lua/api/application/#get_frame_id",
+            "location": "/engine/api/lua/application/#get_frame_id",
             "text": "function get_frame_id()  Vr\u00e1t\u00ed id aktu\u00e1ln\u00edho frejmu.",
             "title": "get_frame_id"
         },
         {
-            "location": "/engine/lua/api/application/#get_delta_time",
+            "location": "/engine/api/lua/application/#get_delta_time",
             "text": "function get_delta_time()  Vr\u00e1t\u00ed delta time mezi aktu\u00e1ln\u00edm a p\u0159edchoz\u00edm frejmem",
             "title": "get_delta_time"
         },
         {
-            "location": "/engine/lua/api/application/#quit",
+            "location": "/engine/api/lua/application/#quit",
             "text": "function quit()  Ukon\u010d\u00ed aplikaci.",
             "title": "quit"
         },
         {
-            "location": "/engine/lua/api/package/",
+            "location": "/engine/api/lua/package/",
             "text": "Package\n\n\nModul obsahuje funkce pro obsluhu \nresource package\n.\n\n\n\n\nMetody\n\n\n\n\ncreate\n\n\nfunction create(package_name)\n\n\n\n\nVytvo\u0159\u00ed id bal\u00ed\u010dku podle \npackage_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_name\n\n\nstr\n\n\nN\u00e1zev bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nload\n\n\nfunction load(package_id)\n\n\n\n\nNa\u010dte v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku v p\u0159\u00edpad\u011b \u017ee \nresource\n je ji\u017e na\u010dten\u00fd nebude se znovu\nna\u010d\u00edtat ale zv\u00fd\u0161\u00ed se po\u010d\u00edtadlo referenci. Data nejsou hned dostupn\u00e1 ale nahr\u00e1vaj\u00ed se na pozad\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nunload\n\n\nfunction unload(package_id)\n\n\n\n\nPro v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud \nresource\n nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nis_loaded\n\n\nfunction is_loaded(package_id)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud jsou v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed jinak\nvrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nflush\n\n\nfunction flush(package_id)\n\n\n\n\nPo\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku",
             "title": "Package"
         },
         {
-            "location": "/engine/lua/api/package/#package",
+            "location": "/engine/api/lua/package/#package",
             "text": "Modul obsahuje funkce pro obsluhu  resource package .",
             "title": "Package"
         },
         {
-            "location": "/engine/lua/api/package/#metody",
+            "location": "/engine/api/lua/package/#metody",
             "text": "",
             "title": "Metody"
         },
         {
-            "location": "/engine/lua/api/package/#create",
+            "location": "/engine/api/lua/package/#create",
             "text": "function create(package_name)  Vytvo\u0159\u00ed id bal\u00ed\u010dku podle  package_name .     Parametr  Typ  Popis      package_name  str  N\u00e1zev bal\u00ed\u010dku",
             "title": "create"
         },
         {
-            "location": "/engine/lua/api/package/#load",
+            "location": "/engine/api/lua/package/#load",
             "text": "function load(package_id)  Na\u010dte v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku v p\u0159\u00edpad\u011b \u017ee  resource  je ji\u017e na\u010dten\u00fd nebude se znovu\nna\u010d\u00edtat ale zv\u00fd\u0161\u00ed se po\u010d\u00edtadlo referenci. Data nejsou hned dostupn\u00e1 ale nahr\u00e1vaj\u00ed se na pozad\u00ed.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "load"
         },
         {
-            "location": "/engine/lua/api/package/#unload",
+            "location": "/engine/api/lua/package/#unload",
             "text": "function unload(package_id)  Pro v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud  resource  nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "unload"
         },
         {
-            "location": "/engine/lua/api/package/#is_loaded",
+            "location": "/engine/api/lua/package/#is_loaded",
             "text": "function is_loaded(package_id)  Vr\u00e1t\u00ed  true  pokud jsou v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed jinak\nvrac\u00ed  false .     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "is_loaded"
         },
         {
-            "location": "/engine/lua/api/package/#flush",
+            "location": "/engine/api/lua/package/#flush",
             "text": "function flush(package_id)  Po\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "flush"
         },
         {
-            "location": "/engine/lua/api/keyboard/",
-            "text": "Keyboard\n\n\nModul obsahuje funkce pro obsluhu kl\u00e1vesnice.\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed \nfalse\n. \n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka",
+            "location": "/engine/api/lua/keyboard/",
+            "text": "Keyboard\n\n\nModul obsahuje funkce pro obsluhu kl\u00e1vesnice.\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud je tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka",
             "title": "Keyboard"
         },
         {
-            "location": "/engine/lua/api/keyboard/#keyboard",
+            "location": "/engine/api/lua/keyboard/#keyboard",
             "text": "Modul obsahuje funkce pro obsluhu kl\u00e1vesnice.",
             "title": "Keyboard"
         },
         {
-            "location": "/engine/lua/api/keyboard/#metody",
+            "location": "/engine/api/lua/keyboard/#metody",
             "text": "",
             "title": "Metody"
         },
         {
-            "location": "/engine/lua/api/keyboard/#button_index",
+            "location": "/engine/api/lua/keyboard/#button_index",
             "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
             "title": "button_index"
         },
         {
-            "location": "/engine/lua/api/keyboard/#button_name",
+            "location": "/engine/api/lua/keyboard/#button_name",
             "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_name"
         },
         {
-            "location": "/engine/lua/api/keyboard/#button_state",
-            "text": "function button_state(button_index)  Vr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "location": "/engine/api/lua/keyboard/#button_state",
+            "text": "function button_state(button_index)  Vr\u00e1t\u00ed  true  pokud je tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_state"
         },
         {
-            "location": "/engine/lua/api/keyboard/#pressed",
-            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed  false .      Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "location": "/engine/api/lua/keyboard/#pressed",
+            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "pressed"
         },
         {
-            "location": "/engine/lua/api/keyboard/#released",
-            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed  false .     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "location": "/engine/api/lua/keyboard/#released",
+            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "released"
         },
         {
-            "location": "/engine/lua/api/mouse/",
+            "location": "/engine/api/lua/mouse/",
             "text": "Mouse\n\n\nModul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv Dishonored).\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed \nfalse\n. \n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\naxis (button_index) : Vector2\n\n\nReturn mouse position",
             "title": "Mouse"
         },
         {
-            "location": "/engine/lua/api/mouse/#mouse",
+            "location": "/engine/api/lua/mouse/#mouse",
             "text": "Modul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv Dishonored).",
             "title": "Mouse"
         },
         {
-            "location": "/engine/lua/api/mouse/#metody",
+            "location": "/engine/api/lua/mouse/#metody",
             "text": "",
             "title": "Metody"
         },
         {
-            "location": "/engine/lua/api/mouse/#button_index",
+            "location": "/engine/api/lua/mouse/#button_index",
             "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
             "title": "button_index"
         },
         {
-            "location": "/engine/lua/api/mouse/#button_name",
+            "location": "/engine/api/lua/mouse/#button_name",
             "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_name"
         },
         {
-            "location": "/engine/lua/api/mouse/#button_state",
+            "location": "/engine/api/lua/mouse/#button_state",
             "text": "function button_state(button_index)  Vr\u00e1t\u00ed stav tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_state"
         },
         {
-            "location": "/engine/lua/api/mouse/#pressed",
+            "location": "/engine/api/lua/mouse/#pressed",
             "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed  false .      Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "pressed"
         },
         {
-            "location": "/engine/lua/api/mouse/#released",
+            "location": "/engine/api/lua/mouse/#released",
             "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed  false .     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "released"
         },
         {
-            "location": "/engine/lua/api/mouse/#axis-button_index-vector2",
+            "location": "/engine/api/lua/mouse/#axis-button_index-vector2",
             "text": "Return mouse position",
             "title": "axis (button_index) : Vector2"
         },
