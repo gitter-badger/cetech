@@ -271,7 +271,7 @@
             <div class="section">
               
                 <h1 id="popis">Popis<a class="headerlink" href="#popis" title="Permanent link"></a></h1>
-<p>Logovací systém slouží přkvapivě pro logování zpráv. Po zalogování se zpráva předá registrovaným <a href="#handler_t">handlerům</a> a ty jí zpracují.</p>
+<p>Logovací systém slouží překvapivě pro logování zpráv. Po zalogování se zpráva předá registrovaným <a href="#handler_t">handlerům</a> a ty jí zpracují.</p>
 <h2 id="include">Include<a class="headerlink" href="#include" title="Permanent link"></a></h2>
 <pre><code class="cpp">#include &quot;cetech/log/log.h&quot;
 </code></pre>
@@ -365,23 +365,23 @@
 <hr />
 <h1 id="handlery">Handlery<a class="headerlink" href="#handlery" title="Permanent link"></a></h1>
 <h2 id="stdout_handler">stdout_handler<a class="headerlink" href="#stdout_handler" title="Permanent link"></a></h2>
-<pre><code class="cpp">void log stdout_handler(const LogLevel::Enum level,
-                        const time_t time,
-                        const uint32_t worker_id,
-                        const char* where,
-                        const char* msg,
-                        void* data);
+<pre><code class="cpp">void log::stdout_handler(const LogLevel::Enum level,
+                         const time_t time,
+                         const uint32_t worker_id,
+                         const char* where,
+                         const char* msg,
+                         void* data);
 </code></pre>
 
 <p>Logovaní na standartní, chybový a výstup.</p>
 <hr />
 <h2 id="file_handler">file_handler<a class="headerlink" href="#file_handler" title="Permanent link"></a></h2>
-<pre><code class="cpp">void file_handler(const LogLevel::Enum level,
-                  const time_t time,
-                  const uint32_t worker_id,
-                  const char* where,
-                  const char* msg,
-                  void* data);
+<pre><code class="cpp">void log::file_handler(const LogLevel::Enum level,
+                       const time_t time,
+                       const uint32_t worker_id,
+                       const char* where,
+                       const char* msg,
+                       void* data);
 </code></pre>
 
 <p>Logovaní do souboru.</p>
