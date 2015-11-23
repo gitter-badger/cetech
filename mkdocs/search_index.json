@@ -12,17 +12,17 @@
         },
         {
             "location": "/install/",
-            "text": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e\n\uf0c1\n\n\n\n\nWarning\n\n\nRepozit\u00e1\u0159 je zat\u00edm \npriv\u00e1tn\u00ed\n a z\u016fstane tak dokud nebude m\u00edt \nengine\n a \nPlayground\n\nz\u00e1kladn\u00ed a funk\u010dn\u00ed podobu.\n\n\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt \nnaistalovan\u00fd git\n.\n\n\n\n\nPokud \ngit\n funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo \ngit clone git@github.com:OndraVoves/cetech1.git\n.\n\n\nKompilace\n\uf0c1\n\n\nP\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba \nzkompilovat engine\n.\n\n\nKam d\u00e1l?\n\uf0c1",
+            "text": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e\n\uf0c1\n\n\n\n\nWarning\n\n\nRepozit\u00e1\u0159 je zat\u00edm \npriv\u00e1tn\u00ed\n a z\u016fstane tak dokud nebude m\u00edt \nengine\n a \nPlayground\n\nz\u00e1kladn\u00ed a funk\u010dn\u00ed podobu.\n\n\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt \nnaistalovan\u00fd git\n a funk\u010dn\u00ed git.\n\n\n\n\nPokud \ngit\n funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo \ngit clone git@github.com:OndraVoves/cetech1.git\n.\n\n\nKompilace\n\uf0c1\n\n\nP\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba \nzkompilovat engine\n a p\u0159ipravit \nplayground\n.\n\n\nKam d\u00e1l?\n\uf0c1",
             "title": "Instalace"
         },
         {
             "location": "/install/#naklonovani-repozitare",
-            "text": "Warning  Repozit\u00e1\u0159 je zat\u00edm  priv\u00e1tn\u00ed  a z\u016fstane tak dokud nebude m\u00edt  engine  a  Playground \nz\u00e1kladn\u00ed a funk\u010dn\u00ed podobu.    Important  Je pot\u0159eba m\u00edt  naistalovan\u00fd git .   Pokud  git  funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo  git clone git@github.com:OndraVoves/cetech1.git .",
+            "text": "Warning  Repozit\u00e1\u0159 je zat\u00edm  priv\u00e1tn\u00ed  a z\u016fstane tak dokud nebude m\u00edt  engine  a  Playground \nz\u00e1kladn\u00ed a funk\u010dn\u00ed podobu.    Important  Je pot\u0159eba m\u00edt  naistalovan\u00fd git  a funk\u010dn\u00ed git.   Pokud  git  funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo  git clone git@github.com:OndraVoves/cetech1.git .",
             "title": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e"
         },
         {
             "location": "/install/#kompilace",
-            "text": "P\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba  zkompilovat engine .",
+            "text": "P\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba  zkompilovat engine  a p\u0159ipravit  playground .",
             "title": "Kompilace"
         },
         {
