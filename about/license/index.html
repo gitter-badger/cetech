@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Popis - CE Tech dokumentace.</title>
+  <title>Licence - CE Tech dokumentace.</title>
   
 
   <link rel="shortcut icon" href="../../img/favicon.ico">
@@ -20,7 +20,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Popis";
+    var mkdocs_page_name = "Licence";
   </script>
   
   <script src="../../js/jquery-2.1.1.min.js"></script>
@@ -62,19 +62,8 @@
 
         
             
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Popis</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#engine">Engine</a></li>
-                
-                    <li><a class="toctree-l4" href="#architektura-aneb-data-to-je-oc-tu-bezi">Architektůra (aneb data to je oč tu beží)</a></li>
-                
-                    <li><a class="toctree-l4" href="#build-konfigurace">Build konfigurace</a></li>
-                
-            
-            </ul>
+    <li class="toctree-l1 ">
+        <a class="" href="../../engine/overview/">Popis</a>
         
     </li>
 
@@ -86,7 +75,7 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/cpp/log/">log</a>
+        <a class="" href="../../engine/api/cpp/log/">log</a>
         
     </li>
 
@@ -101,42 +90,42 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/lua/application/">Application</a>
+        <a class="" href="../../engine/api/lua/application/">Application</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/lua/package/">Package</a>
+        <a class="" href="../../engine/api/lua/package/">Package</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/lua/keyboard/">Keyboard</a>
+        <a class="" href="../../engine/api/lua/keyboard/">Keyboard</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/lua/mouse/">Mouse</a>
+        <a class="" href="../../engine/api/lua/mouse/">Mouse</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/lua/vector2/">Vector2</a>
+        <a class="" href="../../engine/api/lua/vector2/">Vector2</a>
         
     </li>
 
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../api/lua/vector3/">Vector3</a>
+        <a class="" href="../../engine/api/lua/vector3/">Vector3</a>
         
     </li>
 
@@ -176,14 +165,21 @@
         
             
     <li class="toctree-l1 ">
-        <a class="" href="../../about/release-notes/">Poznámky k vydání</a>
+        <a class="" href="../release-notes/">Poznámky k vydání</a>
         
     </li>
 
         
             
-    <li class="toctree-l1 ">
-        <a class="" href="../../about/license/">Licence</a>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Licence</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#licence">Licence</a></li>
+                
+            
+            </ul>
         
     </li>
 
@@ -213,11 +209,11 @@
     
       
         
-          <li>Engine &raquo;</li>
+          <li>About &raquo;</li>
         
       
     
-    <li>Popis</li>
+    <li>Licence</li>
     <li class="wy-breadcrumbs-aside">
       
         
@@ -231,54 +227,10 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="engine">Engine<a class="headerlink" href="#engine" title="Permanent link"></a></h1>
-<p>Engine je svým způsobem virtualní stroj který se skládá z mnoha různých subsystému např. <code>render system</code>,
-<a href="../api/cpp/log/">log system</a>,<code>resource manager</code>, <code>console server</code> atd. A to všechno se stará o to aby jsme
-mohli <a href="https://cs.wikipedia.org/wiki/Doom">zabíjet haldy emzáku</a>, <a href="https://cs.wikipedia.org/wiki/BioShock">hackovat kamery pod vodou</a>, <a href="https://cs.wikipedia.org/wiki/Fallout">řádit v radiaci</a>,
-<a href="https://cs.wikipedia.org/wiki/Spellcross">táhnout se za záchanou lidstva</a>, <a href="https://cs.wikipedia.org/wiki/Hidden_%26_Dangerous">hrdině osvobozovat svět</a> nebo <a href="https://cs.wikipedia.org/wiki/Mafia:_The_City_of_Lost_Heaven">začít politickou karieru</a>.</p>
-<hr />
-<h2 id="architektura-aneb-data-to-je-oc-tu-bezi">Architektůra (aneb <strong>data</strong> to je oč tu beží)<a class="headerlink" href="#architektura-aneb-data-to-je-oc-tu-bezi" title="Permanent link"></a></h2>
-<h2 id="build-konfigurace">Build konfigurace<a class="headerlink" href="#build-konfigurace" title="Permanent link"></a></h2>
-<table>
-<thead>
-<tr>
-<th>Konfigurace</th>
-<th>Optimalizace kompilatoru</th>
-<th>Kod pro tvorbu</th>
-<th>Debug</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>develop</code></td>
-<td>Ano</td>
-<td>Ano</td>
-<td>Ne</td>
-</tr>
-<tr>
-<td><code>debug</code></td>
-<td>Ne</td>
-<td>Ano</td>
-<td>Ano</td>
-</tr>
-<tr>
-<td><code>release</code></td>
-<td>Ano</td>
-<td>Ne</td>
-<td>Ne</td>
-</tr>
-</tbody>
-</table>
-<h3 id="develop">Develop<a class="headerlink" href="#develop" title="Permanent link"></a></h3>
-<p>Build  obsahuje vše potřebné pro komunikaci s editorem, tvorbou herního obsahu a její kompilaci.
-Jedná se o nejčastejí využívanou konfiguraci během vývoje.</p>
-<h3 id="debug">Debug<a class="headerlink" href="#debug" title="Permanent link"></a></h3>
-<p>Build má zapnutou kontrolu chyb jako např. asserty. Jsou vypnuté optimalizace kompilátoru a proto je tento build výrazně
-pomalejší než <code>develop</code>. Tuto konfiguraci nejčastěji využijete pokud upravujete kód enginu.</p>
-<h3 id="release">Release<a class="headerlink" href="#release" title="Permanent link"></a></h3>
-<p>Tento build je primárně určený pro finální verzi hry nebo aplikace. Má odstaněnou veškerou funkcionalitu pro
-vývoj a editor jako např. Console server, Kompilaci resource souboru. A patří mezi nejrychlejší konfigurace.</p>
-<hr />
+                <h1 id="licence">Licence<a class="headerlink" href="#licence" title="Permanent link"></a></h1>
+<p>CE Tech je šířen jako [Public Domain][public_domain] tedy až na programy a knihovny třetích stran které se
+nacházejí ve adresáři <code>3rdparty</code> a částečně <code>playground/html</code>. To že se jedná o [Public Domain][public_domain] znamená
+že klidně můžete "ukradnout kód" a říkat že je to vaše práce a mně to bude jedno ;)</p>
               
             </div>
           </div>
@@ -286,10 +238,8 @@ vývoj a editor jako např. Console server, Kompilaci resource souboru. A patř�
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../api/cpp/log/" class="btn btn-neutral float-right" title="log"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../.." class="btn btn-neutral" title="Úvod"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../release-notes/" class="btn btn-neutral" title="Poznámky k vydání"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -317,10 +267,8 @@ vývoj a editor jako např. Console server, Kompilaci resource souboru. A patř�
           <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../.." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../release-notes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../api/cpp/log/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>

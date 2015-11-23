@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Vector2 - CE Tech dokumentace.</title>
+  
+
+  <link rel="shortcut icon" href="../../../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Vector2";
+  </script>
+  
+  <script src="../../../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../../../js/highlight.pack.js"></script>
+  <script src="../../../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../../.." class="icon icon-home"> CE Tech dokumentace.</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../../..">Úvod</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Engine</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../overview/">Popis</a>
+        
+    </li>
+
+        
+            
+    <ul class="subnav">
+    <li><span>API C++</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../cpp/log/">log</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>API Lua</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../application/">Application</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../package/">Package</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../keyboard/">Keyboard</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mouse/">Mouse</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Vector2</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#popis">Popis</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#metody">Metody</a></li>
+                
+                    <li><a class="toctree-l4" href="#vector2">Vector2</a></li>
+                
+                    <li><a class="toctree-l4" href="#new">new</a></li>
+                
+                    <li><a class="toctree-l4" href="#zero">zero</a></li>
+                
+                    <li><a class="toctree-l4" href="#unit">unit</a></li>
+                
+                    <li><a class="toctree-l4" href="#up">up</a></li>
+                
+                    <li><a class="toctree-l4" href="#down">down</a></li>
+                
+                    <li><a class="toctree-l4" href="#right">right</a></li>
+                
+                    <li><a class="toctree-l4" href="#left">left</a></li>
+                
+                    <li><a class="toctree-l4" href="#normalized">normalized</a></li>
+                
+                    <li><a class="toctree-l4" href="#is_normalized">is_normalized</a></li>
+                
+                    <li><a class="toctree-l4" href="#dot">dot</a></li>
+                
+                    <li><a class="toctree-l4" href="#cross">cross</a></li>
+                
+                    <li><a class="toctree-l4" href="#len">len</a></li>
+                
+                    <li><a class="toctree-l4" href="#len_inv">len_inv</a></li>
+                
+                    <li><a class="toctree-l4" href="#len_sq">len_sq</a></li>
+                
+                    <li><a class="toctree-l4" href="#distance">distance</a></li>
+                
+                    <li><a class="toctree-l4" href="#distance_sq">distance_sq</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vector3/">Vector3</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Playground</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../playground/overview/">Popis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../playground/image_history/">Historie v obrázcích</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>About</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../about/release-notes/">Poznámky k vydání</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../about/license/">Licence</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../../..">CE Tech dokumentace.</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>API Lua &raquo;</li>
+        
+      
+    
+    <li>Vector2</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/OndraVoves/cetech1" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="popis">Popis<a class="headerlink" href="#popis" title="Permanent link"></a></h1>
+<p>Dvousložkoví vektor.</p>
+<hr />
+<h1 id="metody">Metody<a class="headerlink" href="#metody" title="Permanent link"></a></h1>
+<h2 id="vector2">Vector2<a class="headerlink" href="#vector2" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2(x, y)
+</code></pre>
+
+<p>Vytvoří nový vektor <code>[x, y]</code></p>
+<hr />
+<h2 id="new">new<a class="headerlink" href="#new" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.new(x, y)
+</code></pre>
+
+<p>Vytvoří nový vektor <code>[x, y]</code></p>
+<hr />
+<h2 id="zero">zero<a class="headerlink" href="#zero" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.zero()
+</code></pre>
+
+<p>Vrátí nulový vektor <code>[0, 0]</code></p>
+<hr />
+<h2 id="unit">unit<a class="headerlink" href="#unit" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.unit()
+</code></pre>
+
+<p>Vrátí vektor <code>[1, 1]</code></p>
+<hr />
+<h2 id="up">up<a class="headerlink" href="#up" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.up()
+</code></pre>
+
+<p>Vrátí vektor <code>[0, 1]</code></p>
+<hr />
+<h2 id="down">down<a class="headerlink" href="#down" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.down()
+</code></pre>
+
+<p>Vrátí vektor <code>[0, -1]</code></p>
+<hr />
+<h2 id="right">right<a class="headerlink" href="#right" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.right()
+</code></pre>
+
+<p>Vrátí vektor <code>[-1, 0]</code></p>
+<hr />
+<h2 id="left">left<a class="headerlink" href="#left" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.left()
+</code></pre>
+
+<p>Vrátí vektor <code>[1, 0]</code></p>
+<hr />
+<h2 id="normalized">normalized<a class="headerlink" href="#normalized" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.normalized(vector)
+</code></pre>
+
+<p>Vráti normalizovaný <code>vector</code>.</p>
+<h3 id="parametry">Parametry<a class="headerlink" href="#parametry" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vector</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="is_normalized">is_normalized<a class="headerlink" href="#is_normalized" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.is_normalized(vector)
+</code></pre>
+
+<p>Vráti <code>true</code> pokud je <code>vector</code> normalizovaný.</p>
+<h3 id="parametry_1">Parametry<a class="headerlink" href="#parametry_1" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vector</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dot">dot<a class="headerlink" href="#dot" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.dot(v1, v2)
+</code></pre>
+
+<p>Vráti skalární součin <code>(v1.x * v2.x) + (v1.y * v2.y)</code>.</p>
+<h3 id="parametry_2">Parametry<a class="headerlink" href="#parametry_2" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>v1</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+<tr>
+<td><code>v2</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="cross">cross<a class="headerlink" href="#cross" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.cross(v1, v2)
+</code></pre>
+
+<p>Vráti cross <code>(v1.x * v2.y) - (v1.y * v2.x)</code>.</p>
+<h3 id="parametry_3">Parametry<a class="headerlink" href="#parametry_3" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>v1</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+<tr>
+<td><code>v2</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="len">len<a class="headerlink" href="#len" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.len(vector)
+</code></pre>
+
+<p>Vráti délku vektoru.</p>
+<h3 id="parametry_4">Parametry<a class="headerlink" href="#parametry_4" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vector</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="len_inv">len_inv<a class="headerlink" href="#len_inv" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.len_inv(vector)
+</code></pre>
+
+<p>Vráti 1 / len.</p>
+<h3 id="parametry_5">Parametry<a class="headerlink" href="#parametry_5" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vector</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="len_sq">len_sq<a class="headerlink" href="#len_sq" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.len_sq(vector)
+</code></pre>
+
+<p>Vráti len ^ 2</p>
+<h3 id="parametry_6">Parametry<a class="headerlink" href="#parametry_6" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>vector</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="distance">distance<a class="headerlink" href="#distance" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.distance(v1, v2)
+</code></pre>
+
+<p>Vráti vzdálenost dvou vektorů resp. bodů.</p>
+<h3 id="parametry_7">Parametry<a class="headerlink" href="#parametry_7" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>v1</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+<tr>
+<td><code>v2</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="distance_sq">distance_sq<a class="headerlink" href="#distance_sq" title="Permanent link"></a></h2>
+<pre><code class="lua">function Vector2.distance_sq(v1, v2)
+</code></pre>
+
+<p>Vráti distance ^ 2.</p>
+<h3 id="parametry_8">Parametry<a class="headerlink" href="#parametry_8" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>v1</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+<tr>
+<td><code>v2</code></td>
+<td>Vector2</td>
+<td>Vektor</td>
+</tr>
+</tbody>
+</table>
+<hr />
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../vector3/" class="btn btn-neutral float-right" title="Vector3"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../mouse/" class="btn btn-neutral" title="Mouse"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../mouse/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../vector3/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

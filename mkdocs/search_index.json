@@ -2,78 +2,143 @@
     "docs": [
         {
             "location": "/",
-            "text": "CE Tech\n\n\nCE Tech je Data-Driven \nhern\u00ed engine\n a sada nastroju ur\u010den\u00fdch pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.\n\n\n\n\nP\u0159ehled\n\n\nCE Tech se sna\u017e\u00ed b\u00fdt \nsvobodn\u00fd\n, \nmal\u00fd\n, \nmultiplatformn\u00ed\n a \nsnadno roz\u0161\u00ed\u0159\u00edteln\u00fd\n (jj typick\u00fd kecy =D).\nNesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad \nUnreal Engine\n, \nUnity\n, \nCryEngine\n atp. ale m\u00edsto toho v\u00e1m poskytne\ndobr\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad \nBitSquid/Stingray engine\n.\n\n\nPro koho je ur\u010den?\n\n\nPro kohokoliv kdo chce tvo\u0159it hry nebo interaktivn\u00ed aplikace a neboj\u00ed se u\u010dit nov\u00fdm v\u011bcem.\n\n\nPro koho nen\u00ed ur\u010den?\n\n\nPro toho kdo \u010dek\u00e1 \u017ee si hru snadno a bez znalost\u00ed naklik\u00e1.\n\n\nZ \u010deho se sklad\u00e1?\n\n\nHlavn\u00ed sou\u010d\u00e1st\u00ed je samotn\u00fd \nengine\n  a v\u00fdvojov\u00e9 prost\u0159ed\u00ed \nPlayground\n.\n\n\nKde se d\u00e1 z\u00edskat?\n\n\nSta\u010d\u00ed naklonovat repo \ngit@github.com:OndraVoves/cetech1.git\n\n\n$ git clone git@github.com:OndraVoves/cetech1.git",
+            "text": "O co jde?\n\uf0c1\n\n\nCE Tech je Data-Driven \nhern\u00ed engine\n a sada nastroju ur\u010den\u00fdch pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace. Sna\u017e\u00ed b\u00fdt \nsvobodn\u00fd\n, \nmal\u00fd\n, \nmultiplatformn\u00ed\n a\n\nsnadno roz\u0161\u00ed\u0159\u00edteln\u00fd\n (jj typick\u00fd kecy =D). Nesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt\nprofesion\u00e1ln\u011b vypadajc\u00ed hru jako nap\u0159\u00edklad \nUnreal Engine\n, \nUnity\n, \nCryEngine\n atp.\nale m\u00edsto toho v\u00e1m poskytne dobr\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad \nBitSquid/Stingray engine\n.\n\n\nPro koho je ur\u010den?\n\uf0c1\n\n\nPro kohokoliv kdo chce tvo\u0159it hry nebo interaktivn\u00ed aplikace a neboj\u00ed se u\u010dit nov\u00fdm v\u011bcem.\n\n\nPro koho nen\u00ed ur\u010den?\n\uf0c1\n\n\nPro toho kdo \u010dek\u00e1 \u017ee si hru snadno a bez znalost\u00ed naklik\u00e1.\n\n\nZ \u010deho se sklad\u00e1?\n\uf0c1\n\n\nHlavn\u00ed sou\u010d\u00e1st\u00ed je samotn\u00fd \nengine\n  a v\u00fdvojov\u00e9 prost\u0159ed\u00ed \nPlayground\n.\n\n\nKde se d\u00e1 z\u00edskat?\n\uf0c1\n\n\nSta\u010d\u00ed naklonovat repo \ngit@github.com:OndraVoves/cetech1.git\n\n\n$ git clone git@github.com:OndraVoves/cetech1.git",
             "title": "\u00davod"
         },
         {
-            "location": "/#ce-tech",
-            "text": "CE Tech je Data-Driven  hern\u00ed engine  a sada nastroju ur\u010den\u00fdch pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace.",
-            "title": "CE Tech"
-        },
-        {
-            "location": "/#prehled",
-            "text": "CE Tech se sna\u017e\u00ed b\u00fdt  svobodn\u00fd ,  mal\u00fd ,  multiplatformn\u00ed  a  snadno roz\u0161\u00ed\u0159\u00edteln\u00fd  (jj typick\u00fd kecy =D).\nNesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt profesion\u00e1ln\u011b vypadajc\u00ed hru\njako nap\u0159\u00edklad  Unreal Engine ,  Unity ,  CryEngine  atp. ale m\u00edsto toho v\u00e1m poskytne\ndobr\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad  BitSquid/Stingray engine .  Pro koho je ur\u010den?  Pro kohokoliv kdo chce tvo\u0159it hry nebo interaktivn\u00ed aplikace a neboj\u00ed se u\u010dit nov\u00fdm v\u011bcem.  Pro koho nen\u00ed ur\u010den?  Pro toho kdo \u010dek\u00e1 \u017ee si hru snadno a bez znalost\u00ed naklik\u00e1.  Z \u010deho se sklad\u00e1?  Hlavn\u00ed sou\u010d\u00e1st\u00ed je samotn\u00fd  engine   a v\u00fdvojov\u00e9 prost\u0159ed\u00ed  Playground .  Kde se d\u00e1 z\u00edskat?  Sta\u010d\u00ed naklonovat repo  git@github.com:OndraVoves/cetech1.git  $ git clone git@github.com:OndraVoves/cetech1.git",
-            "title": "P\u0159ehled"
+            "location": "/#o-co-jde",
+            "text": "CE Tech je Data-Driven  hern\u00ed engine  a sada nastroju ur\u010den\u00fdch pro tovrbu her ale\nhod\u00ed se i pro nehern\u00ed interaktivn\u00ed aplikace. Sna\u017e\u00ed b\u00fdt  svobodn\u00fd ,  mal\u00fd ,  multiplatformn\u00ed  a snadno roz\u0161\u00ed\u0159\u00edteln\u00fd  (jj typick\u00fd kecy =D). Nesna\u017e\u00ed se b\u00fdt funkcemi nabu\u0161en\u00fd a neumo\u017en\u00ed v\u00e1m na p\u00e1r kliknut\u00ed vytvo\u0159\u00edt\nprofesion\u00e1ln\u011b vypadajc\u00ed hru jako nap\u0159\u00edklad  Unreal Engine ,  Unity ,  CryEngine  atp.\nale m\u00edsto toho v\u00e1m poskytne dobr\u00fd zaklad pro dal\u0161\u00ed tvorbu jako nap\u0159\u00edklad  BitSquid/Stingray engine .  Pro koho je ur\u010den? \uf0c1  Pro kohokoliv kdo chce tvo\u0159it hry nebo interaktivn\u00ed aplikace a neboj\u00ed se u\u010dit nov\u00fdm v\u011bcem.  Pro koho nen\u00ed ur\u010den? \uf0c1  Pro toho kdo \u010dek\u00e1 \u017ee si hru snadno a bez znalost\u00ed naklik\u00e1.  Z \u010deho se sklad\u00e1? \uf0c1  Hlavn\u00ed sou\u010d\u00e1st\u00ed je samotn\u00fd  engine   a v\u00fdvojov\u00e9 prost\u0159ed\u00ed  Playground .  Kde se d\u00e1 z\u00edskat? \uf0c1  Sta\u010d\u00ed naklonovat repo  git@github.com:OndraVoves/cetech1.git  $ git clone git@github.com:OndraVoves/cetech1.git",
+            "title": "O co jde?"
         },
         {
             "location": "/engine/overview/",
-            "text": "Engine\n\n\n\n\nBuild konfigurace\n\n\n\n\n\n\n\n\nKonfigurace\n\n\nOptimalizace kompilatoru\n\n\nKod pro tvorbu\n\n\nDebug\n\n\n\n\n\n\n\n\n\n\ndevelop\n\n\nAno\n\n\nAno\n\n\nNe\n\n\n\n\n\n\ndebug\n\n\nNe\n\n\nAno\n\n\nAno\n\n\n\n\n\n\nrelease\n\n\nAno\n\n\nNe\n\n\nNe\n\n\n\n\n\n\n\n\nDevelop\n\n\nBuild  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.\n\n\nDebug\n\n\nBuild m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e \ndevelop\n. Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.\n\n\nRelease\n\n\nTento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
+            "text": "Engine\n\uf0c1\n\n\nEngine je sv\u00fdm zp\u016fsobem virtualn\u00ed stroj kter\u00fd se skl\u00e1d\u00e1 z mnoha r\u016fzn\u00fdch subsyst\u00e9mu nap\u0159. \nrender system\n,\n\nlog system\n,\nresource manager\n, \nconsole server\n atd. A to v\u0161echno se star\u00e1 o to aby jsme\nmohli \nzab\u00edjet haldy emz\u00e1ku\n, \nhackovat kamery pod vodou\n, \n\u0159\u00e1dit v radiaci\n,\n\nt\u00e1hnout se za z\u00e1chanou lidstva\n, \nhrdin\u011b osvobozovat sv\u011bt\n nebo \nza\u010d\u00edt politickou karieru\n.\n\n\n\n\nArchitekt\u016fra (aneb \ndata\n to je o\u010d tu be\u017e\u00ed)\n\uf0c1\n\n\nBuild konfigurace\n\uf0c1\n\n\n\n\n\n\n\n\nKonfigurace\n\n\nOptimalizace kompilatoru\n\n\nKod pro tvorbu\n\n\nDebug\n\n\n\n\n\n\n\n\n\n\ndevelop\n\n\nAno\n\n\nAno\n\n\nNe\n\n\n\n\n\n\ndebug\n\n\nNe\n\n\nAno\n\n\nAno\n\n\n\n\n\n\nrelease\n\n\nAno\n\n\nNe\n\n\nNe\n\n\n\n\n\n\n\n\nDevelop\n\uf0c1\n\n\nBuild  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.\n\n\nDebug\n\uf0c1\n\n\nBuild m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e \ndevelop\n. Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.\n\n\nRelease\n\uf0c1\n\n\nTento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
             "title": "Popis"
         },
         {
             "location": "/engine/overview/#engine",
-            "text": "",
+            "text": "Engine je sv\u00fdm zp\u016fsobem virtualn\u00ed stroj kter\u00fd se skl\u00e1d\u00e1 z mnoha r\u016fzn\u00fdch subsyst\u00e9mu nap\u0159.  render system , log system , resource manager ,  console server  atd. A to v\u0161echno se star\u00e1 o to aby jsme\nmohli  zab\u00edjet haldy emz\u00e1ku ,  hackovat kamery pod vodou ,  \u0159\u00e1dit v radiaci , t\u00e1hnout se za z\u00e1chanou lidstva ,  hrdin\u011b osvobozovat sv\u011bt  nebo  za\u010d\u00edt politickou karieru .",
             "title": "Engine"
         },
         {
+            "location": "/engine/overview/#architektura-aneb-data-to-je-oc-tu-bezi",
+            "text": "",
+            "title": "Architekt\u016fra (aneb data to je o\u010d tu be\u017e\u00ed)"
+        },
+        {
             "location": "/engine/overview/#build-konfigurace",
-            "text": "Konfigurace  Optimalizace kompilatoru  Kod pro tvorbu  Debug      develop  Ano  Ano  Ne    debug  Ne  Ano  Ano    release  Ano  Ne  Ne     Develop  Build  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.  Debug  Build m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e  develop . Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.  Release  Tento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
+            "text": "Konfigurace  Optimalizace kompilatoru  Kod pro tvorbu  Debug      develop  Ano  Ano  Ne    debug  Ne  Ano  Ano    release  Ano  Ne  Ne     Develop \uf0c1  Build  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.  Debug \uf0c1  Build m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e  develop . Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.  Release \uf0c1  Tento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
             "title": "Build konfigurace"
         },
         {
-            "location": "/engine/api/cpp/log_system/",
-            "text": "log_system\n\n\nlog_system\n slou\u017e\u00ed pro logov\u00e1n\u00ed zpr\u00e1v\n\n\nMetody\n\n\n\n\ninfo\n\n\nvoid log::info(const char* where, const char* format, ...);\n\n\n\n\nZaloguje informa\u010dn\u00ed zpr\u00e1vu.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\n\n\nwarning\n\n\nvoid log::warning(const char* where, const char* format, ...);\n\n\n\n\nZaloguje varov\u00e1n\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. `\"resource_mana ).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\n\n\nerror\n\n\nvoid log::error(const char* where, const char* format, ...);\n\n\n\n\nZaloguje chybu.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\n\n\ndebug\n\n\nvoid log::debug(const char* where, const char* format, ...);\n\n\n\n\nZaloguje debug informaci. Debug informace jsou povolen\u00e9 jenom v \ndebug\n \nkonfiguraci\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.",
-            "title": "log_system"
+            "location": "/engine/api/cpp/log/",
+            "text": "Popis\n\uf0c1\n\n\nLogovac\u00ed syst\u00e9m slou\u017e\u00ed p\u0159kvapiv\u011b pro logov\u00e1n\u00ed zpr\u00e1v. Po zalogov\u00e1n\u00ed se zpr\u00e1va p\u0159ed\u00e1 registrovan\u00fdm \nhandler\u016fm\n a ty j\u00ed zpracuj\u00ed.\n\n\nInclude\n\uf0c1\n\n\n#include \"cetech/log/log.h\"\n\n\n\n\nEnumy\n\uf0c1\n\n\nLogLevel\n\uf0c1\n\n\nstruct LogLevel {\n    enum Enum {\n        INFO,\n        WARNING,\n        ERROR,\n        DBG\n    };\n};\n\n\n\n\nHodnoty\n\uf0c1\n\n\n\n\n\n\n\n\nHodnota\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nINFO\n\n\nInforma\u010dn\u00ed zpr\u00e1va.\n\n\n\n\n\n\nWARNING\n\n\nVarov\u00e1n\u00ed.\n\n\n\n\n\n\nERROR\n\n\nChyba.\n\n\n\n\n\n\nDBG\n\n\nLad\u00edc\u00ed informace.\n\n\n\n\n\n\n\n\n\n\nCallbacky\n\uf0c1\n\n\nhandler_t\n\uf0c1\n\n\ntypedef void (* handler_t)(const LogLevel::Enum level,\n                           const time_t time,\n                           const uint32_t worker_id,\n                           const char* where,\n                           const char* msg,\n                           void* data);\n\n\n\n\nLogovac\u00ed handler.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nlevel\n\n\nLog level\n zpr\u00e1vy.\n\n\n\n\n\n\ntime\n\n\n\u010cas kdy k logov\u00e1n\u00ed do\u0161lo.\n\n\n\n\n\n\nworker_id\n\n\nID workeru ketr\u00fd logoval.\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo.\n\n\n\n\n\n\nmsg\n\n\nZpr\u00e1va.\n\n\n\n\n\n\ndata\n\n\nData pro handler.\n\n\n\n\n\n\n\n\n\n\nHandlery\n\uf0c1\n\n\nstdout_handler\n\uf0c1\n\n\nvoid log stdout_handler(const LogLevel::Enum level,\n                        const time_t time,\n                        const uint32_t worker_id,\n                        const char* where,\n                        const char* msg,\n                        void* data);\n\n\n\n\nLogovan\u00ed na standartn\u00ed, chybov\u00fd a v\u00fdstup.\n\n\n\n\nfile_handler\n\uf0c1\n\n\nvoid file_handler(const LogLevel::Enum level,\n                  const time_t time,\n                  const uint32_t worker_id,\n                  const char* where,\n                  const char* msg,\n                  void* data);\n\n\n\n\nLogovan\u00ed do souboru.\n\n\n\n\nImportant\n\n\nP\u0159i \nregistraci\n handleru je pot\u0159eba do parametru \ndata\n ulo\u017eit ukazatel na \nFILE\n\n\n\n\nFILE *f;\nCE_CHECK_PTR(f = fopen (\"logfile.txt\" , \"w+\"));\nlog::register_handler(&log::file_handler, f);\n\n\n\n\n\n\nLogLevel\n\uf0c1\n\n\nMetody\n\uf0c1\n\n\ninit\n\uf0c1\n\n\nvoid log_globals::init();\n\n\n\n\nInicializuje logovac\u00ed syst\u00e9m.\n\n\n\n\nshutdown\n\uf0c1\n\n\nvoid log_globals::shutdown();\n\n\n\n\nUkon\u010d\u00ed logovac\u00ed syst\u00e9m.\n\n\n\n\nregister_handler\n\uf0c1\n\n\nvoid log::register_handler(handler_t handler, void* data = nullptr);\n\n\n\n\nZaregistruje handler.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nhandler\n\n\nCallback\n\n\n\n\n\n\ndata\n\n\nData kter\u00e1 se p\u0159edaj\u00ed handleru p\u0159i zalogov\u00e1n\u00ed.\n\n\n\n\n\n\n\n\n\n\nunregister_handler\n\uf0c1\n\n\nvoid log::unregister_handler(handler_t handler);\n\n\n\n\nOdregistruje handler.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nhandler\n\n\nCallback\n\n\n\n\n\n\n\n\n\n\ninfo\n\uf0c1\n\n\nvoid log::info(const char* where, const char* format, ...);\n\n\n\n\nZaloguje informa\u010dn\u00ed zpr\u00e1vu.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlog::info(\"file_manager\", \"loading file %s\", \"foo/bar.baz\");\n\n\n\n\n\n\nwarning\n\uf0c1\n\n\nvoid log::warning(const char* where, const char* format, ...);\n\n\n\n\nZaloguje varov\u00e1n\u00ed.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlog::warning(\"file_manager\", \"file %s not found. Creating...\", \"foo/bar.baz\");\n\n\n\n\n\n\nerror\n\uf0c1\n\n\nvoid log::error(const char* where, const char* format, ...);\n\n\n\n\nZaloguje chybu.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlog::error(\"file_manager\", \"file %s not found.\", \"foo/bar.baz\");\n\n\n\n\n\n\ndebug\n\uf0c1\n\n\nvoid log::debug(const char* where, const char* format, ...);\n\n\n\n\nZaloguje debug informaci. Debug informace jsou povolen\u00e9 jenom v \ndebug\n \nkonfiguraci\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nwhere\n\n\nKde k logov\u00e1n\u00ed do\u0161lo nap\u0159. \n\"resource_manager\"\n\n\n\n\n\n\nformat\n\n\nForm\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako \nprintf\n).\n\n\n\n\n\n\n...\n\n\nForm\u00e1tovac\u00ed prom\u011bnn\u00e9.\n\n\n\n\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlog::debug(\"file_manager\", \"file %s loaded (%fms).\", \"foo/bar.baz\", 22.22f);",
+            "title": "log"
         },
         {
-            "location": "/engine/api/cpp/log_system/#log_system",
-            "text": "log_system  slou\u017e\u00ed pro logov\u00e1n\u00ed zpr\u00e1v",
-            "title": "log_system"
+            "location": "/engine/api/cpp/log/#popis",
+            "text": "Logovac\u00ed syst\u00e9m slou\u017e\u00ed p\u0159kvapiv\u011b pro logov\u00e1n\u00ed zpr\u00e1v. Po zalogov\u00e1n\u00ed se zpr\u00e1va p\u0159ed\u00e1 registrovan\u00fdm  handler\u016fm  a ty j\u00ed zpracuj\u00ed.",
+            "title": "Popis"
         },
         {
-            "location": "/engine/api/cpp/log_system/#metody",
+            "location": "/engine/api/cpp/log/#include",
+            "text": "#include \"cetech/log/log.h\"",
+            "title": "Include"
+        },
+        {
+            "location": "/engine/api/cpp/log/#enumy",
+            "text": "",
+            "title": "Enumy"
+        },
+        {
+            "location": "/engine/api/cpp/log/#loglevel",
+            "text": "struct LogLevel {\n    enum Enum {\n        INFO,\n        WARNING,\n        ERROR,\n        DBG\n    };\n};  Hodnoty \uf0c1     Hodnota  Popis      INFO  Informa\u010dn\u00ed zpr\u00e1va.    WARNING  Varov\u00e1n\u00ed.    ERROR  Chyba.    DBG  Lad\u00edc\u00ed informace.",
+            "title": "LogLevel"
+        },
+        {
+            "location": "/engine/api/cpp/log/#callbacky",
+            "text": "",
+            "title": "Callbacky"
+        },
+        {
+            "location": "/engine/api/cpp/log/#handler_t",
+            "text": "typedef void (* handler_t)(const LogLevel::Enum level,\n                           const time_t time,\n                           const uint32_t worker_id,\n                           const char* where,\n                           const char* msg,\n                           void* data);  Logovac\u00ed handler.  Parametry \uf0c1     Parametr  Popis      level  Log level  zpr\u00e1vy.    time  \u010cas kdy k logov\u00e1n\u00ed do\u0161lo.    worker_id  ID workeru ketr\u00fd logoval.    where  Kde k logov\u00e1n\u00ed do\u0161lo.    msg  Zpr\u00e1va.    data  Data pro handler.",
+            "title": "handler_t"
+        },
+        {
+            "location": "/engine/api/cpp/log/#handlery",
+            "text": "",
+            "title": "Handlery"
+        },
+        {
+            "location": "/engine/api/cpp/log/#stdout_handler",
+            "text": "void log stdout_handler(const LogLevel::Enum level,\n                        const time_t time,\n                        const uint32_t worker_id,\n                        const char* where,\n                        const char* msg,\n                        void* data);  Logovan\u00ed na standartn\u00ed, chybov\u00fd a v\u00fdstup.",
+            "title": "stdout_handler"
+        },
+        {
+            "location": "/engine/api/cpp/log/#file_handler",
+            "text": "void file_handler(const LogLevel::Enum level,\n                  const time_t time,\n                  const uint32_t worker_id,\n                  const char* where,\n                  const char* msg,\n                  void* data);  Logovan\u00ed do souboru.   Important  P\u0159i  registraci  handleru je pot\u0159eba do parametru  data  ulo\u017eit ukazatel na  FILE   FILE *f;\nCE_CHECK_PTR(f = fopen (\"logfile.txt\" , \"w+\"));\nlog::register_handler(&log::file_handler, f);",
+            "title": "file_handler"
+        },
+        {
+            "location": "/engine/api/cpp/log/#loglevel_1",
+            "text": "",
+            "title": "LogLevel"
+        },
+        {
+            "location": "/engine/api/cpp/log/#metody",
             "text": "",
             "title": "Metody"
         },
         {
-            "location": "/engine/api/cpp/log_system/#info",
-            "text": "void log::info(const char* where, const char* format, ...);  Zaloguje informa\u010dn\u00ed zpr\u00e1vu.     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "location": "/engine/api/cpp/log/#init",
+            "text": "void log_globals::init();  Inicializuje logovac\u00ed syst\u00e9m.",
+            "title": "init"
+        },
+        {
+            "location": "/engine/api/cpp/log/#shutdown",
+            "text": "void log_globals::shutdown();  Ukon\u010d\u00ed logovac\u00ed syst\u00e9m.",
+            "title": "shutdown"
+        },
+        {
+            "location": "/engine/api/cpp/log/#register_handler",
+            "text": "void log::register_handler(handler_t handler, void* data = nullptr);  Zaregistruje handler.  Parametry \uf0c1     Parametr  Popis      handler  Callback    data  Data kter\u00e1 se p\u0159edaj\u00ed handleru p\u0159i zalogov\u00e1n\u00ed.",
+            "title": "register_handler"
+        },
+        {
+            "location": "/engine/api/cpp/log/#unregister_handler",
+            "text": "void log::unregister_handler(handler_t handler);  Odregistruje handler.  Parametry \uf0c1     Parametr  Popis      handler  Callback",
+            "title": "unregister_handler"
+        },
+        {
+            "location": "/engine/api/cpp/log/#info",
+            "text": "void log::info(const char* where, const char* format, ...);  Zaloguje informa\u010dn\u00ed zpr\u00e1vu.  Parametry \uf0c1     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.     Uk\u00e1zka \uf0c1  log::info(\"file_manager\", \"loading file %s\", \"foo/bar.baz\");",
             "title": "info"
         },
         {
-            "location": "/engine/api/cpp/log_system/#warning",
-            "text": "void log::warning(const char* where, const char* format, ...);  Zaloguje varov\u00e1n\u00ed.     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159. `\"resource_mana ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "location": "/engine/api/cpp/log/#warning",
+            "text": "void log::warning(const char* where, const char* format, ...);  Zaloguje varov\u00e1n\u00ed.  Parametry \uf0c1     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.     Uk\u00e1zka \uf0c1  log::warning(\"file_manager\", \"file %s not found. Creating...\", \"foo/bar.baz\");",
             "title": "warning"
         },
         {
-            "location": "/engine/api/cpp/log_system/#error",
-            "text": "void log::error(const char* where, const char* format, ...);  Zaloguje chybu.     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "location": "/engine/api/cpp/log/#error",
+            "text": "void log::error(const char* where, const char* format, ...);  Zaloguje chybu.  Parametry \uf0c1     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.     Uk\u00e1zka \uf0c1  log::error(\"file_manager\", \"file %s not found.\", \"foo/bar.baz\");",
             "title": "error"
         },
         {
-            "location": "/engine/api/cpp/log_system/#debug",
-            "text": "void log::debug(const char* where, const char* format, ...);  Zaloguje debug informaci. Debug informace jsou povolen\u00e9 jenom v  debug   konfiguraci .     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.",
+            "location": "/engine/api/cpp/log/#debug",
+            "text": "void log::debug(const char* where, const char* format, ...);  Zaloguje debug informaci. Debug informace jsou povolen\u00e9 jenom v  debug   konfiguraci .  Parametry \uf0c1     Parametr  Popis      where  Kde k logov\u00e1n\u00ed do\u0161lo nap\u0159.  \"resource_manager\"    format  Form\u00e1t zpr\u00e1vy (stejn\u00fd syntax jako  printf ).    ...  Form\u00e1tovac\u00ed prom\u011bnn\u00e9.     Uk\u00e1zka \uf0c1  log::debug(\"file_manager\", \"file %s loaded (%fms).\", \"foo/bar.baz\", 22.22f);",
             "title": "debug"
         },
         {
             "location": "/engine/api/lua/application/",
-            "text": "Application\n\n\nModul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace.\n\n\n\n\nMetody\n\n\n\n\nget_frame_id\n\n\nfunction get_frame_id()\n\n\n\n\nVr\u00e1t\u00ed id aktu\u00e1ln\u00edho frejmu.\n\n\n\n\nget_delta_time\n\n\nfunction get_delta_time()\n\n\n\n\nVr\u00e1t\u00ed delta time mezi aktu\u00e1ln\u00edm a p\u0159edchoz\u00edm frejmem\n\n\n\n\nquit\n\n\nfunction quit()\n\n\n\n\nUkon\u010d\u00ed aplikaci.",
+            "text": "Popis\n\uf0c1\n\n\nModul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace (debiln\u011bj\u0161\u00ed popis u\u017e to v\u00e1\u017ene nem\u016f\u017ee m\u00edt =D fakt...).\n\n\n\n\nMetody\n\uf0c1\n\n\nget_frame_id\n\uf0c1\n\n\nfunction get_frame_id()\n\n\n\n\nVr\u00e1t\u00ed id aktu\u00e1ln\u00edho frejmu.\n\n\n\n\nget_delta_time\n\uf0c1\n\n\nfunction get_delta_time()\n\n\n\n\nVr\u00e1t\u00ed delta time mezi aktu\u00e1ln\u00edm a p\u0159edchoz\u00edm frejmem\n\n\n\n\nquit\n\uf0c1\n\n\nfunction quit()\n\n\n\n\nUkon\u010d\u00ed aplikaci.",
             "title": "Application"
         },
         {
-            "location": "/engine/api/lua/application/#application",
-            "text": "Modul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace.",
-            "title": "Application"
+            "location": "/engine/api/lua/application/#popis",
+            "text": "Modul obsahuje funkce pro z\u00e1kladn\u00ed obsluhu aplikace (debiln\u011bj\u0161\u00ed popis u\u017e to v\u00e1\u017ene nem\u016f\u017ee m\u00edt =D fakt...).",
+            "title": "Popis"
         },
         {
             "location": "/engine/api/lua/application/#metody",
@@ -97,13 +162,18 @@
         },
         {
             "location": "/engine/api/lua/package/",
-            "text": "Package\n\n\nModul obsahuje funkce pro obsluhu \nresource package\n.\n\n\n\n\nMetody\n\n\n\n\ncreate\n\n\nfunction create(package_name)\n\n\n\n\nVytvo\u0159\u00ed id bal\u00ed\u010dku podle \npackage_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_name\n\n\nstr\n\n\nN\u00e1zev bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nload\n\n\nfunction load(package_id)\n\n\n\n\nNa\u010dte v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku v p\u0159\u00edpad\u011b \u017ee \nresource\n je ji\u017e na\u010dten\u00fd nebude se znovu\nna\u010d\u00edtat ale zv\u00fd\u0161\u00ed se po\u010d\u00edtadlo referenci. Data nejsou hned dostupn\u00e1 ale nahr\u00e1vaj\u00ed se na pozad\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nunload\n\n\nfunction unload(package_id)\n\n\n\n\nPro v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud \nresource\n nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nis_loaded\n\n\nfunction is_loaded(package_id)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud jsou v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed jinak\nvrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nflush\n\n\nfunction flush(package_id)\n\n\n\n\nPo\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku",
+            "text": "Popis\n\uf0c1\n\n\nModul obsahuje funkce pro obsluhu bal\u00ed\u010dk\u016f (\nresource package\n).\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlocal main_pkg = Package.create 'main'\nlocal monster_pkg = Package.create 'monster'\n\nfunction Game:init()\n    Package.load(monster_pkg)\n\n    Package.load(main_pkg)\n    Package.flush(main_pkg)\n\n    -- main_pkg loaded\nend\n\nfunction Game:update(dt)\n    if Package.loaded(monster_pkg) then\n        -- Package loaded\n    end\nend\n\n\n\n\n\n\nMetody\n\uf0c1\n\n\ncreate\n\uf0c1\n\n\nfunction create(package_name)\n\n\n\n\nVytvo\u0159\u00ed id bal\u00ed\u010dku podle \npackage_name\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_name\n\n\nstr\n\n\nN\u00e1zev bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nload\n\uf0c1\n\n\nfunction load(package_id)\n\n\n\n\nNa\u010dte v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku. Pokud je n\u011bkter\u00fd u\u017e na\u010dten\u00fd nebude se znovu na\u010d\u00edtat.\n\n\n\n\nImportant\n\n\nFunkce ne\u010dek\u00e1 na dokon\u010den\u00ed na\u010d\u00edt\u00e1n\u00ed. Pro dotazov\u00e1n\u00ed zda je bal\u00ed\u010dek u\u017e na\u010dten\u00fd slou\u017e\u00ed metoda \nis_loaded\n\nnebo je mo\u017en\u00e9 po\u010dk\u00e1t na na\u010dten\u00ed pomoc\u00ed metody \nflush\n\n\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nunload\n\uf0c1\n\n\nfunction unload(package_id)\n\n\n\n\nPro v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud \nresource\n nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nis_loaded\n\uf0c1\n\n\nfunction is_loaded(package_id)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud jsou v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku\n\n\n\n\n\n\n\n\n\n\nflush\n\uf0c1\n\n\nfunction flush(package_id)\n\n\n\n\nParametry\n\uf0c1\n\n\nPo\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny \nresource\n kter\u00e9 jsou v bal\u00ed\u010dku.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\npackage_id\n\n\nstringid64\n\n\nId bal\u00ed\u010dku",
             "title": "Package"
         },
         {
-            "location": "/engine/api/lua/package/#package",
-            "text": "Modul obsahuje funkce pro obsluhu  resource package .",
-            "title": "Package"
+            "location": "/engine/api/lua/package/#popis",
+            "text": "Modul obsahuje funkce pro obsluhu bal\u00ed\u010dk\u016f ( resource package ).",
+            "title": "Popis"
+        },
+        {
+            "location": "/engine/api/lua/package/#ukazka",
+            "text": "local main_pkg = Package.create 'main'\nlocal monster_pkg = Package.create 'monster'\n\nfunction Game:init()\n    Package.load(monster_pkg)\n\n    Package.load(main_pkg)\n    Package.flush(main_pkg)\n\n    -- main_pkg loaded\nend\n\nfunction Game:update(dt)\n    if Package.loaded(monster_pkg) then\n        -- Package loaded\n    end\nend",
+            "title": "Uk\u00e1zka"
         },
         {
             "location": "/engine/api/lua/package/#metody",
@@ -112,38 +182,43 @@
         },
         {
             "location": "/engine/api/lua/package/#create",
-            "text": "function create(package_name)  Vytvo\u0159\u00ed id bal\u00ed\u010dku podle  package_name .     Parametr  Typ  Popis      package_name  str  N\u00e1zev bal\u00ed\u010dku",
+            "text": "function create(package_name)  Vytvo\u0159\u00ed id bal\u00ed\u010dku podle  package_name .  Parametry \uf0c1     Parametr  Typ  Popis      package_name  str  N\u00e1zev bal\u00ed\u010dku",
             "title": "create"
         },
         {
             "location": "/engine/api/lua/package/#load",
-            "text": "function load(package_id)  Na\u010dte v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku v p\u0159\u00edpad\u011b \u017ee  resource  je ji\u017e na\u010dten\u00fd nebude se znovu\nna\u010d\u00edtat ale zv\u00fd\u0161\u00ed se po\u010d\u00edtadlo referenci. Data nejsou hned dostupn\u00e1 ale nahr\u00e1vaj\u00ed se na pozad\u00ed.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "text": "function load(package_id)  Na\u010dte v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku. Pokud je n\u011bkter\u00fd u\u017e na\u010dten\u00fd nebude se znovu na\u010d\u00edtat.   Important  Funkce ne\u010dek\u00e1 na dokon\u010den\u00ed na\u010d\u00edt\u00e1n\u00ed. Pro dotazov\u00e1n\u00ed zda je bal\u00ed\u010dek u\u017e na\u010dten\u00fd slou\u017e\u00ed metoda  is_loaded \nnebo je mo\u017en\u00e9 po\u010dk\u00e1t na na\u010dten\u00ed pomoc\u00ed metody  flush   Parametry \uf0c1     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "load"
         },
         {
             "location": "/engine/api/lua/package/#unload",
-            "text": "function unload(package_id)  Pro v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud  resource  nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "text": "function unload(package_id)  Pro v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku sn\u00ed\u017e\u00ed po\u010d\u00edtadlo a pokud  resource  nikdo nepou\u017e\u00edv\u00e1 sma\u017ee ho z pam\u011bti.  Parametry \uf0c1     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "unload"
         },
         {
             "location": "/engine/api/lua/package/#is_loaded",
-            "text": "function is_loaded(package_id)  Vr\u00e1t\u00ed  true  pokud jsou v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed jinak\nvrac\u00ed  false .     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "text": "function is_loaded(package_id)  Vr\u00e1t\u00ed  true  pokud jsou v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku na\u010dteny v pam\u011bti a p\u0159ipraveny k pou\u017e\u00edvan\u00ed.  Parametry \uf0c1     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "is_loaded"
         },
         {
             "location": "/engine/api/lua/package/#flush",
-            "text": "function flush(package_id)  Po\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
+            "text": "function flush(package_id)  Parametry \uf0c1  Po\u010dk\u00e1 dokud nejsou na\u010dteny v\u0161echny  resource  kter\u00e9 jsou v bal\u00ed\u010dku.     Parametr  Typ  Popis      package_id  stringid64  Id bal\u00ed\u010dku",
             "title": "flush"
         },
         {
             "location": "/engine/api/lua/keyboard/",
-            "text": "Keyboard\n\n\nModul obsahuje funkce pro obsluhu kl\u00e1vesnice.\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud je tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka",
+            "text": "Popis\n\uf0c1\n\n\nModul obsahuje funkce pro obsluhu kl\u00e1vesnice.\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlocal quit_btn = Keyboard.button_index 'q'\n\nfunction Game:update(dt)\n    if Keyboard.pressed(quit_btn) then\n        Application.quit()\n    end\nend\n\n\n\n\n\n\nMetody\n\uf0c1\n\n\nbutton_index\n\uf0c1\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\uf0c1\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\uf0c1\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n pokud je tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\uf0c1\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\uf0c1\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka",
             "title": "Keyboard"
         },
         {
-            "location": "/engine/api/lua/keyboard/#keyboard",
+            "location": "/engine/api/lua/keyboard/#popis",
             "text": "Modul obsahuje funkce pro obsluhu kl\u00e1vesnice.",
-            "title": "Keyboard"
+            "title": "Popis"
+        },
+        {
+            "location": "/engine/api/lua/keyboard/#ukazka",
+            "text": "local quit_btn = Keyboard.button_index 'q'\n\nfunction Game:update(dt)\n    if Keyboard.pressed(quit_btn) then\n        Application.quit()\n    end\nend",
+            "title": "Uk\u00e1zka"
         },
         {
             "location": "/engine/api/lua/keyboard/#metody",
@@ -152,38 +227,43 @@
         },
         {
             "location": "/engine/api/lua/keyboard/#button_index",
-            "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
+            "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .  Parametry \uf0c1     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
             "title": "button_index"
         },
         {
             "location": "/engine/api/lua/keyboard/#button_name",
-            "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_name"
         },
         {
             "location": "/engine/api/lua/keyboard/#button_state",
-            "text": "function button_state(button_index)  Vr\u00e1t\u00ed  true  pokud je tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function button_state(button_index)  Vr\u00e1t\u00ed  true  pokud je tla\u010d\u00edtka v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_state"
         },
         {
             "location": "/engine/api/lua/keyboard/#pressed",
-            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9.  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "pressed"
         },
         {
             "location": "/engine/api/lua/keyboard/#released",
-            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed.  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "released"
         },
         {
             "location": "/engine/api/lua/mouse/",
-            "text": "Mouse\n\n\nModul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv Dishonored).\n\n\n\n\nMetody\n\n\n\n\nbutton_index\n\n\nfunction button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nfunction button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\n\nfunction button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n poku\u010f je tla\u010d\u00edtko v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\n\nfunction pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed \nfalse\n. \n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\n\nfunction released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed \nfalse\n.\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\naxis (button_index) : Vector2\n\n\nReturn mouse position",
+            "text": "Popis\n\uf0c1\n\n\nModul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv \nDishonored\n).\n\n\n\n\nUk\u00e1zka\n\uf0c1\n\n\nlocal left_btn = Mouse.button_index 'left'\n\nfunction Game:update(dt)\n    local m_axis = Mouse.axis()\n\n    if Mouse.button_state(left_btn) then\n        print(\"%f, %f\", m_axis.x, m_axis.y)\n    end\nend\n\n\n\n\n\n\nMetody\n\uf0c1\n\n\nbutton_index\n\uf0c1\n\n\nfunction Mouse.button_index(button_name)\n\n\n\n\nVr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev \nbutton_name\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\n\nstr\n\n\nN\u00e1zev tla\u010d\u00edtka\n\n\n\n\n\n\n\n\nbutton_name\n\uf0c1\n\n\n\n\n\n\n\n\nbutton_name\n\n\nTla\u010d\u00edtko\n\n\n\n\n\n\n\n\n\n\nleft\n\n\nLev\u00e9\n\n\n\n\n\n\nmiddle\n\n\nProst\u0159edn\u00ed\n\n\n\n\n\n\nright\n\n\nPrav\u00e9\n\n\n\n\n\n\n\n\n\n\nbutton_name\n\uf0c1\n\n\nfunction Mouse.button_name(button_index)\n\n\n\n\nVr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nbutton_state\n\uf0c1\n\n\nfunction Mouse.button_state(button_index)\n\n\n\n\nVr\u00e1t\u00ed \ntrue\n poku\u010f je tla\u010d\u00edtko v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\npressed\n\uf0c1\n\n\nfunction Mouse.pressed(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed \nfalse\n. \n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\n\n\nreleased\n\uf0c1\n\n\nfunction Mouse.released(button_index)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed \nfalse\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nbutton_index\n\n\nint\n\n\nIndex tla\u010d\u00edtka\n\n\n\n\n\n\n\n\naxis\n\uf0c1\n\n\nfunction Mouse.axis()\n\n\n\n\nVr\u00e1t\u00ed \nVector2\n s pozic\u00ed kurzoru.",
             "title": "Mouse"
         },
         {
-            "location": "/engine/api/lua/mouse/#mouse",
-            "text": "Modul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv Dishonored).",
-            "title": "Mouse"
+            "location": "/engine/api/lua/mouse/#popis",
+            "text": "Modul obsahuje funkce pro obsluhu my\u0161i (jasn\u011b \u017ee po\u010d\u00edta\u010dov\u00e9, rozhodn\u011b v\u00e1m neumo\u017en\u00ed podrobit si krys\u00ed n\u00e1rod podobn\u011b jako\nv  Dishonored ).",
+            "title": "Popis"
+        },
+        {
+            "location": "/engine/api/lua/mouse/#ukazka",
+            "text": "local left_btn = Mouse.button_index 'left'\n\nfunction Game:update(dt)\n    local m_axis = Mouse.axis()\n\n    if Mouse.button_state(left_btn) then\n        print(\"%f, %f\", m_axis.x, m_axis.y)\n    end\nend",
+            "title": "Uk\u00e1zka"
         },
         {
             "location": "/engine/api/lua/mouse/#metody",
@@ -192,42 +272,282 @@
         },
         {
             "location": "/engine/api/lua/mouse/#button_index",
-            "text": "function button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka",
+            "text": "function Mouse.button_index(button_name)  Vr\u00e1t\u00ed index tla\u010d\u00edtka kter\u00fd m\u00e1 n\u00e1zev  button_name .  Parametry \uf0c1     Parametr  Typ  Popis      button_name  str  N\u00e1zev tla\u010d\u00edtka     button_name \uf0c1     button_name  Tla\u010d\u00edtko      left  Lev\u00e9    middle  Prost\u0159edn\u00ed    right  Prav\u00e9",
             "title": "button_index"
         },
         {
-            "location": "/engine/api/lua/mouse/#button_name",
-            "text": "function button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "location": "/engine/api/lua/mouse/#button_name_1",
+            "text": "function Mouse.button_name(button_index)  Vr\u00e1t\u00ed n\u00e1zev tla\u010d\u00edtka nebo pr\u00e1zdn\u00fd \u0159etezec pokud je index \u0161patn\u00fd.  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_name"
         },
         {
             "location": "/engine/api/lua/mouse/#button_state",
-            "text": "function button_state(button_index)  Vr\u00e1t\u00ed  true  poku\u010f je tla\u010d\u00edtko v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function Mouse.button_state(button_index)  Vr\u00e1t\u00ed  true  poku\u010f je tla\u010d\u00edtko v aktu\u00e1ln\u00edm frejmu stisknut\u00e9.  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "button_state"
         },
         {
             "location": "/engine/api/lua/mouse/#pressed",
-            "text": "function pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed  false .      Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function Mouse.pressed(button_index)  Vr\u00e1ti  true  pokud nebylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm je jinak vrac\u00ed  false .   Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "pressed"
         },
         {
             "location": "/engine/api/lua/mouse/#released",
-            "text": "function released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed  false .     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
+            "text": "function Mouse.released(button_index)  Vr\u00e1ti  true  pokud bylo tla\u010d\u00edtko v minul\u00e9m frejmu stisknut\u00e9 ale v aktu\u00e1ln\u00edm nen\u00ed jinak vrac\u00ed  false .  Parametry \uf0c1     Parametr  Typ  Popis      button_index  int  Index tla\u010d\u00edtka",
             "title": "released"
         },
         {
-            "location": "/engine/api/lua/mouse/#axis-button_index-vector2",
-            "text": "Return mouse position",
-            "title": "axis (button_index) : Vector2"
+            "location": "/engine/api/lua/mouse/#axis",
+            "text": "function Mouse.axis()  Vr\u00e1t\u00ed  Vector2  s pozic\u00ed kurzoru.",
+            "title": "axis"
         },
         {
-            "location": "/playground/overview/",
-            "text": "",
+            "location": "/engine/api/lua/vector2/",
+            "text": "Popis\n\uf0c1\n\n\nDvouslo\u017ekov\u00ed vektor.\n\n\n\n\nMetody\n\uf0c1\n\n\nVector2\n\uf0c1\n\n\nfunction Vector2(x, y)\n\n\n\n\nVytvo\u0159\u00ed nov\u00fd vektor \n[x, y]\n\n\n\n\nnew\n\uf0c1\n\n\nfunction Vector2.new(x, y)\n\n\n\n\nVytvo\u0159\u00ed nov\u00fd vektor \n[x, y]\n\n\n\n\nzero\n\uf0c1\n\n\nfunction Vector2.zero()\n\n\n\n\nVr\u00e1t\u00ed nulov\u00fd vektor \n[0, 0]\n\n\n\n\nunit\n\uf0c1\n\n\nfunction Vector2.unit()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[1, 1]\n\n\n\n\nup\n\uf0c1\n\n\nfunction Vector2.up()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[0, 1]\n\n\n\n\ndown\n\uf0c1\n\n\nfunction Vector2.down()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[0, -1]\n\n\n\n\nright\n\uf0c1\n\n\nfunction Vector2.right()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[-1, 0]\n\n\n\n\nleft\n\uf0c1\n\n\nfunction Vector2.left()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[1, 0]\n\n\n\n\nnormalized\n\uf0c1\n\n\nfunction Vector2.normalized(vector)\n\n\n\n\nVr\u00e1ti normalizovan\u00fd \nvector\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nis_normalized\n\uf0c1\n\n\nfunction Vector2.is_normalized(vector)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud je \nvector\n normalizovan\u00fd.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ndot\n\uf0c1\n\n\nfunction Vector2.dot(v1, v2)\n\n\n\n\nVr\u00e1ti skal\u00e1rn\u00ed sou\u010din \n(v1.x * v2.x) + (v1.y * v2.y)\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ncross\n\uf0c1\n\n\nfunction Vector2.cross(v1, v2)\n\n\n\n\nVr\u00e1ti cross \n(v1.x * v2.y) - (v1.y * v2.x)\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nlen\n\uf0c1\n\n\nfunction Vector2.len(vector)\n\n\n\n\nVr\u00e1ti d\u00e9lku vektoru.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nlen_inv\n\uf0c1\n\n\nfunction Vector2.len_inv(vector)\n\n\n\n\nVr\u00e1ti 1 / len.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nlen_sq\n\uf0c1\n\n\nfunction Vector2.len_sq(vector)\n\n\n\n\nVr\u00e1ti len ^ 2\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ndistance\n\uf0c1\n\n\nfunction Vector2.distance(v1, v2)\n\n\n\n\nVr\u00e1ti vzd\u00e1lenost dvou vektor\u016f resp. bod\u016f.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ndistance_sq\n\uf0c1\n\n\nfunction Vector2.distance_sq(v1, v2)\n\n\n\n\nVr\u00e1ti distance ^ 2.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector2\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector2\n\n\nVektor",
+            "title": "Vector2"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#popis",
+            "text": "Dvouslo\u017ekov\u00ed vektor.",
             "title": "Popis"
         },
         {
+            "location": "/engine/api/lua/vector2/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#vector2",
+            "text": "function Vector2(x, y)  Vytvo\u0159\u00ed nov\u00fd vektor  [x, y]",
+            "title": "Vector2"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#new",
+            "text": "function Vector2.new(x, y)  Vytvo\u0159\u00ed nov\u00fd vektor  [x, y]",
+            "title": "new"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#zero",
+            "text": "function Vector2.zero()  Vr\u00e1t\u00ed nulov\u00fd vektor  [0, 0]",
+            "title": "zero"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#unit",
+            "text": "function Vector2.unit()  Vr\u00e1t\u00ed vektor  [1, 1]",
+            "title": "unit"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#up",
+            "text": "function Vector2.up()  Vr\u00e1t\u00ed vektor  [0, 1]",
+            "title": "up"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#down",
+            "text": "function Vector2.down()  Vr\u00e1t\u00ed vektor  [0, -1]",
+            "title": "down"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#right",
+            "text": "function Vector2.right()  Vr\u00e1t\u00ed vektor  [-1, 0]",
+            "title": "right"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#left",
+            "text": "function Vector2.left()  Vr\u00e1t\u00ed vektor  [1, 0]",
+            "title": "left"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#normalized",
+            "text": "function Vector2.normalized(vector)  Vr\u00e1ti normalizovan\u00fd  vector .  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector2  Vektor",
+            "title": "normalized"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#is_normalized",
+            "text": "function Vector2.is_normalized(vector)  Vr\u00e1ti  true  pokud je  vector  normalizovan\u00fd.  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector2  Vektor",
+            "title": "is_normalized"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#dot",
+            "text": "function Vector2.dot(v1, v2)  Vr\u00e1ti skal\u00e1rn\u00ed sou\u010din  (v1.x * v2.x) + (v1.y * v2.y) .  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector2  Vektor    v2  Vector2  Vektor",
+            "title": "dot"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#cross",
+            "text": "function Vector2.cross(v1, v2)  Vr\u00e1ti cross  (v1.x * v2.y) - (v1.y * v2.x) .  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector2  Vektor    v2  Vector2  Vektor",
+            "title": "cross"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#len",
+            "text": "function Vector2.len(vector)  Vr\u00e1ti d\u00e9lku vektoru.  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector2  Vektor",
+            "title": "len"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#len_inv",
+            "text": "function Vector2.len_inv(vector)  Vr\u00e1ti 1 / len.  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector2  Vektor",
+            "title": "len_inv"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#len_sq",
+            "text": "function Vector2.len_sq(vector)  Vr\u00e1ti len ^ 2  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector2  Vektor",
+            "title": "len_sq"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#distance",
+            "text": "function Vector2.distance(v1, v2)  Vr\u00e1ti vzd\u00e1lenost dvou vektor\u016f resp. bod\u016f.  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector2  Vektor    v2  Vector2  Vektor",
+            "title": "distance"
+        },
+        {
+            "location": "/engine/api/lua/vector2/#distance_sq",
+            "text": "function Vector2.distance_sq(v1, v2)  Vr\u00e1ti distance ^ 2.  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector2  Vektor    v2  Vector2  Vektor",
+            "title": "distance_sq"
+        },
+        {
+            "location": "/engine/api/lua/vector3/",
+            "text": "Popis\n\uf0c1\n\n\nT\u0159\u00edslo\u017ekov\u00fd vektor.\n\n\n\n\nMetody\n\uf0c1\n\n\nVector3\n\uf0c1\n\n\nfunction Vector3(x, y, z)\n\n\n\n\nVytvo\u0159\u00ed nov\u00fd vektor \n[x, y, z]\n\n\n\n\nnew\n\uf0c1\n\n\nfunction Vector3.new(x, y, z)\n\n\n\n\nVytvo\u0159\u00ed nov\u00fd vektor \n[x, y, z]\n\n\n\n\nzero\n\uf0c1\n\n\nfunction Vector3.zero()\n\n\n\n\nVr\u00e1t\u00ed nulov\u00fd vektor \n[0, 0, 0]\n\n\n\n\nunit\n\uf0c1\n\n\nfunction Vector3.unit()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[1, 1, 1]\n\n\n\n\nup\n\uf0c1\n\n\nfunction Vector3.up()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[0, 1, 0]\n\n\n\n\ndown\n\uf0c1\n\n\nfunction Vector3.down()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[0, -1, 0]\n\n\n\n\nright\n\uf0c1\n\n\nfunction Vector3.right()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[-1, 0, 0]\n\n\n\n\nleft\n\uf0c1\n\n\nfunction Vector3.left()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[1, 0, 0]\n\n\n\n\nforwards\n\uf0c1\n\n\nfunction Vector3.forwards()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[0, 0, -1]\n\n\n\n\nbackwards\n\uf0c1\n\n\nfunction Vector3.backwards()\n\n\n\n\nVr\u00e1t\u00ed vektor \n[0, 0, 1]\n\n\n\n\nnormalized\n\uf0c1\n\n\nfunction Vector3.normalized(vector)\n\n\n\n\nVr\u00e1ti normalizovan\u00fd \nvector\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nis_normalized\n\uf0c1\n\n\nfunction Vector3.is_normalized(vector)\n\n\n\n\nVr\u00e1ti \ntrue\n pokud je \nvector\n normalizovan\u00fd.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ndot\n\uf0c1\n\n\nfunction Vector3.dot(v1, v2)\n\n\n\n\nVr\u00e1ti skal\u00e1rn\u00ed sou\u010din \n(v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z)\n.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ncross\n\uf0c1\n\n\nfunction Vector3.cross(v1, v2)\n\n\n\n\nVr\u00e1ti cross\n\n\n[(v1.y * v2.z) - (v1.z * v2.y),\n (v1.z * v2.x) - (v1.x * v2.z),\n (v1.x * v2.y) - (v1.y * v2.x)]\n\n\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nlen\n\uf0c1\n\n\nfunction Vector3.len(vector)\n\n\n\n\nVr\u00e1ti d\u00e9lku vektoru.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nlen_inv\n\uf0c1\n\n\nfunction Vector3.len_inv(vector)\n\n\n\n\nVr\u00e1ti 1 / len.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\nlen_sq\n\uf0c1\n\n\nfunction Vector3.len_sq(vector)\n\n\n\n\nVr\u00e1ti len ^ 2\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nvector\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ndistance\n\uf0c1\n\n\nfunction Vector3.distance(v1, v2)\n\n\n\n\nVr\u00e1ti vzd\u00e1lenost dvou vektor\u016f resp. bod\u016f.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\n\n\n\n\ndistance_sq\n\uf0c1\n\n\nfunction Vector3.distance_sq(v1, v2)\n\n\n\n\nVr\u00e1ti distance ^ 2.\n\n\nParametry\n\uf0c1\n\n\n\n\n\n\n\n\nParametr\n\n\nTyp\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nv1\n\n\nVector3\n\n\nVektor\n\n\n\n\n\n\nv2\n\n\nVector3\n\n\nVektor",
+            "title": "Vector3"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#popis",
+            "text": "T\u0159\u00edslo\u017ekov\u00fd vektor.",
+            "title": "Popis"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#metody",
+            "text": "",
+            "title": "Metody"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#vector3",
+            "text": "function Vector3(x, y, z)  Vytvo\u0159\u00ed nov\u00fd vektor  [x, y, z]",
+            "title": "Vector3"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#new",
+            "text": "function Vector3.new(x, y, z)  Vytvo\u0159\u00ed nov\u00fd vektor  [x, y, z]",
+            "title": "new"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#zero",
+            "text": "function Vector3.zero()  Vr\u00e1t\u00ed nulov\u00fd vektor  [0, 0, 0]",
+            "title": "zero"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#unit",
+            "text": "function Vector3.unit()  Vr\u00e1t\u00ed vektor  [1, 1, 1]",
+            "title": "unit"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#up",
+            "text": "function Vector3.up()  Vr\u00e1t\u00ed vektor  [0, 1, 0]",
+            "title": "up"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#down",
+            "text": "function Vector3.down()  Vr\u00e1t\u00ed vektor  [0, -1, 0]",
+            "title": "down"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#right",
+            "text": "function Vector3.right()  Vr\u00e1t\u00ed vektor  [-1, 0, 0]",
+            "title": "right"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#left",
+            "text": "function Vector3.left()  Vr\u00e1t\u00ed vektor  [1, 0, 0]",
+            "title": "left"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#forwards",
+            "text": "function Vector3.forwards()  Vr\u00e1t\u00ed vektor  [0, 0, -1]",
+            "title": "forwards"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#backwards",
+            "text": "function Vector3.backwards()  Vr\u00e1t\u00ed vektor  [0, 0, 1]",
+            "title": "backwards"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#normalized",
+            "text": "function Vector3.normalized(vector)  Vr\u00e1ti normalizovan\u00fd  vector .  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector3  Vektor",
+            "title": "normalized"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#is_normalized",
+            "text": "function Vector3.is_normalized(vector)  Vr\u00e1ti  true  pokud je  vector  normalizovan\u00fd.  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector3  Vektor",
+            "title": "is_normalized"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#dot",
+            "text": "function Vector3.dot(v1, v2)  Vr\u00e1ti skal\u00e1rn\u00ed sou\u010din  (v1.x * v2.x) + (v1.y * v2.y) + (v1.z * v2.z) .  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector3  Vektor    v2  Vector3  Vektor",
+            "title": "dot"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#cross",
+            "text": "function Vector3.cross(v1, v2)  Vr\u00e1ti cross  [(v1.y * v2.z) - (v1.z * v2.y),\n (v1.z * v2.x) - (v1.x * v2.z),\n (v1.x * v2.y) - (v1.y * v2.x)]  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector3  Vektor    v2  Vector3  Vektor",
+            "title": "cross"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#len",
+            "text": "function Vector3.len(vector)  Vr\u00e1ti d\u00e9lku vektoru.  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector3  Vektor",
+            "title": "len"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#len_inv",
+            "text": "function Vector3.len_inv(vector)  Vr\u00e1ti 1 / len.  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector3  Vektor",
+            "title": "len_inv"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#len_sq",
+            "text": "function Vector3.len_sq(vector)  Vr\u00e1ti len ^ 2  Parametry \uf0c1     Parametr  Typ  Popis      vector  Vector3  Vektor",
+            "title": "len_sq"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#distance",
+            "text": "function Vector3.distance(v1, v2)  Vr\u00e1ti vzd\u00e1lenost dvou vektor\u016f resp. bod\u016f.  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector3  Vektor    v2  Vector3  Vektor",
+            "title": "distance"
+        },
+        {
+            "location": "/engine/api/lua/vector3/#distance_sq",
+            "text": "function Vector3.distance_sq(v1, v2)  Vr\u00e1ti distance ^ 2.  Parametry \uf0c1     Parametr  Typ  Popis      v1  Vector3  Vektor    v2  Vector3  Vektor",
+            "title": "distance_sq"
+        },
+        {
+            "location": "/playground/overview/",
+            "text": "Playground\n\uf0c1\n\n\nV\u00fdvojov\u00e9 prost\u0159ed\u00ed kter\u00e9 se sn\u00e1\u017e\u00ed o snadnou \nmodifikovatelnost\n aby mohlo co nejl\u00e9pe vyhovov\u00e1t specifikac\u00edm projektu\npokud to bude pot\u0159eba. Proto je zvolena kombinace jazyk\u016f \nPython\n, \nLUA\n, \nJS\n, \nHTML\n.\n\n\n\n\nPro\u010d tolik jazyk\u016f?\n\uf0c1\n\n\n\n\nPython + QT\n jako z\u00e1klad. V\u00fdborn\u00e1 podpora nap\u0159\u00ed\u010d OS.\n\n\nLUA\n pro komunikaci s enginem. To umo\u017enuje m\u00edt k\u00f3d n\u00e1stroj\u016f odd\u011blen\u00fd od enginu (n\u00e1stroj pouze po\u0161le script a ten\n  nastav\u00ed po\u017eadovan\u00e9 chov\u00e1n\u00ed a pak sta\u010d\u00ed komunikovat p\u0159es \nconsole_server\n)\n\n\nHTML + JS\n pro vizualizace a r\u016fzn\u00e9 widgety. Snadn\u00e9 pou\u017eit\u00ed a mocn\u00e1 vizualizace (a taky m\u016f\u017eete m\u00edt pu\u0161t\u011bn\u00fd\neditor, upravovat k\u00f3d a pak jenom zm\u00e1\u010dnout RELOAD, str\u00e1nka se na\u010dte a hned vyd\u00edte co d\u011blate == rychl\u00e1 iterace).\n\n\n\n\n\n\nJak to spust\u00edm?\n\uf0c1\n\n\n$ python playground/run.py",
+            "title": "Popis"
+        },
+        {
+            "location": "/playground/overview/#playground",
+            "text": "V\u00fdvojov\u00e9 prost\u0159ed\u00ed kter\u00e9 se sn\u00e1\u017e\u00ed o snadnou  modifikovatelnost  aby mohlo co nejl\u00e9pe vyhovov\u00e1t specifikac\u00edm projektu\npokud to bude pot\u0159eba. Proto je zvolena kombinace jazyk\u016f  Python ,  LUA ,  JS ,  HTML .",
+            "title": "Playground"
+        },
+        {
+            "location": "/playground/overview/#proc-tolik-jazyku",
+            "text": "Python + QT  jako z\u00e1klad. V\u00fdborn\u00e1 podpora nap\u0159\u00ed\u010d OS.  LUA  pro komunikaci s enginem. To umo\u017enuje m\u00edt k\u00f3d n\u00e1stroj\u016f odd\u011blen\u00fd od enginu (n\u00e1stroj pouze po\u0161le script a ten\n  nastav\u00ed po\u017eadovan\u00e9 chov\u00e1n\u00ed a pak sta\u010d\u00ed komunikovat p\u0159es  console_server )  HTML + JS  pro vizualizace a r\u016fzn\u00e9 widgety. Snadn\u00e9 pou\u017eit\u00ed a mocn\u00e1 vizualizace (a taky m\u016f\u017eete m\u00edt pu\u0161t\u011bn\u00fd\neditor, upravovat k\u00f3d a pak jenom zm\u00e1\u010dnout RELOAD, str\u00e1nka se na\u010dte a hned vyd\u00edte co d\u011blate == rychl\u00e1 iterace).",
+            "title": "Pro\u010d tolik jazyk\u016f?"
+        },
+        {
+            "location": "/playground/overview/#jak-to-spustim",
+            "text": "$ python playground/run.py",
+            "title": "Jak to spust\u00edm?"
+        },
+        {
+            "location": "/playground/image_history/",
+            "text": "Historie v obrazc\u00edch\n\uf0c1\n\n\nAneb jak \u0161el \u010das.\n\n\n\n\nPo\u010d\u00e1te\u010dn\u00ed v\u00fdvoj\n\uf0c1\n\n\n19.11.2015\n\uf0c1\n\n\n\n\nScript editor\n\n\nOkno enginu\n\n\nAsset browser\n\n\nEngine log\n\n\nTimeline profiler\n\n\nVtipn\u00e9 FPS na screenshotu =D v tuto chv\u00edli jde o nepodstatny ud\u00e1j. nic se nerenderuje, v kodu je sleep a fps bude\n  brzy fixn\u00ed ale nastaviteln\u00e9 (30, 60, ... 9999999999 a\u0165 maj \"honi\u010di\" FPS radost a mi ostatn\u00ed si holt\n  nastav\u00edme co n\u00e1m dovol\u00ed monitor, televize, atd. =D)",
+            "title": "Historie v obr\u00e1zc\u00edch"
+        },
+        {
+            "location": "/playground/image_history/#historie-v-obrazcich",
+            "text": "Aneb jak \u0161el \u010das.",
+            "title": "Historie v obrazc\u00edch"
+        },
+        {
+            "location": "/playground/image_history/#pocatecni-vyvoj",
+            "text": "19.11.2015 \uf0c1   Script editor  Okno enginu  Asset browser  Engine log  Timeline profiler  Vtipn\u00e9 FPS na screenshotu =D v tuto chv\u00edli jde o nepodstatny ud\u00e1j. nic se nerenderuje, v kodu je sleep a fps bude\n  brzy fixn\u00ed ale nastaviteln\u00e9 (30, 60, ... 9999999999 a\u0165 maj \"honi\u010di\" FPS radost a mi ostatn\u00ed si holt\n  nastav\u00edme co n\u00e1m dovol\u00ed monitor, televize, atd. =D)",
+            "title": "Po\u010d\u00e1te\u010dn\u00ed v\u00fdvoj"
+        },
+        {
             "location": "/about/release-notes/",
-            "text": "Pozn\u00e1mky k vyd\u00e1n\u00ed\n\n\n0.1.0 (WIP)\n\n\n\n\nConnect script editor and log  (#102)\n\n\nFlush develop manager on all workers (#96)\n\n\nWorker id to log output (#85)\n\n\nTry using log_system in assert (#83)\n\n\nmake log system independ on memory (#81)\n\n\nsystems init and shutdown log info (#79)\n\n\nrafactor filesystem (#78)\n\n\nbetter sqlite in BuildDB (#77)\n\n\nprepare sql in BuildDB and use bind parameter (#76)\n\n\nAsset compiler: External dependency increment compile (#72)\n\n\nParameter --core-dir  (#70)\n\n\nRender to Playground widget (#68)\n\n\nRefactor platform spec. code (#67)\n\n\nCLang analyzer (#66)\n\n\nPackage manager.flush: Do some job for task manager (#63)\n\n\nTODO: Compile Task Pool, reduce alloc free, ringbuffer? (#61)\n\n\nTexture resource (#55)\n\n\nscript editor - Find dialog, Find and replace dialog (#53)\n\n\nApplication.console_send(message)  (#52)\n\n\nLua table to json (c api) (#51)\n\n\nauto compile resource (#50)\n\n\nAutoload resource in develop mode (#49)\n\n\nCompile lua resource to bytecode (#48)\n\n\nInit bgfx (#46)\n\n\nStartup dialog like pycharm...  (#45)\n\n\nScript editor - autocomplete (#44)\n\n\nEngine - print callstack on fatal error (assert, etc...) (#40)\n\n\nEngine - compile create debug index file (#39)\n\n\nPlayground - luaeditor - basci command undo, rendo, copy, paste, cut, (menubar, popupmenu) (#38)\n\n\nPlayground - luaeditor - close all button (#37)\n\n\nPlayground - assetbrowser - create new script (#36)\n\n\nmove compiler from resource manager (#32)\n\n\nMemory leak on quit (#31)\n\n\nChange \"Device\" to \"Application\" (#30)\n\n\nLua API doc - package (#27)\n\n\nLua API doc - mouse (#26)\n\n\nLua API doc - keyboard  (#25)\n\n\nRewrite old log lua api to new (#24)\n\n\nbetter os code hiearchy (#23)\n\n\nLua enviroment - mouse api (#22)\n\n\nGUI console widget: command history (#21)\n\n\nLua enviroment - vector2 api (#20)\n\n\nincremental compile (#17)\n\n\nLua mouse api (#16)\n\n\nLua enviroment - vector3 api (#15)\n\n\nTask manager - worker core affinity (#14)\n\n\nTask based resource loader (#13)\n\n\nTask manager (#10)\n\n\nasset manager (#9)\n\n\nsdl2 runtime (#8)\n\n\naxis angle -> Matrix44 (#4)\n\n\naxis angle -> Matrix33 (#3)",
+            "text": "Pozn\u00e1mky k vyd\u00e1n\u00ed\n\uf0c1\n\n\n0.1.0 (WIP)\n\uf0c1\n\n\n\n\nD\u0159ina.\n\n\nHromada refaktoru.\n\n\nPochybnosti.",
             "title": "Pozn\u00e1mky k vyd\u00e1n\u00ed"
         },
         {
@@ -237,8 +557,18 @@
         },
         {
             "location": "/about/release-notes/#010-wip",
-            "text": "Connect script editor and log  (#102)  Flush develop manager on all workers (#96)  Worker id to log output (#85)  Try using log_system in assert (#83)  make log system independ on memory (#81)  systems init and shutdown log info (#79)  rafactor filesystem (#78)  better sqlite in BuildDB (#77)  prepare sql in BuildDB and use bind parameter (#76)  Asset compiler: External dependency increment compile (#72)  Parameter --core-dir  (#70)  Render to Playground widget (#68)  Refactor platform spec. code (#67)  CLang analyzer (#66)  Package manager.flush: Do some job for task manager (#63)  TODO: Compile Task Pool, reduce alloc free, ringbuffer? (#61)  Texture resource (#55)  script editor - Find dialog, Find and replace dialog (#53)  Application.console_send(message)  (#52)  Lua table to json (c api) (#51)  auto compile resource (#50)  Autoload resource in develop mode (#49)  Compile lua resource to bytecode (#48)  Init bgfx (#46)  Startup dialog like pycharm...  (#45)  Script editor - autocomplete (#44)  Engine - print callstack on fatal error (assert, etc...) (#40)  Engine - compile create debug index file (#39)  Playground - luaeditor - basci command undo, rendo, copy, paste, cut, (menubar, popupmenu) (#38)  Playground - luaeditor - close all button (#37)  Playground - assetbrowser - create new script (#36)  move compiler from resource manager (#32)  Memory leak on quit (#31)  Change \"Device\" to \"Application\" (#30)  Lua API doc - package (#27)  Lua API doc - mouse (#26)  Lua API doc - keyboard  (#25)  Rewrite old log lua api to new (#24)  better os code hiearchy (#23)  Lua enviroment - mouse api (#22)  GUI console widget: command history (#21)  Lua enviroment - vector2 api (#20)  incremental compile (#17)  Lua mouse api (#16)  Lua enviroment - vector3 api (#15)  Task manager - worker core affinity (#14)  Task based resource loader (#13)  Task manager (#10)  asset manager (#9)  sdl2 runtime (#8)  axis angle -> Matrix44 (#4)  axis angle -> Matrix33 (#3)",
+            "text": "D\u0159ina.  Hromada refaktoru.  Pochybnosti.",
             "title": "0.1.0 (WIP)"
+        },
+        {
+            "location": "/about/license/",
+            "text": "Licence\n\uf0c1\n\n\nCE Tech je \u0161\u00ed\u0159en jako [Public Domain][public_domain] tedy a\u017e na programy a knihovny t\u0159et\u00edch stran kter\u00e9 se\nnach\u00e1zej\u00ed ve adres\u00e1\u0159i \n3rdparty\n a \u010d\u00e1ste\u010dn\u011b \nplayground/html\n. To \u017ee se jedn\u00e1 o [Public Domain][public_domain] znamen\u00e1\n\u017ee klidn\u011b m\u016f\u017eete \"ukradnout k\u00f3d\" a \u0159\u00edkat \u017ee je to va\u0161e pr\u00e1ce a mn\u011b to bude jedno ;)",
+            "title": "Licence"
+        },
+        {
+            "location": "/about/license/#licence",
+            "text": "CE Tech je \u0161\u00ed\u0159en jako [Public Domain][public_domain] tedy a\u017e na programy a knihovny t\u0159et\u00edch stran kter\u00e9 se\nnach\u00e1zej\u00ed ve adres\u00e1\u0159i  3rdparty  a \u010d\u00e1ste\u010dn\u011b  playground/html . To \u017ee se jedn\u00e1 o [Public Domain][public_domain] znamen\u00e1\n\u017ee klidn\u011b m\u016f\u017eete \"ukradnout k\u00f3d\" a \u0159\u00edkat \u017ee je to va\u0161e pr\u00e1ce a mn\u011b to bude jedno ;)",
+            "title": "Licence"
         }
     ]
 }

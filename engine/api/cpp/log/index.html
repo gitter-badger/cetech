@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>log - CE Tech dokumentace.</title>
+  
+
+  <link rel="shortcut icon" href="../../../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "log";
+  </script>
+  
+  <script src="../../../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../../../js/highlight.pack.js"></script>
+  <script src="../../../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../../.." class="icon icon-home"> CE Tech dokumentace.</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../../..">Úvod</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Engine</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../overview/">Popis</a>
+        
+    </li>
+
+        
+            
+    <ul class="subnav">
+    <li><span>API C++</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">log</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#popis">Popis</a></li>
+                
+                    <li><a class="toctree-l4" href="#include">Include</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#enumy">Enumy</a></li>
+                
+                    <li><a class="toctree-l4" href="#loglevel">LogLevel</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#callbacky">Callbacky</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#handler_t">handler_t</a></li>
+                
+                    <li><a class="toctree-l4" href="#parametry">Parametry</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#handlery">Handlery</a></li>
+                
+                    <li><a class="toctree-l4" href="#stdout_handler">stdout_handler</a></li>
+                
+                    <li><a class="toctree-l4" href="#file_handler">file_handler</a></li>
+                
+                    <li><a class="toctree-l4" href="#loglevel_1">LogLevel</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#metody">Metody</a></li>
+                
+                    <li><a class="toctree-l4" href="#init">init</a></li>
+                
+                    <li><a class="toctree-l4" href="#shutdown">shutdown</a></li>
+                
+                    <li><a class="toctree-l4" href="#register_handler">register_handler</a></li>
+                
+                    <li><a class="toctree-l4" href="#unregister_handler">unregister_handler</a></li>
+                
+                    <li><a class="toctree-l4" href="#info">info</a></li>
+                
+                    <li><a class="toctree-l4" href="#warning">warning</a></li>
+                
+                    <li><a class="toctree-l4" href="#error">error</a></li>
+                
+                    <li><a class="toctree-l4" href="#debug">debug</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+    </ul>
+
+        
+            
+    <ul class="subnav">
+    <li><span>API Lua</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../lua/application/">Application</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../lua/package/">Package</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../lua/keyboard/">Keyboard</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../lua/mouse/">Mouse</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../lua/vector2/">Vector2</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../lua/vector3/">Vector3</a>
+        
+    </li>
+
+        
+    </ul>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Playground</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../playground/overview/">Popis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../playground/image_history/">Historie v obrázcích</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>About</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../about/release-notes/">Poznámky k vydání</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../about/license/">Licence</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../../..">CE Tech dokumentace.</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>API C++ &raquo;</li>
+        
+      
+    
+    <li>log</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/OndraVoves/cetech1" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="popis">Popis<a class="headerlink" href="#popis" title="Permanent link"></a></h1>
+<p>Logovací systém slouží přkvapivě pro logování zpráv. Po zalogování se zpráva předá registrovaným <a href="#handler_t">handlerům</a> a ty jí zpracují.</p>
+<h2 id="include">Include<a class="headerlink" href="#include" title="Permanent link"></a></h2>
+<pre><code class="cpp">#include &quot;cetech/log/log.h&quot;
+</code></pre>
+
+<h1 id="enumy">Enumy<a class="headerlink" href="#enumy" title="Permanent link"></a></h1>
+<h2 id="loglevel">LogLevel<a class="headerlink" href="#loglevel" title="Permanent link"></a></h2>
+<pre><code class="cpp">struct LogLevel {
+    enum Enum {
+        INFO,
+        WARNING,
+        ERROR,
+        DBG
+    };
+};
+</code></pre>
+
+<h3 id="hodnoty">Hodnoty<a class="headerlink" href="#hodnoty" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Hodnota</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>INFO</code></td>
+<td>Informační zpráva.</td>
+</tr>
+<tr>
+<td><code>WARNING</code></td>
+<td>Varování.</td>
+</tr>
+<tr>
+<td><code>ERROR</code></td>
+<td>Chyba.</td>
+</tr>
+<tr>
+<td><code>DBG</code></td>
+<td>Ladící informace.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="callbacky">Callbacky<a class="headerlink" href="#callbacky" title="Permanent link"></a></h1>
+<h1 id="handler_t">handler_t<a class="headerlink" href="#handler_t" title="Permanent link"></a></h1>
+<pre><code class="cpp">typedef void (* handler_t)(const LogLevel::Enum level,
+                           const time_t time,
+                           const uint32_t worker_id,
+                           const char* where,
+                           const char* msg,
+                           void* data);
+</code></pre>
+
+<p>Logovací handler.</p>
+<h3 id="parametry">Parametry<a class="headerlink" href="#parametry" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>level</code></td>
+<td><a href="#LogLevel">Log level</a> zprávy.</td>
+</tr>
+<tr>
+<td><code>time</code></td>
+<td>Čas kdy k logování došlo.</td>
+</tr>
+<tr>
+<td><code>worker_id</code></td>
+<td>ID workeru ketrý logoval.</td>
+</tr>
+<tr>
+<td><code>where</code></td>
+<td>Kde k logování došlo.</td>
+</tr>
+<tr>
+<td><code>msg</code></td>
+<td>Zpráva.</td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td>Data pro handler.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="handlery">Handlery<a class="headerlink" href="#handlery" title="Permanent link"></a></h1>
+<h2 id="stdout_handler">stdout_handler<a class="headerlink" href="#stdout_handler" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log stdout_handler(const LogLevel::Enum level,
+                        const time_t time,
+                        const uint32_t worker_id,
+                        const char* where,
+                        const char* msg,
+                        void* data);
+</code></pre>
+
+<p>Logovaní na standartní, chybový a výstup.</p>
+<hr />
+<h2 id="file_handler">file_handler<a class="headerlink" href="#file_handler" title="Permanent link"></a></h2>
+<pre><code class="cpp">void file_handler(const LogLevel::Enum level,
+                  const time_t time,
+                  const uint32_t worker_id,
+                  const char* where,
+                  const char* msg,
+                  void* data);
+</code></pre>
+
+<p>Logovaní do souboru.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Při <a href="#register_handler">registraci</a> handleru je potřeba do parametru <code>data</code> uložit ukazatel na <a href="http://www.cplusplus.com/reference/cstdio/FILE">FILE</a></p>
+</div>
+<pre><code class="cpp">FILE *f;
+CE_CHECK_PTR(f = fopen (&quot;logfile.txt&quot; , &quot;w+&quot;));
+log::register_handler(&amp;log::file_handler, f);
+</code></pre>
+
+<hr />
+<h2 id="loglevel_1">LogLevel<a class="headerlink" href="#loglevel_1" title="Permanent link"></a></h2>
+<h1 id="metody">Metody<a class="headerlink" href="#metody" title="Permanent link"></a></h1>
+<h2 id="init">init<a class="headerlink" href="#init" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log_globals::init();
+</code></pre>
+
+<p>Inicializuje logovací systém.</p>
+<hr />
+<h2 id="shutdown">shutdown<a class="headerlink" href="#shutdown" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log_globals::shutdown();
+</code></pre>
+
+<p>Ukončí logovací systém.</p>
+<hr />
+<h2 id="register_handler">register_handler<a class="headerlink" href="#register_handler" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log::register_handler(handler_t handler, void* data = nullptr);
+</code></pre>
+
+<p>Zaregistruje handler.</p>
+<h3 id="parametry_1">Parametry<a class="headerlink" href="#parametry_1" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>handler</code></td>
+<td><a href="#handler_t">Callback</a></td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td>Data která se předají handleru při zalogování.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="unregister_handler">unregister_handler<a class="headerlink" href="#unregister_handler" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log::unregister_handler(handler_t handler);
+</code></pre>
+
+<p>Odregistruje handler.</p>
+<h3 id="parametry_2">Parametry<a class="headerlink" href="#parametry_2" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>handler</code></td>
+<td><a href="#handler_t">Callback</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="info">info<a class="headerlink" href="#info" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log::info(const char* where, const char* format, ...);
+</code></pre>
+
+<p>Zaloguje informační zprávu.</p>
+<h3 id="parametry_3">Parametry<a class="headerlink" href="#parametry_3" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>where</code></td>
+<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
+</tr>
+<tr>
+<td><code>format</code></td>
+<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
+</tr>
+<tr>
+<td><code>...</code></td>
+<td>Formátovací proměnné.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ukazka">Ukázka<a class="headerlink" href="#ukazka" title="Permanent link"></a></h3>
+<pre><code class="cpp">log::info(&quot;file_manager&quot;, &quot;loading file %s&quot;, &quot;foo/bar.baz&quot;);
+</code></pre>
+
+<hr />
+<h2 id="warning">warning<a class="headerlink" href="#warning" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log::warning(const char* where, const char* format, ...);
+</code></pre>
+
+<p>Zaloguje varování.</p>
+<h3 id="parametry_4">Parametry<a class="headerlink" href="#parametry_4" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>where</code></td>
+<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
+</tr>
+<tr>
+<td><code>format</code></td>
+<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
+</tr>
+<tr>
+<td><code>...</code></td>
+<td>Formátovací proměnné.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ukazka_1">Ukázka<a class="headerlink" href="#ukazka_1" title="Permanent link"></a></h3>
+<pre><code class="cpp">log::warning(&quot;file_manager&quot;, &quot;file %s not found. Creating...&quot;, &quot;foo/bar.baz&quot;);
+</code></pre>
+
+<hr />
+<h2 id="error">error<a class="headerlink" href="#error" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log::error(const char* where, const char* format, ...);
+</code></pre>
+
+<p>Zaloguje chybu.</p>
+<h3 id="parametry_5">Parametry<a class="headerlink" href="#parametry_5" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>where</code></td>
+<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
+</tr>
+<tr>
+<td><code>format</code></td>
+<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
+</tr>
+<tr>
+<td><code>...</code></td>
+<td>Formátovací proměnné.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ukazka_2">Ukázka<a class="headerlink" href="#ukazka_2" title="Permanent link"></a></h3>
+<pre><code class="cpp">log::error(&quot;file_manager&quot;, &quot;file %s not found.&quot;, &quot;foo/bar.baz&quot;);
+</code></pre>
+
+<hr />
+<h2 id="debug">debug<a class="headerlink" href="#debug" title="Permanent link"></a></h2>
+<pre><code class="cpp">void log::debug(const char* where, const char* format, ...);
+</code></pre>
+
+<p>Zaloguje debug informaci. Debug informace jsou povolené jenom v <code>debug</code> <a href="../../../overview/#build-konfigurace">konfiguraci</a>.</p>
+<h3 id="parametry_6">Parametry<a class="headerlink" href="#parametry_6" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th>Parametr</th>
+<th>Popis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>where</code></td>
+<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
+</tr>
+<tr>
+<td><code>format</code></td>
+<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
+</tr>
+<tr>
+<td><code>...</code></td>
+<td>Formátovací proměnné.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ukazka_3">Ukázka<a class="headerlink" href="#ukazka_3" title="Permanent link"></a></h3>
+<pre><code class="cpp">log::debug(&quot;file_manager&quot;, &quot;file %s loaded (%fms).&quot;, &quot;foo/bar.baz&quot;, 22.22f);
+</code></pre>
+
+<hr />
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../lua/application/" class="btn btn-neutral float-right" title="Application"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../../overview/" class="btn btn-neutral" title="Popis"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../../../overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../lua/application/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
