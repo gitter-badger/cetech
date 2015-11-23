@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../../img/favicon.ico">
 
-	<title>log_system - CE Tech</title>
+	<title>Package - CE Tech</title>
 
         <link href="../../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -71,50 +71,35 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">API</a>
-    <ul class="dropdown-menu">
-        
-            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">C++</a>
-    <ul class="dropdown-menu">
-        
-            
-<li class="active">
-    <a href="./">log_system</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-        
-            
-  <li class="dropdown-submenu">
     <a tabindex="-1" href="">Lua</a>
     <ul class="dropdown-menu">
         
             
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">API</a>
+    <ul class="dropdown-menu">
+        
+            
 <li >
-    <a href="../../lua/application/">Application</a>
+    <a href="../application/">Application</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="./">Package</a>
 </li>
 
         
             
 <li >
-    <a href="../../lua/package/">Package</a>
+    <a href="../keyboard/">Keyboard</a>
 </li>
 
         
             
 <li >
-    <a href="../../lua/keyboard/">Keyboard</a>
-</li>
-
-        
-            
-<li >
-    <a href="../../lua/mouse/">Mouse</a>
+    <a href="../mouse/">Mouse</a>
 </li>
 
         
@@ -138,12 +123,6 @@
                             
 <li >
     <a href="../../../../playground/overview/">Popis</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../../../playground/image_history/">Historie v obrázcích</a>
 </li>
 
                         
@@ -177,12 +156,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../../../overview/">
+                        <a rel="next" href="../application/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../../lua/application/">
+                        <a rel="prev" href="../keyboard/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -207,155 +186,139 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#log_system">log_system</a></li>
+        <li class="main active"><a href="#package">Package</a></li>
         
     
         <li class="main "><a href="#metody">Metody</a></li>
         
-            <li><a href="#info">info</a></li>
+            <li><a href="#create">create</a></li>
         
-            <li><a href="#warning">warning</a></li>
+            <li><a href="#load">load</a></li>
         
-            <li><a href="#error">error</a></li>
+            <li><a href="#unload">unload</a></li>
         
-            <li><a href="#debug">debug</a></li>
+            <li><a href="#is_loaded">is_loaded</a></li>
+        
+            <li><a href="#flush">flush</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="log_system">log_system</h1>
-<p><code>log_system</code> slouží pro logování zpráv</p>
-<pre><code class="cpp">#include &quot;cetech/log_system/log_system.h&quot;
-</code></pre>
-
+<h1 id="package">Package</h1>
+<p>Modul obsahuje funkce pro obsluhu <code>resource package</code>.</p>
+<hr />
 <h1 id="metody">Metody</h1>
 <hr />
-<h2 id="info">info</h2>
-<pre><code class="cpp">void log::info(const char* where, const char* format, ...);
+<h2 id="create">create</h2>
+<pre><code class="lua">function create(package_name)
 </code></pre>
 
-<p>Zaloguje informační zprávu.</p>
-<h3 id="ukazka">Ukázka</h3>
-<pre><code class="cpp">log::info(&quot;file_manager&quot;, &quot;loading file %s&quot;, &quot;foo/bar.baz&quot;);
-</code></pre>
-
+<p>Vytvoří id balíčku podle <code>package_name</code>.</p>
 <table>
 <thead>
 <tr>
 <th>Parametr</th>
+<th>Typ</th>
 <th>Popis</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
+<td><code>package_name</code></td>
+<td>str</td>
+<td>Název balíčku</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="warning">warning</h2>
-<pre><code class="cpp">void log::warning(const char* where, const char* format, ...);
+<h2 id="load">load</h2>
+<pre><code class="lua">function load(package_id)
 </code></pre>
 
-<p>Zaloguje varování.</p>
-<h3 id="ukazka_1">Ukázka</h3>
-<pre><code class="cpp">log::warning(&quot;file_manager&quot;, &quot;file %s not found. Creating...&quot;, &quot;foo/bar.baz&quot;);
-</code></pre>
-
+<p>Načte všechny <code>resource</code> které jsou v balíčku v případě že <code>resource</code> je již načtený nebude se znovu
+načítat ale zvýší se počítadlo referenci. Data nejsou hned dostupná ale nahrávají se na pozadí.</p>
 <table>
 <thead>
 <tr>
 <th>Parametr</th>
+<th>Typ</th>
 <th>Popis</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="error">error</h2>
-<pre><code class="cpp">void log::error(const char* where, const char* format, ...);
+<h2 id="unload">unload</h2>
+<pre><code class="lua">function unload(package_id)
 </code></pre>
 
-<p>Zaloguje chybu.</p>
-<h3 id="ukazka_2">Ukázka</h3>
-<pre><code class="cpp">log::error(&quot;file_manager&quot;, &quot;file %s not found.&quot;, &quot;foo/bar.baz&quot;);
-</code></pre>
-
+<p>Pro všechny <code>resource</code> které jsou v balíčku sníží počítadlo a pokud <code>resource</code> nikdo nepoužívá smaže ho z paměti.</p>
 <table>
 <thead>
 <tr>
 <th>Parametr</th>
+<th>Typ</th>
 <th>Popis</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="debug">debug</h2>
-<pre><code class="cpp">void log::debug(const char* where, const char* format, ...);
+<h2 id="is_loaded">is_loaded</h2>
+<pre><code class="lua">function is_loaded(package_id)
 </code></pre>
 
-<h3 id="ukazka_3">Ukázka</h3>
-<pre><code class="cpp">log::debug(&quot;file_manager&quot;, &quot;file %s loaded (%fms).&quot;, &quot;foo/bar.baz&quot;, 22.22f);
-</code></pre>
-
-<p>Zaloguje debug informaci. Debug informace jsou povolené jenom v <code>debug</code> <a href="../../../overview/#build-konfigurace">konfiguraci</a>.</p>
+<p>Vrátí <code>true</code> pokud jsou všechny <code>resource</code> které jsou v balíčku načteny v paměti a připraveny k používaní jinak
+vrací <code>false</code>.</p>
 <table>
 <thead>
 <tr>
 <th>Parametr</th>
+<th>Typ</th>
 <th>Popis</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
 </tr>
+</tbody>
+</table>
+<hr />
+<h2 id="flush">flush</h2>
+<pre><code class="lua">function flush(package_id)
+</code></pre>
+
+<p>Počká dokud nejsou načteny všechny <code>resource</code> které jsou v balíčku.</p>
+<table>
+<thead>
 <tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
+<th>Parametr</th>
+<th>Typ</th>
+<th>Popis</th>
 </tr>
+</thead>
+<tbody>
 <tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
+<td><code>package_id</code></td>
+<td>stringid64</td>
+<td>Id balíčku</td>
 </tr>
 </tbody>
 </table>

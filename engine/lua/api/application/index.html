@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../../../img/favicon.ico">
 
-	<title>log_system - CE Tech</title>
+	<title>Application - CE Tech</title>
 
         <link href="../../../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -71,50 +71,35 @@
                         
                             
   <li class="dropdown-submenu">
-    <a tabindex="-1" href="">API</a>
-    <ul class="dropdown-menu">
-        
-            
-  <li class="dropdown-submenu">
-    <a tabindex="-1" href="">C++</a>
-    <ul class="dropdown-menu">
-        
-            
-<li class="active">
-    <a href="./">log_system</a>
-</li>
-
-        
-    </ul>
-  </li>
-
-        
-            
-  <li class="dropdown-submenu">
     <a tabindex="-1" href="">Lua</a>
     <ul class="dropdown-menu">
         
             
-<li >
-    <a href="../../lua/application/">Application</a>
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">API</a>
+    <ul class="dropdown-menu">
+        
+            
+<li class="active">
+    <a href="./">Application</a>
 </li>
 
         
             
 <li >
-    <a href="../../lua/package/">Package</a>
+    <a href="../package/">Package</a>
 </li>
 
         
             
 <li >
-    <a href="../../lua/keyboard/">Keyboard</a>
+    <a href="../keyboard/">Keyboard</a>
 </li>
 
         
             
 <li >
-    <a href="../../lua/mouse/">Mouse</a>
+    <a href="../mouse/">Mouse</a>
 </li>
 
         
@@ -138,12 +123,6 @@
                             
 <li >
     <a href="../../../../playground/overview/">Popis</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../../../playground/image_history/">Historie v obrázcích</a>
 </li>
 
                         
@@ -182,7 +161,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../../lua/application/">
+                        <a rel="prev" href="../package/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -207,158 +186,44 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#log_system">log_system</a></li>
+        <li class="main active"><a href="#application">Application</a></li>
         
     
         <li class="main "><a href="#metody">Metody</a></li>
         
-            <li><a href="#info">info</a></li>
+            <li><a href="#get_frame_id">get_frame_id</a></li>
         
-            <li><a href="#warning">warning</a></li>
+            <li><a href="#get_delta_time">get_delta_time</a></li>
         
-            <li><a href="#error">error</a></li>
-        
-            <li><a href="#debug">debug</a></li>
+            <li><a href="#quit">quit</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="log_system">log_system</h1>
-<p><code>log_system</code> slouží pro logování zpráv</p>
-<pre><code class="cpp">#include &quot;cetech/log_system/log_system.h&quot;
-</code></pre>
-
+<h1 id="application">Application</h1>
+<p>Modul obsahuje funkce pro základní obsluhu aplikace.</p>
+<hr />
 <h1 id="metody">Metody</h1>
 <hr />
-<h2 id="info">info</h2>
-<pre><code class="cpp">void log::info(const char* where, const char* format, ...);
+<h2 id="get_frame_id">get_frame_id</h2>
+<pre><code class="lua">function get_frame_id()
 </code></pre>
 
-<p>Zaloguje informační zprávu.</p>
-<h3 id="ukazka">Ukázka</h3>
-<pre><code class="cpp">log::info(&quot;file_manager&quot;, &quot;loading file %s&quot;, &quot;foo/bar.baz&quot;);
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th>Parametr</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
-</tr>
-</tbody>
-</table>
+<p>Vrátí id aktuálního frejmu.</p>
 <hr />
-<h2 id="warning">warning</h2>
-<pre><code class="cpp">void log::warning(const char* where, const char* format, ...);
+<h2 id="get_delta_time">get_delta_time</h2>
+<pre><code class="lua">function get_delta_time()
 </code></pre>
 
-<p>Zaloguje varování.</p>
-<h3 id="ukazka_1">Ukázka</h3>
-<pre><code class="cpp">log::warning(&quot;file_manager&quot;, &quot;file %s not found. Creating...&quot;, &quot;foo/bar.baz&quot;);
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th>Parametr</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
-</tr>
-</tbody>
-</table>
+<p>Vrátí delta time mezi aktuálním a předchozím frejmem</p>
 <hr />
-<h2 id="error">error</h2>
-<pre><code class="cpp">void log::error(const char* where, const char* format, ...);
+<h2 id="quit">quit</h2>
+<pre><code class="lua">function quit()
 </code></pre>
 
-<p>Zaloguje chybu.</p>
-<h3 id="ukazka_2">Ukázka</h3>
-<pre><code class="cpp">log::error(&quot;file_manager&quot;, &quot;file %s not found.&quot;, &quot;foo/bar.baz&quot;);
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th>Parametr</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h2 id="debug">debug</h2>
-<pre><code class="cpp">void log::debug(const char* where, const char* format, ...);
-</code></pre>
-
-<h3 id="ukazka_3">Ukázka</h3>
-<pre><code class="cpp">log::debug(&quot;file_manager&quot;, &quot;file %s loaded (%fms).&quot;, &quot;foo/bar.baz&quot;, 22.22f);
-</code></pre>
-
-<p>Zaloguje debug informaci. Debug informace jsou povolené jenom v <code>debug</code> <a href="../../../overview/#build-konfigurace">konfiguraci</a>.</p>
-<table>
-<thead>
-<tr>
-<th>Parametr</th>
-<th>Popis</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>where</code></td>
-<td>Kde k logování došlo např. <code>"resource_manager"</code></td>
-</tr>
-<tr>
-<td><code>format</code></td>
-<td>Formát zprávy (stejný syntax jako <code>printf</code>).</td>
-</tr>
-<tr>
-<td><code>...</code></td>
-<td>Formátovací proměnné.</td>
-</tr>
-</tbody>
-</table>
+<p>Ukončí aplikaci.</p>
 <hr /></div>
             
         </div>

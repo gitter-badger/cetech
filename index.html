@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>CE Tech dokumentace.</title>
+  <title>CETech</title>
   
 
   <link rel="shortcut icon" href="./img/favicon.ico">
@@ -38,7 +38,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="." class="icon icon-home"> CE Tech dokumentace.</a>
+        <a href="." class="icon icon-home"> CETech</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -72,6 +72,27 @@
 <li>
           
             <li>
+    <li class="toctree-l1 ">
+        <a class="" href="install/">Instalace</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="architecture/overview/">Architektůra</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="start/overview/">START</a>
+        
+    </li>
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>Engine</span></li>
 
@@ -84,6 +105,38 @@
 
         
             
+    <li class="toctree-l1 ">
+        <a class="" href="engine/build/">Build</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Playground</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="playground/overview/">Popis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="playground/image_history/">Historie v obrázcích</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>API C++</span></li>
 
@@ -96,9 +149,9 @@
 
         
     </ul>
-
-        
-            
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>API Lua</span></li>
 
@@ -146,31 +199,6 @@
 
         
     </ul>
-
-        
-    </ul>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>Playground</span></li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="playground/overview/">Popis</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="playground/image_history/">Historie v obrázcích</a>
-        
-    </li>
-
-        
-    </ul>
 <li>
           
             <li>
@@ -205,7 +233,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href=".">CE Tech dokumentace.</a>
+        <a href=".">CETech</a>
       </nav>
 
       
@@ -232,22 +260,20 @@
             <div class="section">
               
                 <h1 id="o-co-jde">O co jde?<a class="headerlink" href="#o-co-jde" title="Permanent link"></a></h1>
-<p>CE Tech je Data-Driven <a href="https://en.wikipedia.org/wiki/Game_engine">herní engine</a> a sada nastroju určených pro tovrbu her ale
-hodí se i pro neherní interaktivní aplikace. Snaží být <strong>svobodný</strong>, <strong>malý</strong>, <strong>multiplatformní</strong> a
+<p>CETech je Data-Driven <a href="https://en.wikipedia.org/wiki/Game_engine">herní engine</a> a sada nastroju určených pro
+tovrbu her a jiných interaktivních aplikaci. Snaží být <strong>svobodný</strong>, <strong>malý</strong>, <strong>multiplatformní</strong> a
 <strong>snadno rozšířítelný</strong> (jj typický kecy =D). Nesnaží se být funkcemi nabušený a neumožní vám na pár kliknutí vytvořít
-profesionálně vypadajcí hru jako například <a href="https://www.unrealengine.com">Unreal Engine</a>, <a href="https://unity3d.com">Unity</a>, <a href="https:/www.cryengine.com">CryEngine</a> atp.
-ale místo toho vám poskytne dobrý zaklad pro další tvorbu jako například <a href="http://www.autodesk.com/products/stingray/overview">BitSquid/Stingray engine</a>.</p>
+profesionálně vypadajcí hru jako například <a href="https://www.unrealengine.com">Unreal Engine</a>, <a href="https://unity3d.com">Unity</a> atp. ale místo toho vám
+poskytne dobrý zaklad pro další tvorbu. Takže je to vlstně takový <strong>"kámen"</strong> který si pomocí dat a dláta
+otesáte podle sebe.</p>
 <h3 id="pro-koho-je-urcen">Pro koho je určen?<a class="headerlink" href="#pro-koho-je-urcen" title="Permanent link"></a></h3>
-<p>Pro kohokoliv kdo chce tvořit hry nebo interaktivní aplikace a nebojí se učit novým věcem.</p>
+<p>Pro kohokoliv kdo chce tvořit hry nebo interaktivní aplikace, nebojí se učit novým věcem a nechci si psát technologii od
+uplného začátku.</p>
 <h3 id="pro-koho-neni-urcen">Pro koho není určen?<a class="headerlink" href="#pro-koho-neni-urcen" title="Permanent link"></a></h3>
 <p>Pro toho kdo čeká že si hru snadno a bez znalostí nakliká.</p>
 <h3 id="z-ceho-se-sklada">Z čeho se skladá?<a class="headerlink" href="#z-ceho-se-sklada" title="Permanent link"></a></h3>
 <p>Hlavní součástí je samotný <a href="engine/overview/"><strong>engine</strong></a>  a vývojové prostředí <a href="playground/overview/"><strong>Playground</strong></a>.</p>
 <h3 id="kde-se-da-ziskat">Kde se dá získat?<a class="headerlink" href="#kde-se-da-ziskat" title="Permanent link"></a></h3>
-<p>Stačí naklonovat repo <code>git@github.com:OndraVoves/cetech1.git</code></p>
-<pre><code class="bash">$ git clone git@github.com:OndraVoves/cetech1.git
-</code></pre>
-
 <hr />
               
             </div>
@@ -256,7 +282,7 @@ ale místo toho vám poskytne dobrý zaklad pro další tvorbu jako například 
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="engine/overview/" class="btn btn-neutral float-right" title="Popis"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="install/" class="btn btn-neutral float-right" title="Instalace"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
     </div>
@@ -286,7 +312,7 @@ ale místo toho vám poskytne dobrý zaklad pro další tvorbu jako například 
       
       
       
-        <span style="margin-left: 15px"><a href="engine/overview/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="install/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
@@ -296,5 +322,5 @@ ale místo toho vám poskytne dobrý zaklad pro další tvorbu jako například 
 
 <!--
 MkDocs version : 0.14.0
-Build Date UTC : 2015-11-23 06:26:42.199601
+Build Date UTC : 2015-11-23 22:27:33.002684
 -->

@@ -10,6 +10,30 @@
     
 
     
+    <url>
+     <loc>None/install/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/architecture/overview/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
+    <url>
+     <loc>None/start/overview/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    
+
+    
         
     <url>
      <loc>None/engine/overview/</loc>
@@ -18,14 +42,8 @@
     </url>
         
     <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None</loc>
-     <lastmod></lastmod>
+     <loc>None/engine/build/</loc>
+     <lastmod>2015-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -41,6 +59,56 @@
         
     <url>
      <loc>None/playground/image_history/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/engine/api/cpp/log/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>None/engine/api/lua/application/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/engine/api/lua/package/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/engine/api/lua/keyboard/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/engine/api/lua/mouse/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/engine/api/lua/vector2/</loc>
+     <lastmod>2015-11-23</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>None/engine/api/lua/vector3/</loc>
      <lastmod>2015-11-23</lastmod>
      <changefreq>daily</changefreq>
     </url>

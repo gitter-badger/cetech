@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>log - CE Tech dokumentace.</title>
+  <title>log - CETech</title>
   
 
   <link rel="shortcut icon" href="../../../../img/favicon.ico">
@@ -38,7 +38,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href="../../../.." class="icon icon-home"> CE Tech dokumentace.</a>
+        <a href="../../../.." class="icon icon-home"> CETech</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -57,6 +57,27 @@
 <li>
           
             <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../install/">Instalace</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../architecture/overview/">Architektůra</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../start/overview/">START</a>
+        
+    </li>
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>Engine</span></li>
 
@@ -69,6 +90,38 @@
 
         
             
+    <li class="toctree-l1 ">
+        <a class="" href="../../../build/">Build</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Playground</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../playground/overview/">Popis</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../../../playground/image_history/">Historie v obrázcích</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>API C++</span></li>
 
@@ -91,10 +144,7 @@
             
                 <li class="toctree-l3"><a href="#callbacky">Callbacky</a></li>
                 
-            
-                <li class="toctree-l3"><a href="#handler_t">handler_t</a></li>
-                
-                    <li><a class="toctree-l4" href="#parametry">Parametry</a></li>
+                    <li><a class="toctree-l4" href="#handler_t">handler_t</a></li>
                 
             
                 <li class="toctree-l3"><a href="#handlery">Handlery</a></li>
@@ -131,9 +181,9 @@
 
         
     </ul>
-
-        
-            
+<li>
+          
+            <li>
     <ul class="subnav">
     <li><span>API Lua</span></li>
 
@@ -181,31 +231,6 @@
 
         
     </ul>
-
-        
-    </ul>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>Playground</span></li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../../../../playground/overview/">Popis</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../../../../playground/image_history/">Historie v obrázcích</a>
-        
-    </li>
-
-        
-    </ul>
 <li>
           
             <li>
@@ -240,7 +265,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="../../../..">CE Tech dokumentace.</a>
+        <a href="../../../..">CETech</a>
       </nav>
 
       
@@ -317,7 +342,7 @@
 </table>
 <hr />
 <h1 id="callbacky">Callbacky<a class="headerlink" href="#callbacky" title="Permanent link"></a></h1>
-<h1 id="handler_t">handler_t<a class="headerlink" href="#handler_t" title="Permanent link"></a></h1>
+<h2 id="handler_t">handler_t<a class="headerlink" href="#handler_t" title="Permanent link"></a></h2>
 <pre><code class="cpp">typedef void (* handler_t)(const LogLevel::Enum level,
                            const time_t time,
                            const uint32_t worker_id,
@@ -597,7 +622,7 @@ log::register_handler(&amp;log::file_handler, f);
         <a href="../../lua/application/" class="btn btn-neutral float-right" title="Application"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../../../overview/" class="btn btn-neutral" title="Popis"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../../../../playground/image_history/" class="btn btn-neutral" title="Historie v obrázcích"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -625,7 +650,7 @@ log::register_handler(&amp;log::file_handler, f);
           <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
-        <span><a href="../../../overview/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../../../../playground/image_history/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../../lua/application/" style="color: #fcfcfc">Next &raquo;</a></span>
