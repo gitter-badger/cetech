@@ -95,6 +95,11 @@
         
             <ul>
             
+                <li class="toctree-l3"><a href="#a-co-zavislotsi">A co závislotsi?</a></li>
+                
+                    <li><a class="toctree-l4" href="#nejcastejsi-pouziti">Nejčastejší použití</a></li>
+                
+            
                 <li class="toctree-l3"><a href="#jak-to-zkompilovat">Jak to zkompilovat?</a></li>
                 
                     <li><a class="toctree-l4" href="#makepy">make.py</a></li>
@@ -257,7 +262,14 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="jak-to-zkompilovat">Jak to zkompilovat?<a class="headerlink" href="#jak-to-zkompilovat" title="Permanent link"></a></h1>
+                <h1 id="a-co-zavislotsi">A co závislotsi?<a class="headerlink" href="#a-co-zavislotsi" title="Permanent link"></a></h1>
+<p>V hlávním adresáři se nachází python skript <a href="#external.py">external.py</a> který vše obstará.</p>
+<h2 id="nejcastejsi-pouziti">Nejčastejší použití<a class="headerlink" href="#nejcastejsi-pouziti" title="Permanent link"></a></h2>
+<p>Připravý všechny závislosti pro aktuální <a href="#podporovane-platformy">platformu</a> v konfiguraci <a href="#develop">develop</a></p>
+<pre><code class="bash">$ python external.py
+</code></pre>
+
+<h1 id="jak-to-zkompilovat">Jak to zkompilovat?<a class="headerlink" href="#jak-to-zkompilovat" title="Permanent link"></a></h1>
 <p>Engine pro vlastní kompilaci používa skripty vygenerované pomocí programu <a href="https://github.com/bkaradzic/genie">GENie</a> (jde o fork premake4.4
 vice <a href="https://github.com/bkaradzic/genie#why-fork">zde</a>). A díky tomu je možne generovat makefile a nebo projekty pro visual studio a navíc pro různé
 platformy. Aby se celý proces zjednodušil existuje v hlavním adresáři python skript <a href="#make.py">make.py</a> který se
