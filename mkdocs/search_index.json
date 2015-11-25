@@ -51,12 +51,12 @@
             "title": "Data-Driven-Design (DDD)"
         },
         {
-            "location": "/start/overview/",
+            "location": "/new_game/overview/",
             "text": "Start\n\uf0c1",
-            "title": "START"
+            "title": "New Game"
         },
         {
-            "location": "/start/overview/#start",
+            "location": "/new_game/overview/#start",
             "text": "",
             "title": "Start"
         },
@@ -72,18 +72,18 @@
         },
         {
             "location": "/engine/build/",
-            "text": "A co z\u00e1vislotsi?\n\uf0c1\n\n\nV hl\u00e1vn\u00edm adres\u00e1\u0159i se nach\u00e1z\u00ed python skript \nexternal.py\n kter\u00fd v\u0161e obstar\u00e1.\n\n\nNej\u010dastej\u0161\u00ed pou\u017eit\u00ed\n\uf0c1\n\n\nP\u0159iprav\u00fd v\u0161echny z\u00e1vislosti pro aktu\u00e1ln\u00ed \nplatformu\n v konfiguraci \ndevelop\n\n\n$ python external.py\n\n\n\n\nJak to zkompilovat?\n\uf0c1\n\n\nEngine pro vlastn\u00ed kompilaci pou\u017e\u00edva skripty vygenerovan\u00e9 pomoc\u00ed programu \nGENie\n (jde o fork premake4.4\nvice \nzde\n). A d\u00edky tomu je mo\u017ene generovat makefile a nebo projekty pro visual studio a nav\u00edc pro r\u016fzn\u00e9\nplatformy. Aby se cel\u00fd proces zjednodu\u0161il existuje v hlavn\u00edm adres\u00e1\u0159i python skript \nmake.py\n kter\u00fd se\nstar\u00e1 o celou srandu kolem kompilace.\n\n\nmake.py\n\uf0c1\n\n\nSkript kter\u00fd se nach\u00e1z\u00ed v hlavn\u00edm adres\u00e1\u0159i projektu a zjednodu\u0161uje a sjednocuje proces kompilace na ruzn\u00fdch platform\u00e1ch.\n\n\nNej\u010dastej\u0161\u00ed zp\u016fsob kompilace\n\uf0c1\n\n\nPro za\u010d\u00e1tek sta\u010d\u00ed zkompilovat engine pro aktu\u00e1ln\u00ed \nplatformu\n v konfiguraci \ndevelop\n jednodu\u0161e takto:\n\n\n$ python make.py\n\n\n\n\nPou\u017eit\u00ed\n\uf0c1\n\n\npython make.py [AKCE]\n\n\n\n\n\n\n\n\n\n\nAkce\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\n\n\nPokud nen\u00ed nic zad\u00e1no provede se \nbuild\n.\n\n\n\n\n\n\nclean\n\n\nSma\u017ee slo\u017eku kterou vytvo\u0159il \nbuild\n. Dost \u010dasto \u0159es\u00ed spoustu probl\u00e9mu =D\n\n\n\n\n\n\n\n\nPodporovan\u00e9 platformy\n\uf0c1\n\n\nEngine se sna\u017e\u00ed podporovat v\u0161echny platformy jako knihovna \nbgfx\n, ale zat\u00edm je na za\u010d\u00e1tku v\u00fdvoje tak je podpora\ndosti omezen\u00e1 (ok... zat\u00edm to be\u017e\u00ed jenom na linuxu tak\u017ee se d\u00e1 hovo\u0159it o uniplatformnosti ale kupodivu ji d\u011bl\u00e1 dob\u0159e).\n\n\n\n\n\n\n\n\nPlatforma\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nlinux32\n\n\nLinux na architektu\u0159e x86\n\n\n\n\n\n\nlinux64\n\n\nLinux na architektu\u0159e x86-64\n\n\n\n\n\n\n\n\nBuild konfigurace\n\uf0c1\n\n\n\n\n\n\n\n\nKonfigurace\n\n\nOptimalizace kompilatoru\n\n\nKod pro tvorbu\n\n\nDebug\n\n\n\n\n\n\n\n\n\n\ndevelop\n\n\nAno\n\n\nAno\n\n\nNe\n\n\n\n\n\n\ndebug\n\n\nNe\n\n\nAno\n\n\nAno\n\n\n\n\n\n\nrelease\n\n\nAno\n\n\nNe\n\n\nNe\n\n\n\n\n\n\n\n\nDevelop\n\uf0c1\n\n\nBuild  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.\n\n\nDebug\n\uf0c1\n\n\nBuild m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e \ndevelop\n. Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.\n\n\nRelease\n\uf0c1\n\n\nTento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
+            "text": "A co z\u00e1vislosti?\n\uf0c1\n\n\nV hl\u00e1vn\u00edm adres\u00e1\u0159i se nach\u00e1z\u00ed python skript \nexternal.py\n kter\u00fd v\u0161e obstar\u00e1.\n\n\nexternals.py\n\uf0c1\n\n\nNej\u010dastej\u0161\u00ed pou\u017eit\u00ed\n\uf0c1\n\n\nP\u0159iprav\u00fd v\u0161echny z\u00e1vislosti pro aktu\u00e1ln\u00ed \nplatformu\n v konfiguraci \ndevelop\n\n\n$ python external.py\n\n\n\n\nJak to zkompilovat?\n\uf0c1\n\n\nEngine pro vlastn\u00ed kompilaci pou\u017e\u00edva skripty vygenerovan\u00e9 pomoc\u00ed programu \nGENie\n (jde o fork premake4.4\nvice \nzde\n). A d\u00edky tomu je mo\u017ene generovat makefile a nebo projekty pro visual studio a nav\u00edc pro r\u016fzn\u00e9\nplatformy. Aby se cel\u00fd proces zjednodu\u0161il existuje v hlavn\u00edm adres\u00e1\u0159i python skript \nmake.py\n kter\u00fd se\nstar\u00e1 o celou srandu kolem kompilace.\n\n\nmake.py\n\uf0c1\n\n\nSkript kter\u00fd se nach\u00e1z\u00ed v hlavn\u00edm adres\u00e1\u0159i projektu a zjednodu\u0161uje a sjednocuje proces kompilace na ruzn\u00fdch platform\u00e1ch.\n\n\nNej\u010dastej\u0161\u00ed zp\u016fsob kompilace\n\uf0c1\n\n\nPro za\u010d\u00e1tek sta\u010d\u00ed zkompilovat engine pro aktu\u00e1ln\u00ed \nplatformu\n v konfiguraci \ndevelop\n jednodu\u0161e takto:\n\n\n$ python make.py\n\n\n\n\nPou\u017eit\u00ed\n\uf0c1\n\n\npython make.py [AKCE]\n\n\n\n\n\n\n\n\n\n\nAkce\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\n\n\nPokud nen\u00ed nic zad\u00e1no provede se \nbuild\n.\n\n\n\n\n\n\nclean\n\n\nSma\u017ee slo\u017eku kterou vytvo\u0159il \nbuild\n. Dost \u010dasto \u0159es\u00ed spoustu probl\u00e9mu =D\n\n\n\n\n\n\n\n\nPodporovan\u00e9 platformy\n\uf0c1\n\n\nEngine se sna\u017e\u00ed podporovat v\u0161echny platformy jako knihovna \nbgfx\n, ale zat\u00edm je na za\u010d\u00e1tku v\u00fdvoje tak je podpora\ndosti omezen\u00e1 (ok... zat\u00edm to be\u017e\u00ed jenom na linuxu tak\u017ee se d\u00e1 hovo\u0159it o uniplatformnosti ale kupodivu ji d\u011bl\u00e1 dob\u0159e).\n\n\n\n\n\n\n\n\nPlatforma\n\n\nPopis\n\n\n\n\n\n\n\n\n\n\nlinux32\n\n\nLinux na architektu\u0159e x86\n\n\n\n\n\n\nlinux64\n\n\nLinux na architektu\u0159e x86-64\n\n\n\n\n\n\n\n\nBuild konfigurace\n\uf0c1\n\n\n\n\n\n\n\n\nKonfigurace\n\n\nOptimalizace kompilatoru\n\n\nKod pro tvorbu\n\n\nDebug\n\n\n\n\n\n\n\n\n\n\ndevelop\n\n\nAno\n\n\nAno\n\n\nNe\n\n\n\n\n\n\ndebug\n\n\nNe\n\n\nAno\n\n\nAno\n\n\n\n\n\n\nrelease\n\n\nAno\n\n\nNe\n\n\nNe\n\n\n\n\n\n\n\n\nDevelop\n\uf0c1\n\n\nBuild  obsahuje v\u0161e pot\u0159ebn\u00e9 pro komunikaci s editorem, tvorbou hern\u00edho obsahu a jej\u00ed kompilaci.\nJedn\u00e1 se o nej\u010dastej\u00ed vyu\u017e\u00edvanou konfiguraci b\u011bhem v\u00fdvoje.\n\n\nDebug\n\uf0c1\n\n\nBuild m\u00e1 zapnutou kontrolu chyb jako nap\u0159. asserty. Jsou vypnut\u00e9 optimalizace kompil\u00e1toru a proto je tento build v\u00fdrazn\u011b\npomalej\u0161\u00ed ne\u017e \ndevelop\n. Tuto konfiguraci nej\u010dast\u011bji vyu\u017eijete pokud upravujete k\u00f3d enginu.\n\n\nRelease\n\uf0c1\n\n\nTento build je prim\u00e1rn\u011b ur\u010den\u00fd pro fin\u00e1ln\u00ed verzi hry nebo aplikace. M\u00e1 odstan\u011bnou ve\u0161kerou funkcionalitu pro\nv\u00fdvoj a editor jako nap\u0159. Console server, Kompilaci resource souboru. A pat\u0159\u00ed mezi nejrychlej\u0161\u00ed konfigurace.",
             "title": "Build"
         },
         {
-            "location": "/engine/build/#a-co-zavislotsi",
+            "location": "/engine/build/#a-co-zavislosti",
             "text": "V hl\u00e1vn\u00edm adres\u00e1\u0159i se nach\u00e1z\u00ed python skript  external.py  kter\u00fd v\u0161e obstar\u00e1.",
-            "title": "A co z\u00e1vislotsi?"
+            "title": "A co z\u00e1vislosti?"
         },
         {
-            "location": "/engine/build/#nejcastejsi-pouziti",
-            "text": "P\u0159iprav\u00fd v\u0161echny z\u00e1vislosti pro aktu\u00e1ln\u00ed  platformu  v konfiguraci  develop  $ python external.py",
-            "title": "Nej\u010dastej\u0161\u00ed pou\u017eit\u00ed"
+            "location": "/engine/build/#externalspy",
+            "text": "Nej\u010dastej\u0161\u00ed pou\u017eit\u00ed \uf0c1  P\u0159iprav\u00fd v\u0161echny z\u00e1vislosti pro aktu\u00e1ln\u00ed  platformu  v konfiguraci  develop  $ python external.py",
+            "title": "externals.py"
         },
         {
             "location": "/engine/build/#jak-to-zkompilovat",
@@ -627,12 +627,12 @@
         },
         {
             "location": "/about/license/",
-            "text": "Licence\n\uf0c1\n\n\nCETech je \u0161\u00ed\u0159en jako \nPublic Domain\n tedy a\u017e na programy a knihovny t\u0159et\u00edch stran kter\u00e9 se\nnach\u00e1zej\u00ed ve adres\u00e1\u0159i \n3rdparty\n a \u010d\u00e1ste\u010dn\u011b \nplayground/html\n a pokud nen\u00ed uvedeno jinak.",
+            "text": "Licence\n\uf0c1\n\n\nSamotn\u00fd CETech je \u0161\u00ed\u0159en jako \nPublic Domain\n a\u017e na knihovny a programy t\u0159et\u00edch stran kter\u00e9 se nach\u00e1zej\u00ed\nv adres\u00e1\u0159\u00edch \nexternals\n (ty se nainstaluj\u00ed pomoc\u00ed skriptu\nexternals.py\n), \n3rdparty\n (ty jsou p\u0159\u00edmo v\nrepozit\u00e1\u0159i a jedn\u00e1 se o do\u010dasn\u00e9 \u0159e\u0161en\u00ed) a nebo v\nplayground/html\n (jde vet\u0161inou o JS knihovny kter\u00e9 pou\u017e\u00edva\n\nplayground\n)",
             "title": "Licence"
         },
         {
             "location": "/about/license/#licence",
-            "text": "CETech je \u0161\u00ed\u0159en jako  Public Domain  tedy a\u017e na programy a knihovny t\u0159et\u00edch stran kter\u00e9 se\nnach\u00e1zej\u00ed ve adres\u00e1\u0159i  3rdparty  a \u010d\u00e1ste\u010dn\u011b  playground/html  a pokud nen\u00ed uvedeno jinak.",
+            "text": "Samotn\u00fd CETech je \u0161\u00ed\u0159en jako  Public Domain  a\u017e na knihovny a programy t\u0159et\u00edch stran kter\u00e9 se nach\u00e1zej\u00ed\nv adres\u00e1\u0159\u00edch  externals  (ty se nainstaluj\u00ed pomoc\u00ed skriptu externals.py ),  3rdparty  (ty jsou p\u0159\u00edmo v\nrepozit\u00e1\u0159i a jedn\u00e1 se o do\u010dasn\u00e9 \u0159e\u0161en\u00ed) a nebo v playground/html  (jde vet\u0161inou o JS knihovny kter\u00e9 pou\u017e\u00edva playground )",
             "title": "Licence"
         }
     ]
