@@ -97,7 +97,7 @@
         },
         {
             "location": "/playground/overview/",
-            "text": "Playground\n\uf0c1\n\n\nV\u00fdvojov\u00e9 prost\u0159ed\u00ed kter\u00e9 se sn\u00e1\u017e\u00ed o snadnou \nmodifikovatelnost\n aby mohlo co nejl\u00e9pe vyhovov\u00e1t specifikac\u00edm projektu\npokud to bude pot\u0159eba. Proto je zvolena kombinace jazyk\u016f \nPython\n, \nLUA\n, \nJS\n, \nHTML\n.\n\n\n\n\nPro\u010d tolik jazyk\u016f?\n\uf0c1\n\n\n\n\nPython + QT\n jako z\u00e1klad. V\u00fdborn\u00e1 podpora nap\u0159\u00ed\u010d OS.\n\n\nLUA\n pro komunikaci s enginem. To umo\u017enuje m\u00edt k\u00f3d n\u00e1stroj\u016f odd\u011blen\u00fd od enginu (n\u00e1stroj pouze po\u0161le script a ten\n  nastav\u00ed po\u017eadovan\u00e9 chov\u00e1n\u00ed a pak sta\u010d\u00ed komunikovat p\u0159es \nconsole_server\n)\n\n\nHTML + JS\n pro vizualizace a r\u016fzn\u00e9 widgety. Snadn\u00e9 pou\u017eit\u00ed a mocn\u00e1 vizualizace (a taky m\u016f\u017eete m\u00edt pu\u0161t\u011bn\u00fd\neditor, upravovat k\u00f3d a pak jenom zm\u00e1\u010dnout RELOAD, str\u00e1nka se na\u010dte a hned vyd\u00edte co d\u011blate == rychl\u00e1 iterace).\n\n\n\n\n\n\nJak to spust\u00edm?\n\uf0c1\n\n\nV hlavn\u00edm adres\u00e1\u0159\u00ed spuste skript \nplayground.py\n\n\n$ python playground.py",
+            "text": "Playground\n\uf0c1\n\n\nV\u00fdvojov\u00e9 prost\u0159ed\u00ed kter\u00e9 se sn\u00e1\u017e\u00ed o snadnou \nmodifikovatelnost\n aby mohlo co nejl\u00e9pe vyhovov\u00e1t specifikac\u00edm projektu\npokud to bude pot\u0159eba. Proto je zvolena kombinace jazyk\u016f \nPython\n, \nLUA\n, \nJS\n, \nHTML\n.\n\n\n\n\nPro\u010d tolik jazyk\u016f?\n\uf0c1\n\n\n\n\nPython + QT\n jako z\u00e1klad. V\u00fdborn\u00e1 podpora nap\u0159\u00ed\u010d OS.\n\n\nLUA\n pro komunikaci s enginem. To umo\u017enuje m\u00edt k\u00f3d n\u00e1stroj\u016f odd\u011blen\u00fd od enginu (n\u00e1stroj pouze po\u0161le script a ten\n  nastav\u00ed po\u017eadovan\u00e9 chov\u00e1n\u00ed a pak sta\u010d\u00ed komunikovat p\u0159es \nconsole_server\n)\n\n\nHTML + JS\n pro vizualizace a r\u016fzn\u00e9 widgety. Snadn\u00e9 pou\u017eit\u00ed a mocn\u00e1 vizualizace (a taky m\u016f\u017eete m\u00edt pu\u0161t\u011bn\u00fd\neditor, upravovat k\u00f3d a pak jenom zm\u00e1\u010dnout RELOAD, str\u00e1nka se na\u010dte a hned vyd\u00edte co d\u011blate == rychl\u00e1 iterace).\n\n\n\n\n\n\nJak to spust\u00edm?\n\uf0c1\n\n\nV hlavn\u00edm adres\u00e1\u0159\u00ed spuste skript \nplayground.py\n\n\n\n\nNote\n\n\nP\u0159i spu\u0161t\u011bn\u00ed na v\u00e1s vysko\u010d\u00ed uvodn\u00ed dialog kde m\u016f\u017eete p\u0159idat projekt kter\u00fd se nach\u00e1z\u00ed v adres\u00e1\u0159i \ndata\n. Po\nvytvo\u0159en\u00ed u\u017e sta\u010d\u00ed jenom na projekt dvakr\u00e1t kliknout.\n\n\n\n\n$ python playground.py",
             "title": "Popis"
         },
         {
@@ -112,7 +112,7 @@
         },
         {
             "location": "/playground/overview/#jak-to-spustim",
-            "text": "V hlavn\u00edm adres\u00e1\u0159\u00ed spuste skript  playground.py  $ python playground.py",
+            "text": "V hlavn\u00edm adres\u00e1\u0159\u00ed spuste skript  playground.py   Note  P\u0159i spu\u0161t\u011bn\u00ed na v\u00e1s vysko\u010d\u00ed uvodn\u00ed dialog kde m\u016f\u017eete p\u0159idat projekt kter\u00fd se nach\u00e1z\u00ed v adres\u00e1\u0159i  data . Po\nvytvo\u0159en\u00ed u\u017e sta\u010d\u00ed jenom na projekt dvakr\u00e1t kliknout.   $ python playground.py",
             "title": "Jak to spust\u00edm?"
         },
         {
