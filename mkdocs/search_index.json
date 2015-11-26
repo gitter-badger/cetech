@@ -12,12 +12,12 @@
         },
         {
             "location": "/install/",
-            "text": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e\n\uf0c1\n\n\n\n\nWarning\n\n\nRepozit\u00e1\u0159 je zat\u00edm \npriv\u00e1tn\u00ed\n a z\u016fstane tak dokud nebude m\u00edt \nengine\n a \nPlayground\n\nz\u00e1kladn\u00ed a funk\u010dn\u00ed podobu.\n\n\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt \nnaistalovan\u00fd a fun\u010dn\u00ed git\n.\n\n\n\n\nPokud \ngit\n funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo \ngit clone git@github.com:OndraVoves/cetech1.git\n.\n\n\nKompilace\n\uf0c1\n\n\nP\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba \nzkompilovat engine\n a p\u0159ipravit \nplayground\n.\n\n\nKam d\u00e1l?\n\uf0c1",
+            "text": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e\n\uf0c1\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt \nnaistalovan\u00fd a fun\u010dn\u00ed git\n.\n\n\n\n\nPokud \ngit\n funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo \ngit clone git@github.com:OndraVoves/cetech1.git\n.\n\n\nKompilace\n\uf0c1\n\n\nP\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba \nzkompilovat engine\n a p\u0159ipravit \nplayground\n.\n\n\nKam d\u00e1l?\n\uf0c1",
             "title": "Instalace"
         },
         {
             "location": "/install/#naklonovani-repozitare",
-            "text": "Warning  Repozit\u00e1\u0159 je zat\u00edm  priv\u00e1tn\u00ed  a z\u016fstane tak dokud nebude m\u00edt  engine  a  Playground \nz\u00e1kladn\u00ed a funk\u010dn\u00ed podobu.    Important  Je pot\u0159eba m\u00edt  naistalovan\u00fd a fun\u010dn\u00ed git .   Pokud  git  funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo  git clone git@github.com:OndraVoves/cetech1.git .",
+            "text": "Important  Je pot\u0159eba m\u00edt  naistalovan\u00fd a fun\u010dn\u00ed git .   Pokud  git  funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo  git clone git@github.com:OndraVoves/cetech1.git .",
             "title": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e"
         },
         {
@@ -62,12 +62,12 @@
         },
         {
             "location": "/engine/overview/",
-            "text": "Engine\n\uf0c1\n\n\nEngine je sv\u00fdm zp\u016fsobem virtualn\u00ed stroj kter\u00fd se skl\u00e1d\u00e1 z mnoha r\u016fzn\u00fdch subsyst\u00e9mu nap\u0159. \nrender system\n,\n\nlog system\n,\nresource manager\n, \nconsole server\n atd. A to v\u0161echno se star\u00e1 o to aby jsme\nmohli \nzab\u00edjet haldy emz\u00e1ku\n, \nhackovat kamery pod vodou\n, \n\u0159\u00e1dit v radiaci\n,\n\nt\u00e1hnout se za z\u00e1chanou lidstva\n, \nhrdin\u011b osvobozovat sv\u011bt\n nebo \nza\u010d\u00edt politickou karieru\n.\nSamotn\u00e9 j\u00e1dro enginu je naprogramov\u00e1no v C/C++ (resp. v C++ ale stylem \"C\u00e9\u010dkov\u00e9 \u0161koly\"), ostatn\u00ed subsyst\u00e9my a hern\u00ed\nlogika v \nLUA\n.",
+            "text": "Engine\n\uf0c1\n\n\nEngine je sv\u00fdm zp\u016fsobem virtualn\u00ed parn\u00ed stroj kter\u00fd se skl\u00e1d\u00e1 z mnoha r\u016fzn\u00fdch subsyst\u00e9mu nap\u0159. \nrender system\n,\n\nlog system\n,\nresource manager\n, \nconsole server\n atd. Samotn\u00e9 j\u00e1dro enginu je naprogramov\u00e1no v C/C++\n(resp. v C++ ale stylem \"C\u00e9\u010dkov\u00e9 \u0161koly\") a v \nLUA\n. A to v\u0161echno se star\u00e1 o to aby jsme\nmohli \nzab\u00edjet haldy emz\u00e1ku\n, \nhackovat kamery pod vodou\n, \n\u0159\u00e1dit v radiaci\n,\n\nt\u00e1hnout se za z\u00e1chanou lidstva\n, \nhrdin\u011b osvobozovat sv\u011bt\n nebo \nza\u010d\u00edt politickou karieru\n.",
             "title": "Popis"
         },
         {
             "location": "/engine/overview/#engine",
-            "text": "Engine je sv\u00fdm zp\u016fsobem virtualn\u00ed stroj kter\u00fd se skl\u00e1d\u00e1 z mnoha r\u016fzn\u00fdch subsyst\u00e9mu nap\u0159.  render system , log system , resource manager ,  console server  atd. A to v\u0161echno se star\u00e1 o to aby jsme\nmohli  zab\u00edjet haldy emz\u00e1ku ,  hackovat kamery pod vodou ,  \u0159\u00e1dit v radiaci , t\u00e1hnout se za z\u00e1chanou lidstva ,  hrdin\u011b osvobozovat sv\u011bt  nebo  za\u010d\u00edt politickou karieru .\nSamotn\u00e9 j\u00e1dro enginu je naprogramov\u00e1no v C/C++ (resp. v C++ ale stylem \"C\u00e9\u010dkov\u00e9 \u0161koly\"), ostatn\u00ed subsyst\u00e9my a hern\u00ed\nlogika v  LUA .",
+            "text": "Engine je sv\u00fdm zp\u016fsobem virtualn\u00ed parn\u00ed stroj kter\u00fd se skl\u00e1d\u00e1 z mnoha r\u016fzn\u00fdch subsyst\u00e9mu nap\u0159.  render system , log system , resource manager ,  console server  atd. Samotn\u00e9 j\u00e1dro enginu je naprogramov\u00e1no v C/C++\n(resp. v C++ ale stylem \"C\u00e9\u010dkov\u00e9 \u0161koly\") a v  LUA . A to v\u0161echno se star\u00e1 o to aby jsme\nmohli  zab\u00edjet haldy emz\u00e1ku ,  hackovat kamery pod vodou ,  \u0159\u00e1dit v radiaci , t\u00e1hnout se za z\u00e1chanou lidstva ,  hrdin\u011b osvobozovat sv\u011bt  nebo  za\u010d\u00edt politickou karieru .",
             "title": "Engine"
         },
         {
@@ -627,12 +627,12 @@
         },
         {
             "location": "/about/license/",
-            "text": "Licence\n\uf0c1\n\n\nSamotn\u00fd CETech je \u0161\u00ed\u0159en jako \nPublic Domain\n a\u017e na knihovny a programy t\u0159et\u00edch stran kter\u00e9 se nach\u00e1zej\u00ed\nv adres\u00e1\u0159\u00edch \nexternals\n (ty se nainstaluj\u00ed pomoc\u00ed skriptu\nexternals.py\n), \n3rdparty\n (ty jsou p\u0159\u00edmo v\nrepozit\u00e1\u0159i a jedn\u00e1 se o do\u010dasn\u00e9 \u0159e\u0161en\u00ed) a nebo v\nplayground/html\n (jde vet\u0161inou o JS knihovny kter\u00e9 pou\u017e\u00edva\n\nplayground\n)",
+            "text": "Licence\n\uf0c1\n\n\nCETech je \u0161\u00ed\u0159en jako \nCC0 1.0\n.\n\n\nOsoba, kter\u00e1 k d\u00edlu p\u0159ilo\u017eila toto prohl\u00e1\u0161en\u00ed, souhlasila s vystaven\u00edm tohoto d\u00edla jako d\u00edla voln\u00e9ho a celosv\u011btov\u011b\nse vzdala v\u0161ech sv\u00fdch autorsk\u00fdch pr\u00e1v k d\u00edlu, v\u010detn\u011b v\u0161ech pr\u00e1v souvisej\u00edc\u00edch a pr\u00e1v p\u0159\u00edbuzn\u00fdch v rozsahu, kter\u00fd je\npovolen z\u00e1konem. Toto d\u00edlo m\u016f\u017eete kop\u00edrovat, upravovat, distribuovat a zpracov\u00e1vat, a to i pro komer\u010dn\u00ed u\u010dely,\nbez z\u00edsk\u00e1v\u00e1n\u00ed dal\u0161\u00edho souhlasu.",
             "title": "Licence"
         },
         {
             "location": "/about/license/#licence",
-            "text": "Samotn\u00fd CETech je \u0161\u00ed\u0159en jako  Public Domain  a\u017e na knihovny a programy t\u0159et\u00edch stran kter\u00e9 se nach\u00e1zej\u00ed\nv adres\u00e1\u0159\u00edch  externals  (ty se nainstaluj\u00ed pomoc\u00ed skriptu externals.py ),  3rdparty  (ty jsou p\u0159\u00edmo v\nrepozit\u00e1\u0159i a jedn\u00e1 se o do\u010dasn\u00e9 \u0159e\u0161en\u00ed) a nebo v playground/html  (jde vet\u0161inou o JS knihovny kter\u00e9 pou\u017e\u00edva playground )",
+            "text": "CETech je \u0161\u00ed\u0159en jako  CC0 1.0 .  Osoba, kter\u00e1 k d\u00edlu p\u0159ilo\u017eila toto prohl\u00e1\u0161en\u00ed, souhlasila s vystaven\u00edm tohoto d\u00edla jako d\u00edla voln\u00e9ho a celosv\u011btov\u011b\nse vzdala v\u0161ech sv\u00fdch autorsk\u00fdch pr\u00e1v k d\u00edlu, v\u010detn\u011b v\u0161ech pr\u00e1v souvisej\u00edc\u00edch a pr\u00e1v p\u0159\u00edbuzn\u00fdch v rozsahu, kter\u00fd je\npovolen z\u00e1konem. Toto d\u00edlo m\u016f\u017eete kop\u00edrovat, upravovat, distribuovat a zpracov\u00e1vat, a to i pro komer\u010dn\u00ed u\u010dely,\nbez z\u00edsk\u00e1v\u00e1n\u00ed dal\u0161\u00edho souhlasu.",
             "title": "Licence"
         }
     ]
