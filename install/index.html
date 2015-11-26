@@ -68,7 +68,7 @@
                 <li class="toctree-l3"><a href="#kompilace">Kompilace</a></li>
                 
             
-                <li class="toctree-l3"><a href="#kam-dal">Kam dál?</a></li>
+                <li class="toctree-l3"><a href="#priprava-playground">Příprava Playground</a></li>
                 
             
             </ul>
@@ -260,12 +260,25 @@
                 <h1 id="naklonovani-repozitare">Naklonování repozitáře<a class="headerlink" href="#naklonovani-repozitare" title="Permanent link"></a></h1>
 <div class="admonition important">
 <p class="admonition-title">Important</p>
-<p>Je potřeba mít <a href="https://help.github.com/articles/set-up-git/">naistalovaný a funční git</a>.</p>
+<p>Je potřeba mít naistalovaný a funční <a href="https://help.github.com/articles/set-up-git/">git</a></p>
 </div>
-<p>Pokud <em>git</em> funguje tak už stačí jenom naklonovat repo <code>git clone git@github.com:OndraVoves/cetech1.git</code>.</p>
+<p>Pokud <em>git</em> funguje tak už stačí jenom naklonovat repo <code>git clone git@github.com:cyberegoorg/cetech.git</code>.</p>
 <h1 id="kompilace">Kompilace<a class="headerlink" href="#kompilace" title="Permanent link"></a></h1>
-<p>Před prvním spuštěním je potřeba <a href="../engine/build/">zkompilovat engine</a> a připravit <code>playground</code>.</p>
-<h1 id="kam-dal">Kam dál?<a class="headerlink" href="#kam-dal" title="Permanent link"></a></h1>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Je potřeba mít naistalovaný a funční <a href="https://www.python.org/downloads/">python3.5</a> a nainstalovat závislosti <code>pip install -r requirements.txt</code></p>
+</div>
+<p>Před prvním spuštěním je potřeba <a href="../engine/build/">zkompilovat engine</a> a připravit <a href="#priprava-playground">playground</a>.</p>
+<h1 id="priprava-playground">Příprava Playground<a class="headerlink" href="#priprava-playground" title="Permanent link"></a></h1>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Je potřeba naistalovat knihovnu <a href="https://riverbankcomputing.com/software/pyqt/download5">PyQT5</a> .</p>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Je potřeba naistalovat knihovnu <code>pyenet</code> která se nachází v adresáři <code>3rdparty/pyenet</code>.</p>
+<p><code>$ python setup.py install</code></p>
+</div>
               
             </div>
           </div>

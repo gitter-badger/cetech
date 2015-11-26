@@ -12,23 +12,23 @@
         },
         {
             "location": "/install/",
-            "text": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e\n\uf0c1\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt \nnaistalovan\u00fd a fun\u010dn\u00ed git\n.\n\n\n\n\nPokud \ngit\n funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo \ngit clone git@github.com:OndraVoves/cetech1.git\n.\n\n\nKompilace\n\uf0c1\n\n\nP\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba \nzkompilovat engine\n a p\u0159ipravit \nplayground\n.\n\n\nKam d\u00e1l?\n\uf0c1",
+            "text": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e\n\uf0c1\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt naistalovan\u00fd a fun\u010dn\u00ed \ngit\n\n\n\n\nPokud \ngit\n funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo \ngit clone git@github.com:cyberegoorg/cetech.git\n.\n\n\nKompilace\n\uf0c1\n\n\n\n\nImportant\n\n\nJe pot\u0159eba m\u00edt naistalovan\u00fd a fun\u010dn\u00ed \npython3.5\n a nainstalovat z\u00e1vislosti \npip install -r requirements.txt\n\n\n\n\nP\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba \nzkompilovat engine\n a p\u0159ipravit \nplayground\n.\n\n\nP\u0159\u00edprava Playground\n\uf0c1\n\n\n\n\nImportant\n\n\nJe pot\u0159eba naistalovat knihovnu \nPyQT5\n .\n\n\n\n\n\n\nImportant\n\n\nJe pot\u0159eba naistalovat knihovnu \npyenet\n kter\u00e1 se nach\u00e1z\u00ed v adres\u00e1\u0159i \n3rdparty/pyenet\n.\n\n\n$ python setup.py install",
             "title": "Instalace"
         },
         {
             "location": "/install/#naklonovani-repozitare",
-            "text": "Important  Je pot\u0159eba m\u00edt  naistalovan\u00fd a fun\u010dn\u00ed git .   Pokud  git  funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo  git clone git@github.com:OndraVoves/cetech1.git .",
+            "text": "Important  Je pot\u0159eba m\u00edt naistalovan\u00fd a fun\u010dn\u00ed  git   Pokud  git  funguje tak u\u017e sta\u010d\u00ed jenom naklonovat repo  git clone git@github.com:cyberegoorg/cetech.git .",
             "title": "Naklonov\u00e1n\u00ed repozit\u00e1\u0159e"
         },
         {
             "location": "/install/#kompilace",
-            "text": "P\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba  zkompilovat engine  a p\u0159ipravit  playground .",
+            "text": "Important  Je pot\u0159eba m\u00edt naistalovan\u00fd a fun\u010dn\u00ed  python3.5  a nainstalovat z\u00e1vislosti  pip install -r requirements.txt   P\u0159ed prvn\u00edm spu\u0161t\u011bn\u00edm je pot\u0159eba  zkompilovat engine  a p\u0159ipravit  playground .",
             "title": "Kompilace"
         },
         {
-            "location": "/install/#kam-dal",
-            "text": "",
-            "title": "Kam d\u00e1l?"
+            "location": "/install/#priprava-playground",
+            "text": "Important  Je pot\u0159eba naistalovat knihovnu  PyQT5  .    Important  Je pot\u0159eba naistalovat knihovnu  pyenet  kter\u00e1 se nach\u00e1z\u00ed v adres\u00e1\u0159i  3rdparty/pyenet .  $ python setup.py install",
+            "title": "P\u0159\u00edprava Playground"
         },
         {
             "location": "/architecture/overview/",
