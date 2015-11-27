@@ -612,18 +612,13 @@
         },
         {
             "location": "/about/release-notes/",
-            "text": "Pozn\u00e1mky k vyd\u00e1n\u00ed\n\uf0c1\n\n\n0.1.0 (WIP)\n\uf0c1\n\n\n\n\nD\u0159ina.\n\n\nHromada refaktoru.\n\n\nPochybnosti.",
+            "text": "Pozn\u00e1mky k vyd\u00e1n\u00ed\n\uf0c1",
             "title": "Pozn\u00e1mky k vyd\u00e1n\u00ed"
         },
         {
             "location": "/about/release-notes/#poznamky-k-vydani",
             "text": "",
             "title": "Pozn\u00e1mky k vyd\u00e1n\u00ed"
-        },
-        {
-            "location": "/about/release-notes/#010-wip",
-            "text": "D\u0159ina.  Hromada refaktoru.  Pochybnosti.",
-            "title": "0.1.0 (WIP)"
         },
         {
             "location": "/about/license/",
